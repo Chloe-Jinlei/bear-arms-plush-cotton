@@ -1,0 +1,336 @@
+{
+  "audit_status": "passed",
+  "run_status": "starting",
+  "run_complete_and_passed": false,
+  "partial_audit": true,
+  "checks": {
+    "all_checkpoints_read": true,
+    "all_saved_numeric_arrays_finite": true,
+    "no_saved_bear_tetrahedron_inversions": true,
+    "fixed_base_position_within_1um": true,
+    "base_flags_remain_fixed": true,
+    "no_saved_cloth_triangles_below_1e_12_m2": true
+  },
+  "checkpoint_files_found": 8,
+  "checkpoints_analyzed": 8,
+  "nonfinite_checkpoint_count": 0,
+  "summed_inverted_tetrahedra_across_checkpoints": 0,
+  "minimum_bear_J": {
+    "file": "state-initial.npz",
+    "value": 0.7792949565711021,
+    "tetrahedron_index": 5566
+  },
+  "maximum_fixed_base_drift": {
+    "file": "state-approach_body.npz",
+    "value_m": 2.977691606381897e-08,
+    "node_index": 738
+  },
+  "maximum_cloth_edge_tensile_strain": {
+    "file": "state-taut_60.npz",
+    "fraction": 0.10992517614013964,
+    "edge_nodes": [
+      318,
+      383
+    ]
+  },
+  "maximum_cloth_principal_stretch": {
+    "file": "state-taut_60.npz",
+    "ratio": 1.2543279018705473,
+    "triangle_index": 135
+  },
+  "directional_strain_peaks": {
+    "warp": {
+      "file": "state-taut_60.npz",
+      "strain_fraction": 0.0711782509876493,
+      "target_fraction": 0.02,
+      "edge_nodes": [
+        902,
+        903
+      ],
+      "target_excess_fraction": 0.05117825098764929
+    },
+    "weft": {
+      "file": "state-taut_60.npz",
+      "strain_fraction": 0.08262491691061347,
+      "target_fraction": 0.02,
+      "edge_nodes": [
+        829,
+        899
+      ],
+      "target_excess_fraction": 0.06262491691061346
+    },
+    "bias": {
+      "file": "state-taut_60.npz",
+      "strain_fraction": 0.10992517614013964,
+      "target_fraction": 0.1,
+      "edge_nodes": [
+        318,
+        383
+      ],
+      "target_excess_fraction": 0.00992517614013963
+    }
+  },
+  "source_sha256": {
+    "config.toml": "2a84970f5b3b543bc9f6934fc6df75d857666a0c21aacc3c8825545bc9b3052c",
+    "scene.py": "2f59daedf058e32403c814ee46bdb6b59ebeea02f274e8a0f57b61f66630cf32",
+    "material_response.py": "dc19379c00dda289550b97f619619778674bda68e273511e0ebcddd1d7319ffb",
+    "cotton_bending.py": "6b03618681091db806bda0e524f791aed24865a3e9d9cbace804d8fa27b582af",
+    "cotton_membrane.py": "8c760d7e58364933c30dca02cfd1cfcdad745ced6fbba03bd59996f1f3b0313a"
+  },
+  "errors": [],
+  "checkpoints": [
+    {
+      "file": "state-approach_body.npz",
+      "phase": "approach_body",
+      "step": 1163,
+      "finite": true,
+      "bear_inverted_tetrahedra": 0,
+      "bear_minimum_J": 0.8315012339482256,
+      "bear_J_percentiles_1_50_99": [
+        0.9854543282318742,
+        0.9984098690037089,
+        1.0018049754131424
+      ],
+      "bear_volume_ratio": 0.9978424431923056,
+      "bear_maximum_base_drift_m": 2.977691606381897e-08,
+      "bear_base_free_flag_count": 0,
+      "cloth_maximum_edge_tensile_strain_fraction": 0.04720662119377783,
+      "cloth_p99_edge_tensile_strain_fraction": 0.02283859273385434,
+      "cloth_peak_strain_by_direction": {
+        "warp": 0.027318555218659446,
+        "weft": 0.020190810075854992,
+        "bias": 0.04720662119377783
+      },
+      "cloth_maximum_target_excess_fraction": 0.007318555218659446,
+      "cloth_maximum_principal_stretch": 1.0738672241329217,
+      "cloth_minimum_triangle_area_m2": 7.707618618805811e-05,
+      "cloth_collapsed_triangles": 0,
+      "bear_rms_speed_m_per_s": 0.00038451474950663164,
+      "bear_maximum_speed_m_per_s": 0.0008401995054410747,
+      "cloth_rms_speed_m_per_s": 0.015276585679969883,
+      "cloth_maximum_speed_m_per_s": 0.07212281978214906
+    },
+    {
+      "file": "state-grasp.npz",
+      "phase": "grasp",
+      "step": 577,
+      "finite": true,
+      "bear_inverted_tetrahedra": 0,
+      "bear_minimum_J": 0.7947605344239885,
+      "bear_J_percentiles_1_50_99": [
+        0.9803267567365724,
+        0.9980811554951783,
+        1.004205985310412
+      ],
+      "bear_volume_ratio": 0.9973552348642549,
+      "bear_maximum_base_drift_m": 2.977691606381897e-08,
+      "bear_base_free_flag_count": 0,
+      "cloth_maximum_edge_tensile_strain_fraction": 0.00045452631357356665,
+      "cloth_p99_edge_tensile_strain_fraction": 9.64600107328506e-05,
+      "cloth_peak_strain_by_direction": {
+        "warp": 0.00037403005256630983,
+        "weft": 0.00045452631357356665,
+        "bias": 0.0002760308202915951
+      },
+      "cloth_maximum_target_excess_fraction": 0.0,
+      "cloth_maximum_principal_stretch": 1.0005008493205003,
+      "cloth_minimum_triangle_area_m2": 7.785972146256981e-05,
+      "cloth_collapsed_triangles": 0,
+      "bear_rms_speed_m_per_s": 0.0002898605447590244,
+      "bear_maximum_speed_m_per_s": 0.0006016545076682084,
+      "cloth_rms_speed_m_per_s": 1.2097962236593285e-05,
+      "cloth_maximum_speed_m_per_s": 0.0001712012927694588
+    },
+    {
+      "file": "state-initial.npz",
+      "phase": "initial",
+      "step": 50,
+      "finite": true,
+      "bear_inverted_tetrahedra": 0,
+      "bear_minimum_J": 0.7792949565711021,
+      "bear_J_percentiles_1_50_99": [
+        0.9801527860697659,
+        0.998127259186038,
+        1.0041036565651136
+      ],
+      "bear_volume_ratio": 0.997382118161636,
+      "bear_maximum_base_drift_m": 2.977691606381897e-08,
+      "bear_base_free_flag_count": 0,
+      "cloth_maximum_edge_tensile_strain_fraction": 1.4305114759416426e-06,
+      "cloth_p99_edge_tensile_strain_fraction": 1.4305114759416426e-06,
+      "cloth_peak_strain_by_direction": {
+        "warp": 8.136727140950484e-07,
+        "weft": 1.4305114759416426e-06,
+        "bias": 1.1229874072871127e-06
+      },
+      "cloth_maximum_target_excess_fraction": 0.0,
+      "cloth_maximum_principal_stretch": 1.000001430511476,
+      "cloth_minimum_triangle_area_m2": 7.789835355431762e-05,
+      "cloth_collapsed_triangles": 0,
+      "bear_rms_speed_m_per_s": 0.005632260148269782,
+      "bear_maximum_speed_m_per_s": 0.010893165744620268,
+      "cloth_rms_speed_m_per_s": 0.0,
+      "cloth_maximum_speed_m_per_s": 0.0
+    },
+    {
+      "file": "state-lift.npz",
+      "phase": "lift",
+      "step": 835,
+      "finite": true,
+      "bear_inverted_tetrahedra": 0,
+      "bear_minimum_J": 0.7959158732878404,
+      "bear_J_percentiles_1_50_99": [
+        0.9803409094354778,
+        0.9980840479504848,
+        1.004191814410689
+      ],
+      "bear_volume_ratio": 0.9973537502107206,
+      "bear_maximum_base_drift_m": 2.977691606381897e-08,
+      "bear_base_free_flag_count": 0,
+      "cloth_maximum_edge_tensile_strain_fraction": 0.05086237573687291,
+      "cloth_p99_edge_tensile_strain_fraction": 0.02431370004155778,
+      "cloth_peak_strain_by_direction": {
+        "warp": 0.031164898281956788,
+        "weft": 0.02005958058942192,
+        "bias": 0.05086237573687291
+      },
+      "cloth_maximum_target_excess_fraction": 0.011164898281956787,
+      "cloth_maximum_principal_stretch": 1.0756725217670107,
+      "cloth_minimum_triangle_area_m2": 7.705277873263218e-05,
+      "cloth_collapsed_triangles": 0,
+      "bear_rms_speed_m_per_s": 7.641566898342972e-05,
+      "bear_maximum_speed_m_per_s": 0.00021377452579425489,
+      "cloth_rms_speed_m_per_s": 0.05171234523833149,
+      "cloth_maximum_speed_m_per_s": 0.12255517228965988
+    },
+    {
+      "file": "state-taut_15.npz",
+      "phase": "taut_15",
+      "step": 1281,
+      "finite": true,
+      "bear_inverted_tetrahedra": 0,
+      "bear_minimum_J": 0.827865294590859,
+      "bear_J_percentiles_1_50_99": [
+        0.9857827616221527,
+        0.9984121671379275,
+        1.0018135422941425
+      ],
+      "bear_volume_ratio": 0.9978497754260938,
+      "bear_maximum_base_drift_m": 2.977691606381897e-08,
+      "bear_base_free_flag_count": 0,
+      "cloth_maximum_edge_tensile_strain_fraction": 0.06663745759670525,
+      "cloth_p99_edge_tensile_strain_fraction": 0.02806652689482103,
+      "cloth_peak_strain_by_direction": {
+        "warp": 0.04550353835468468,
+        "weft": 0.060015531589243,
+        "bias": 0.06663745759670525
+      },
+      "cloth_maximum_target_excess_fraction": 0.040015531589242995,
+      "cloth_maximum_principal_stretch": 1.0881187191256783,
+      "cloth_minimum_triangle_area_m2": 7.424349912163329e-05,
+      "cloth_collapsed_triangles": 0,
+      "bear_rms_speed_m_per_s": 0.00026814478926778855,
+      "bear_maximum_speed_m_per_s": 0.005112392806779912,
+      "cloth_rms_speed_m_per_s": 0.01609546764371862,
+      "cloth_maximum_speed_m_per_s": 0.08714481244689348
+    },
+    {
+      "file": "state-taut_30.npz",
+      "phase": "taut_30",
+      "step": 1399,
+      "finite": true,
+      "bear_inverted_tetrahedra": 0,
+      "bear_minimum_J": 0.8257907247890736,
+      "bear_J_percentiles_1_50_99": [
+        0.9858120676403985,
+        0.9984114032082807,
+        1.0018339225038386
+      ],
+      "bear_volume_ratio": 0.9978452465361508,
+      "bear_maximum_base_drift_m": 2.977691606381897e-08,
+      "bear_base_free_flag_count": 0,
+      "cloth_maximum_edge_tensile_strain_fraction": 0.09978993537372993,
+      "cloth_p99_edge_tensile_strain_fraction": 0.039123092772621965,
+      "cloth_peak_strain_by_direction": {
+        "warp": 0.05472048645994532,
+        "weft": 0.057269538116018204,
+        "bias": 0.09978993537372993
+      },
+      "cloth_maximum_target_excess_fraction": 0.0372695381160182,
+      "cloth_maximum_principal_stretch": 1.1373315364951688,
+      "cloth_minimum_triangle_area_m2": 7.02192313853483e-05,
+      "cloth_collapsed_triangles": 0,
+      "bear_rms_speed_m_per_s": 0.00036170735811247935,
+      "bear_maximum_speed_m_per_s": 0.008489007112946475,
+      "cloth_rms_speed_m_per_s": 0.00909907929722006,
+      "cloth_maximum_speed_m_per_s": 0.0671564284150283
+    },
+    {
+      "file": "state-taut_45.npz",
+      "phase": "taut_45",
+      "step": 1517,
+      "finite": true,
+      "bear_inverted_tetrahedra": 0,
+      "bear_minimum_J": 0.8219822458709838,
+      "bear_J_percentiles_1_50_99": [
+        0.9858243296079485,
+        0.998407741255381,
+        1.0018335614165976
+      ],
+      "bear_volume_ratio": 0.9978441060000995,
+      "bear_maximum_base_drift_m": 2.977691606381897e-08,
+      "bear_base_free_flag_count": 0,
+      "cloth_maximum_edge_tensile_strain_fraction": 0.09999863389447827,
+      "cloth_p99_edge_tensile_strain_fraction": 0.04609391873547734,
+      "cloth_peak_strain_by_direction": {
+        "warp": 0.0693135827563287,
+        "weft": 0.052345537062619796,
+        "bias": 0.09999863389447827
+      },
+      "cloth_maximum_target_excess_fraction": 0.0493135827563287,
+      "cloth_maximum_principal_stretch": 1.1971850269189448,
+      "cloth_minimum_triangle_area_m2": 6.456127842892506e-05,
+      "cloth_collapsed_triangles": 0,
+      "bear_rms_speed_m_per_s": 0.0003358092269685963,
+      "bear_maximum_speed_m_per_s": 0.00078227541749994,
+      "cloth_rms_speed_m_per_s": 0.019135809626291807,
+      "cloth_maximum_speed_m_per_s": 0.2393153439524982
+    },
+    {
+      "file": "state-taut_60.npz",
+      "phase": "taut_60",
+      "step": 1635,
+      "finite": true,
+      "bear_inverted_tetrahedra": 0,
+      "bear_minimum_J": 0.8151705206385876,
+      "bear_J_percentiles_1_50_99": [
+        0.9860135664492117,
+        0.9984046409268978,
+        1.0020522433166998
+      ],
+      "bear_volume_ratio": 0.9978830832676459,
+      "bear_maximum_base_drift_m": 2.977691606381897e-08,
+      "bear_base_free_flag_count": 0,
+      "cloth_maximum_edge_tensile_strain_fraction": 0.10992517614013964,
+      "cloth_p99_edge_tensile_strain_fraction": 0.052040333720719145,
+      "cloth_peak_strain_by_direction": {
+        "warp": 0.0711782509876493,
+        "weft": 0.08262491691061347,
+        "bias": 0.10992517614013964
+      },
+      "cloth_maximum_target_excess_fraction": 0.06262491691061346,
+      "cloth_maximum_principal_stretch": 1.2543279018705473,
+      "cloth_minimum_triangle_area_m2": 5.827728394043354e-05,
+      "cloth_collapsed_triangles": 0,
+      "bear_rms_speed_m_per_s": 0.0008042780910116754,
+      "bear_maximum_speed_m_per_s": 0.009872513507853049,
+      "cloth_rms_speed_m_per_s": 0.06878121296157355,
+      "cloth_maximum_speed_m_per_s": 0.47199138061743995
+    }
+  ],
+  "limitations": [
+    "This audit samples saved state*.npz files, including checkpoint-history; it cannot exclude between-checkpoint events.",
+    "Warp/weft/bias extension targets permit finite-solve residuals; excess is reported, not treated as a failure by itself.",
+    "This is a numerical-health audit, not experimental material calibration or a replacement for the full task checks."
+  ]
+}

@@ -1,0 +1,35 @@
+Genesis backend: cpu
+[38;5;226m[Genesis] [16:25:23] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [16:25:23] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [16:25:24] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [16:25:24] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+Building scene and compiling physics kernels...
+[38;5;226m[Genesis] [16:25:24] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+[38;5;226m[Genesis] [16:25:26] [WARNING] Filtered out geometry pairs causing self-collision for the neutral configuration (qpos0): (12, 17), (13, 17), (20, 27), (21, 26), (22, 29), (23, 28), (36, 41), (37, 41), (44, 51), (45, 50), (46, 53), (47, 52). Consider tuning Morph option 'decompose_robot_error_threshold' or specify dedicated collision meshes. This behavior can be disabled by setting Morph option 'enable_neutral_collision=True'.[0m
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+Phase settle: t=0.00s
+Phase pregrasp: t=0.50s
+Step 100, pregrasp, max cloth stretch 1.000
+Step 200, pregrasp, max cloth stretch 1.000
+Phase grasp: t=2.28s
+Step 300, grasp, max cloth stretch 1.000
+Step 400, grasp, max cloth stretch 1.000
+Step 500, grasp, max cloth stretch 1.000
+left grasp gated by both pads: [0, 1, 70, 71]
+right grasp gated by both pads: [68, 69, 138, 139]
+Phase lift: t=5.77s
+Step 600, lift, max cloth stretch 1.005
+Step 700, lift, max cloth stretch 1.053
+Step 800, lift, max cloth stretch 1.050
+Phase approach_body: t=8.35s
+Step 900, approach_body, max cloth stretch 1.048
+Step 1000, approach_body, max cloth stretch 1.049
+Step 1100, approach_body, max cloth stretch 1.047
+Phase wrap: t=11.63s
+Step 1200, wrap, max cloth stretch 1.046
+Step 1300, wrap, max cloth stretch 1.066
+Step 1400, wrap, max cloth stretch 1.100
+Step 1500, wrap, max cloth stretch 1.100
+Step 1600, wrap, max cloth stretch 1.095
+Step 1700, wrap, max cloth stretch 1.123

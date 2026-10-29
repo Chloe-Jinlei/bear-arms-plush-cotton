@@ -1,0 +1,37 @@
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+plush_cotton: 50/250 settle; height=0.9922, inverted=0
+plush_cotton: 100/250 hold; height=0.9942, inverted=0
+plush_cotton: 150/250 release; height=0.9920, inverted=0
+plush_cotton: 200/250 release; height=0.9922, inverted=0
+plush_cotton: 250/250 release; height=0.9922, inverted=0
+{
+  "profile": "plush_cotton",
+  "checks": {
+    "finite_states": true,
+    "base_fixed": true,
+    "opposing_support_fixed": true,
+    "cloth_corners_fixed": true,
+    "no_inverted_tetrahedra": true,
+    "geometry_topology_mass_preserved": true
+  },
+  "metrics": {
+    "final_bear_height_ratio": 0.9922202889118844,
+    "release_peak_bear_rms_speed_m_s": 0.3377855718135834,
+    "release_tail_mean_bear_rms_speed_m_s": 0.0026493746360453465,
+    "release_tail_patch_peak_to_peak_mm": 0.04299911670386791,
+    "release_integrated_bear_mean_squared_speed_m2_s": 0.005779752031921215,
+    "release_tail_mean_cloth_rms_speed_m_s": 0.09524975245197614,
+    "max_bear_base_drift_m": 2.977691606381897e-08,
+    "max_bear_support_drift_m": 0.0,
+    "max_inverted_tetrahedra": 0,
+    "min_local_volume_ratio": 0.9729244284661228,
+    "final_patch_indentation_mm": 0.029538383707404137,
+    "max_cloth_extension_fraction": 0.10202078975109852,
+    "peak_cloth_p95_abs_edge_strain": 0.035790349582616135,
+    "final_cloth_p95_abs_edge_strain": 0.02134026117890212,
+    "max_cloth_anchor_drift_m": 5.014248373704417e-08,
+    "mean_step_seconds": 0.12262409580791428,
+    "wall_seconds": 37.30891673500082
+  }
+}

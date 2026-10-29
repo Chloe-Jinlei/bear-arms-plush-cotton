@@ -1,0 +1,58 @@
+--- original/measured_probe_materials.py
++++ current/validation/probe_materials.py
+@@ -66,7 +66,10 @@
+         # execution error without a completed report must still stop the run.
+         if result.returncode and not (args.output/profile/"report.json").exists():
+             raise RuntimeError(f"{profile} could not complete the material test")
+-    summarize(args.output)
++    summary = summarize(args.output)
++    if summary["profiles"]["plush_cotton"]["status"] != "passed":
++        print("New material checks failed; comparison artifacts were still saved.", file=sys.stderr)
++        raise SystemExit(1)
+ 
+ 
+ def summarize(output):
+@@ -82,23 +85,24 @@
+                                     "metrics": report["metrics"]} for name, report in reports.items()}}
+     (output / "comparison.json").write_text(json.dumps(summary, indent=2))
+     fig, axes = plt.subplots(2, 2, figsize=(10, 6.5), constrained_layout=True)
+-    curves = [("bear_patch_indentation_mm", "Belly patch indentation", "mm"),
+-              ("bear_rms_speed_m_s", "Bear motion", "RMS speed (m/s)"),
+-              ("bear_local_volume_ratio", "Belly volume / rest volume", "ratio"),
+-              ("cloth_rms_speed_m_s", "Two-corner cloth drape", "RMS speed (m/s)")]
++    curves = [("bear_patch_indentation_mm", "Belly patch indentation", "mm", 1.),
++              ("bear_rms_speed_m_s", "Bear motion", "RMS speed (m/s)", 1.),
++              ("cloth_p95_abs_edge_strain", "Cloth strain (95th percentile)", "%", 100.),
++              ("cloth_max_extension_fraction", "Largest local cloth extension", "%", 100.)]
+     for name, report in reports.items():
+         trace = report["trace"]
+         t = np.array([row["time_s"] for row in trace])
+-        for ax, (key, title, ylabel) in zip(axes.flat, curves):
+-            ax.plot(t, [row[key] for row in trace], label=name, lw=1.6)
++        for ax, (key, title, ylabel, scale) in zip(axes.flat, curves):
++            ax.plot(t, [row[key]*scale for row in trace], label=name, lw=1.6)
+             ax.set(title=title, xlabel="time (s)", ylabel=ylabel)
+             ax.axvline(report["protocol"]["release_time_s"], color="gray", ls="--", lw=.8)
+             ax.grid(alpha=.2)
+     axes[0, 0].legend()
+-    fig.suptitle("Independent material tests · identical assets and loading · dashed line: release")
+-    fig.savefig(output / "comparison.png", dpi=150)
++    fig.suptitle("Independent material tests · identical assets and loading · dashed line: release", fontsize=11)
++    fig.savefig(output / "comparison.png", dpi=150, bbox_inches="tight", pad_inches=.12)
+     plt.close(fig)
+     print(json.dumps(summary, indent=2), flush=True)
++    return summary
+ 
+ 
+ def run(args):
+@@ -173,8 +177,8 @@
+         from cotton_membrane import install_cotton_membrane
+         from material_response import install_material_response
+         membrane = install_cotton_membrane(scene, cloth, cp, faces,
+-            warp_limit=ccfg.get("warp_extension_limit", .02), weft_limit=ccfg.get("weft_extension_limit", .02),
+-            bias_limit=ccfg.get("bias_extension_limit", .10), iterations=ccfg.get("extension_iterations", 4))
++            warp_limit=ccfg.get("warp_max_extension", .02), weft_limit=ccfg.get("weft_max_extension", .02),
++            bias_limit=ccfg.get("bias_max_extension", .10), iterations=ccfg.get("strain_limit_iterations", 4))
+         bending = install_cotton_bending(scene, cloth, cp, faces, ccfg["bending_rigidity_nm"])
+         material = install_material_response(scene, bear, cloth, bp, tetra, cp, faces, bcfg, ccfg, bending=bending)
+     cameras = {}

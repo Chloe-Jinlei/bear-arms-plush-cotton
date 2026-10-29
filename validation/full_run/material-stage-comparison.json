@@ -1,0 +1,1436 @@
+{
+  "new_run_status": "passed",
+  "original_run_status": "passed",
+  "matching_stage_count": 24,
+  "asset_sha256_common_entries_equal": true,
+  "common_asset_hash_entries": [
+    "bear.mtl",
+    "bear.npz",
+    "bear.obj",
+    "bear_fur.png",
+    "cotton.mtl",
+    "cotton.npz",
+    "cotton.obj",
+    "cotton_weave.png",
+    "metadata.json"
+  ],
+  "method": "Matched checkpoint phase names, original mesh edges/triangles/tetrahedra; tensile strain is length/rest_length-1; bear J uses original rest tetrahedra, not settled initial checkpoint. Different adaptive timing is not time-aligned.",
+  "stages": [
+    {
+      "state": "state-initial.npz",
+      "new": {
+        "phase": "initial",
+        "step": 50,
+        "cloth_edge_tensile_max": 1.4305114759416426e-06,
+        "cloth_edge_tensile_p95": 1.4305114748314196e-06,
+        "cloth_edge_abs_strain_p95": 1.5774438495430587e-06,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 8.136727140950484e-07,
+            "p95_tensile": 8.136727140950484e-07
+          },
+          "weft": {
+            "maximum": 1.4305114759416426e-06,
+            "p95_tensile": 1.4305114759416426e-06
+          },
+          "bias": {
+            "maximum": 1.1229874072871127e-06,
+            "p95_tensile": 1.1229874046225774e-06
+          }
+        },
+        "cloth_principal_stretch_max": 1.000001430511476,
+        "cloth_principal_stretch_p95": 1.000001430511476,
+        "bear_volume_ratio": 0.997382178304644,
+        "bear_minimum_J": 0.77929719351594,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "initial",
+        "step": 50,
+        "cloth_edge_tensile_max": 1.4305114759416426e-06,
+        "cloth_edge_tensile_p95": 1.4305114748314196e-06,
+        "cloth_edge_abs_strain_p95": 1.5774438495430587e-06,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 8.136727140950484e-07,
+            "p95_tensile": 8.136727140950484e-07
+          },
+          "weft": {
+            "maximum": 1.4305114759416426e-06,
+            "p95_tensile": 1.4305114759416426e-06
+          },
+          "bias": {
+            "maximum": 1.1229874072871127e-06,
+            "p95_tensile": 1.1229874046225774e-06
+          }
+        },
+        "cloth_principal_stretch_max": 1.000001430511476,
+        "cloth_principal_stretch_p95": 1.000001430511476,
+        "bear_volume_ratio": 0.9981929879369652,
+        "bear_minimum_J": 0.890001328526715,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": 0.0,
+      "delta_p95_edge_tensile_strain": 0.0
+    },
+    {
+      "state": "state-grasp.npz",
+      "new": {
+        "phase": "grasp",
+        "step": 577,
+        "cloth_edge_tensile_max": 0.00045452631357356665,
+        "cloth_edge_tensile_p95": 1.4305114748314196e-06,
+        "cloth_edge_abs_strain_p95": 1.5774438585358652e-06,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.00037403005256630983,
+            "p95_tensile": 8.136727140950484e-07
+          },
+          "weft": {
+            "maximum": 0.00045452631357356665,
+            "p95_tensile": 1.4305114759416426e-06
+          },
+          "bias": {
+            "maximum": 0.0002760308202915951,
+            "p95_tensile": 1.1229874046225774e-06
+          }
+        },
+        "cloth_principal_stretch_max": 1.0005008493205003,
+        "cloth_principal_stretch_p95": 1.000001430511476,
+        "bear_volume_ratio": 0.9973551083377603,
+        "bear_minimum_J": 0.7948232257412611,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "grasp",
+        "step": 577,
+        "cloth_edge_tensile_max": 0.0005974778795423408,
+        "cloth_edge_tensile_p95": 1.4305114748314196e-06,
+        "cloth_edge_abs_strain_p95": 1.5774438585358652e-06,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.0004264550553045865,
+            "p95_tensile": 8.136727140950484e-07
+          },
+          "weft": {
+            "maximum": 0.0005974778795423408,
+            "p95_tensile": 1.4305114759416426e-06
+          },
+          "bias": {
+            "maximum": 0.00032154454556709844,
+            "p95_tensile": 1.1229874046225774e-06
+          }
+        },
+        "cloth_principal_stretch_max": 1.000653176216128,
+        "cloth_principal_stretch_p95": 1.000001430511476,
+        "bear_volume_ratio": 0.998155221077686,
+        "bear_minimum_J": 0.8805438196458641,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.00014295156596877412,
+      "delta_p95_edge_tensile_strain": 0.0
+    },
+    {
+      "state": "state-lift.npz",
+      "new": {
+        "phase": "lift",
+        "step": 835,
+        "cloth_edge_tensile_max": 0.05086237573687291,
+        "cloth_edge_tensile_p95": 0.020000320967176133,
+        "cloth_edge_abs_strain_p95": 0.020000446403707718,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.031164898281956788,
+            "p95_tensile": 0.020438122644664547
+          },
+          "weft": {
+            "maximum": 0.02005958058942192,
+            "p95_tensile": 0.00502986880649931
+          },
+          "bias": {
+            "maximum": 0.05086237573687291,
+            "p95_tensile": 0.01782864114354088
+          }
+        },
+        "cloth_principal_stretch_max": 1.0756725217670107,
+        "cloth_principal_stretch_p95": 1.0267465051114493,
+        "bear_volume_ratio": 0.9973545661659861,
+        "bear_minimum_J": 0.795675025345718,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "lift",
+        "step": 835,
+        "cloth_edge_tensile_max": 0.08823164455580201,
+        "cloth_edge_tensile_p95": 0.022060169633186744,
+        "cloth_edge_abs_strain_p95": 0.022290932508944847,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.08823164455580201,
+            "p95_tensile": 0.030349985543440205
+          },
+          "weft": {
+            "maximum": 0.06871516867141647,
+            "p95_tensile": 0.004321979962272992
+          },
+          "bias": {
+            "maximum": 0.07078720280091222,
+            "p95_tensile": 0.016513141741900106
+          }
+        },
+        "cloth_principal_stretch_max": 1.1070713947313802,
+        "cloth_principal_stretch_p95": 1.0321981265526872,
+        "bear_volume_ratio": 0.9981493518131661,
+        "bear_minimum_J": 0.8824298651952344,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.0373692688189291,
+      "delta_p95_edge_tensile_strain": -0.002059848666010611
+    },
+    {
+      "state": "state-approach_body.npz",
+      "new": {
+        "phase": "approach_body",
+        "step": 1163,
+        "cloth_edge_tensile_max": 0.04722789154613216,
+        "cloth_edge_tensile_p95": 0.019999183705657352,
+        "cloth_edge_abs_strain_p95": 0.019999400739678007,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.027323406981246245,
+            "p95_tensile": 0.02003654949240835
+          },
+          "weft": {
+            "maximum": 0.02019050404448297,
+            "p95_tensile": 0.005110634946881198
+          },
+          "bias": {
+            "maximum": 0.04722789154613216,
+            "p95_tensile": 0.017222092027002978
+          }
+        },
+        "cloth_principal_stretch_max": 1.0738734361930478,
+        "cloth_principal_stretch_p95": 1.0261082429814177,
+        "bear_volume_ratio": 0.9978421797136934,
+        "bear_minimum_J": 0.8314611722042187,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "approach_body",
+        "step": 1163,
+        "cloth_edge_tensile_max": 0.07995306163082438,
+        "cloth_edge_tensile_p95": 0.02205729954959927,
+        "cloth_edge_abs_strain_p95": 0.022226383201886045,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.07995306163082438,
+            "p95_tensile": 0.028241884641094117
+          },
+          "weft": {
+            "maximum": 0.0708931855240389,
+            "p95_tensile": 0.004820113857624796
+          },
+          "bias": {
+            "maximum": 0.07223691492363815,
+            "p95_tensile": 0.017144084406499505
+          }
+        },
+        "cloth_principal_stretch_max": 1.1097426246930497,
+        "cloth_principal_stretch_p95": 1.0309585654581797,
+        "bear_volume_ratio": 0.9981530876613994,
+        "bear_minimum_J": 0.8809262668108824,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.03272517008469222,
+      "delta_p95_edge_tensile_strain": -0.002058115843941919
+    },
+    {
+      "state": "state-taut_15.npz",
+      "new": {
+        "phase": "taut_15",
+        "step": 1281,
+        "cloth_edge_tensile_max": 0.06666493090490055,
+        "cloth_edge_tensile_p95": 0.02055397631262279,
+        "cloth_edge_abs_strain_p95": 0.020698959451405093,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.04514736246195983,
+            "p95_tensile": 0.022422182763452647
+          },
+          "weft": {
+            "maximum": 0.06292590139696541,
+            "p95_tensile": 0.006377921034487954
+          },
+          "bias": {
+            "maximum": 0.06666493090490055,
+            "p95_tensile": 0.020509679284580917
+          }
+        },
+        "cloth_principal_stretch_max": 1.088131785624442,
+        "cloth_principal_stretch_p95": 1.029663983925509,
+        "bear_volume_ratio": 0.9978500454796814,
+        "bear_minimum_J": 0.8280037300929672,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "taut_15",
+        "step": 1281,
+        "cloth_edge_tensile_max": 0.09644368986168939,
+        "cloth_edge_tensile_p95": 0.026756347067479057,
+        "cloth_edge_abs_strain_p95": 0.02696917520369396,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.09644368986168939,
+            "p95_tensile": 0.03233528874475183
+          },
+          "weft": {
+            "maximum": 0.07526978174589671,
+            "p95_tensile": 0.0060826616863928415
+          },
+          "bias": {
+            "maximum": 0.0804097510279842,
+            "p95_tensile": 0.020815567168241622
+          }
+        },
+        "cloth_principal_stretch_max": 1.116264741811478,
+        "cloth_principal_stretch_p95": 1.0357689460051596,
+        "bear_volume_ratio": 0.9981587843390901,
+        "bear_minimum_J": 0.8785103571345261,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.02977875895678883,
+      "delta_p95_edge_tensile_strain": -0.0062023707548562665
+    },
+    {
+      "state": "state-taut_30.npz",
+      "new": {
+        "phase": "taut_30",
+        "step": 1399,
+        "cloth_edge_tensile_max": 0.09972580677202303,
+        "cloth_edge_tensile_p95": 0.023591751573353636,
+        "cloth_edge_abs_strain_p95": 0.024623917558014248,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.05415102970366359,
+            "p95_tensile": 0.027030528826187283
+          },
+          "weft": {
+            "maximum": 0.05330664557832532,
+            "p95_tensile": 0.006968231788527611
+          },
+          "bias": {
+            "maximum": 0.09972580677202303,
+            "p95_tensile": 0.026856725113770352
+          }
+        },
+        "cloth_principal_stretch_max": 1.137336082375635,
+        "cloth_principal_stretch_p95": 1.0381893175106327,
+        "bear_volume_ratio": 0.9978464649480869,
+        "bear_minimum_J": 0.8255977845114696,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "taut_30",
+        "step": 1399,
+        "cloth_edge_tensile_max": 0.12167445902294616,
+        "cloth_edge_tensile_p95": 0.03142591973878619,
+        "cloth_edge_abs_strain_p95": 0.031543899873649556,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.12167445902294616,
+            "p95_tensile": 0.03718318509858454
+          },
+          "weft": {
+            "maximum": 0.06851581011610297,
+            "p95_tensile": 0.007017996486414052
+          },
+          "bias": {
+            "maximum": 0.0837494298599124,
+            "p95_tensile": 0.024094944162504905
+          }
+        },
+        "cloth_principal_stretch_max": 1.151982522611451,
+        "cloth_principal_stretch_p95": 1.0412894410999263,
+        "bear_volume_ratio": 0.9981588823991175,
+        "bear_minimum_J": 0.875505949784848,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.02194865225092313,
+      "delta_p95_edge_tensile_strain": -0.007834168165432552
+    },
+    {
+      "state": "state-taut_45.npz",
+      "new": {
+        "phase": "taut_45",
+        "step": 1517,
+        "cloth_edge_tensile_max": 0.09999992255772838,
+        "cloth_edge_tensile_p95": 0.027215001624196208,
+        "cloth_edge_abs_strain_p95": 0.028846290598708246,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.07016704628447079,
+            "p95_tensile": 0.031376710603732205
+          },
+          "weft": {
+            "maximum": 0.05719192922200045,
+            "p95_tensile": 0.00817085588778954
+          },
+          "bias": {
+            "maximum": 0.09999992255772838,
+            "p95_tensile": 0.031406756349683485
+          }
+        },
+        "cloth_principal_stretch_max": 1.197484267683282,
+        "cloth_principal_stretch_p95": 1.0445225458586438,
+        "bear_volume_ratio": 0.9978424343737433,
+        "bear_minimum_J": 0.82092616027194,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "taut_45",
+        "step": 1517,
+        "cloth_edge_tensile_max": 0.1443166341650579,
+        "cloth_edge_tensile_p95": 0.034484499455545825,
+        "cloth_edge_abs_strain_p95": 0.03497160823488852,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.1443166341650579,
+            "p95_tensile": 0.04094885298654921
+          },
+          "weft": {
+            "maximum": 0.05959749614623666,
+            "p95_tensile": 0.008210766753005357
+          },
+          "bias": {
+            "maximum": 0.081092600679882,
+            "p95_tensile": 0.027306697045703987
+          }
+        },
+        "cloth_principal_stretch_max": 1.1907698977234447,
+        "cloth_principal_stretch_p95": 1.0466375385567082,
+        "bear_volume_ratio": 0.9981568325793267,
+        "bear_minimum_J": 0.8662465565829504,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.04431671160732953,
+      "delta_p95_edge_tensile_strain": -0.007269497831349617
+    },
+    {
+      "state": "state-taut_60.npz",
+      "new": {
+        "phase": "taut_60",
+        "step": 1635,
+        "cloth_edge_tensile_max": 0.10840588411312169,
+        "cloth_edge_tensile_p95": 0.03110895226625781,
+        "cloth_edge_abs_strain_p95": 0.0330593678896117,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.07031985884974645,
+            "p95_tensile": 0.028398223420065927
+          },
+          "weft": {
+            "maximum": 0.07300871312071022,
+            "p95_tensile": 0.012262476654903851
+          },
+          "bias": {
+            "maximum": 0.10840588411312169,
+            "p95_tensile": 0.04225263785970568
+          }
+        },
+        "cloth_principal_stretch_max": 1.2548745038676496,
+        "cloth_principal_stretch_p95": 1.0532757594672748,
+        "bear_volume_ratio": 0.9978744927551719,
+        "bear_minimum_J": 0.8151284257142019,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "taut_60",
+        "step": 1635,
+        "cloth_edge_tensile_max": 0.17784457602194692,
+        "cloth_edge_tensile_p95": 0.03883851941355214,
+        "cloth_edge_abs_strain_p95": 0.03903038084581097,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.17784457602194692,
+            "p95_tensile": 0.04747002486493851
+          },
+          "weft": {
+            "maximum": 0.06245038724843588,
+            "p95_tensile": 0.01103715993968195
+          },
+          "bias": {
+            "maximum": 0.09103371854814113,
+            "p95_tensile": 0.032287017280901
+          }
+        },
+        "cloth_principal_stretch_max": 1.2561690842260926,
+        "cloth_principal_stretch_p95": 1.0556777379125357,
+        "bear_volume_ratio": 0.9981716440399481,
+        "bear_minimum_J": 0.8620633546563632,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.06943869190882523,
+      "delta_p95_edge_tensile_strain": -0.007729567147294329
+    },
+    {
+      "state": "state-taut_75.npz",
+      "new": {
+        "phase": "taut_75",
+        "step": 1753,
+        "cloth_edge_tensile_max": 0.1532350686283761,
+        "cloth_edge_tensile_p95": 0.041450308115199966,
+        "cloth_edge_abs_strain_p95": 0.04604900955043255,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.12310739680523208,
+            "p95_tensile": 0.03079663499086882
+          },
+          "weft": {
+            "maximum": 0.09778151439555716,
+            "p95_tensile": 0.020000844014580955
+          },
+          "bias": {
+            "maximum": 0.1532350686283761,
+            "p95_tensile": 0.06010586522835659
+          }
+        },
+        "cloth_principal_stretch_max": 1.3212336082421918,
+        "cloth_principal_stretch_p95": 1.0780852513266774,
+        "bear_volume_ratio": 0.9978925442156552,
+        "bear_minimum_J": 0.8228527531945166,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "taut_75",
+        "step": 1753,
+        "cloth_edge_tensile_max": 0.2532014307483119,
+        "cloth_edge_tensile_p95": 0.04791081746456149,
+        "cloth_edge_abs_strain_p95": 0.04875884380002286,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.2532014307483119,
+            "p95_tensile": 0.062306945548385784
+          },
+          "weft": {
+            "maximum": 0.0868997595414227,
+            "p95_tensile": 0.013442371468153342
+          },
+          "bias": {
+            "maximum": 0.11521640869299099,
+            "p95_tensile": 0.04356359825467704
+          }
+        },
+        "cloth_principal_stretch_max": 1.364104595443732,
+        "cloth_principal_stretch_p95": 1.077427706397656,
+        "bear_volume_ratio": 0.9981830115272666,
+        "bear_minimum_J": 0.8614278630070951,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.09996636211993581,
+      "delta_p95_edge_tensile_strain": -0.006460509349361522
+    },
+    {
+      "state": "state-taut_90.npz",
+      "new": {
+        "phase": "taut_90",
+        "step": 1871,
+        "cloth_edge_tensile_max": 0.2068569832890843,
+        "cloth_edge_tensile_p95": 0.05135330341178888,
+        "cloth_edge_abs_strain_p95": 0.05999608648288508,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.2068569832890843,
+            "p95_tensile": 0.03598015202356564
+          },
+          "weft": {
+            "maximum": 0.11200153641773047,
+            "p95_tensile": 0.020636612841636204
+          },
+          "bias": {
+            "maximum": 0.17056002698638717,
+            "p95_tensile": 0.08139570744662894
+          }
+        },
+        "cloth_principal_stretch_max": 1.3616927437933075,
+        "cloth_principal_stretch_p95": 1.1000553369669914,
+        "bear_volume_ratio": 0.9979035930692495,
+        "bear_minimum_J": 0.8092449655465215,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "taut_90",
+        "step": 1871,
+        "cloth_edge_tensile_max": 0.323317416192062,
+        "cloth_edge_tensile_p95": 0.059256566971307816,
+        "cloth_edge_abs_strain_p95": 0.060190702046898,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.323317416192062,
+            "p95_tensile": 0.07899343525125663
+          },
+          "weft": {
+            "maximum": 0.14744700384387066,
+            "p95_tensile": 0.01890890494515931
+          },
+          "bias": {
+            "maximum": 0.15607575538771412,
+            "p95_tensile": 0.056610438001942986
+          }
+        },
+        "cloth_principal_stretch_max": 1.492140070859199,
+        "cloth_principal_stretch_p95": 1.095240628105688,
+        "bear_volume_ratio": 0.9981754079495728,
+        "bear_minimum_J": 0.8713641413043213,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.1164604329029777,
+      "delta_p95_edge_tensile_strain": -0.007903263559518939
+    },
+    {
+      "state": "state-cross_90.npz",
+      "new": {
+        "phase": "cross_90",
+        "step": 2049,
+        "cloth_edge_tensile_max": 0.1991929472814522,
+        "cloth_edge_tensile_p95": 0.0380332355431835,
+        "cloth_edge_abs_strain_p95": 0.040849643096616144,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.1991929472814522,
+            "p95_tensile": 0.030739811745134737
+          },
+          "weft": {
+            "maximum": 0.09010111266153986,
+            "p95_tensile": 0.01904959881011931
+          },
+          "bias": {
+            "maximum": 0.15242967179539746,
+            "p95_tensile": 0.05236900880601458
+          }
+        },
+        "cloth_principal_stretch_max": 1.250075932701411,
+        "cloth_principal_stretch_p95": 1.0667520802911474,
+        "bear_volume_ratio": 0.997921122807241,
+        "bear_minimum_J": 0.7937144726841938,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "cross_90",
+        "step": 2049,
+        "cloth_edge_tensile_max": 0.2955067434468517,
+        "cloth_edge_tensile_p95": 0.07178260841560914,
+        "cloth_edge_abs_strain_p95": 0.07249677385103004,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.2955067434468517,
+            "p95_tensile": 0.08664490249545703
+          },
+          "weft": {
+            "maximum": 0.16834012320355618,
+            "p95_tensile": 0.020082662193030964
+          },
+          "bias": {
+            "maximum": 0.19880413859344226,
+            "p95_tensile": 0.0733741692862715
+          }
+        },
+        "cloth_principal_stretch_max": 1.3416199119605512,
+        "cloth_principal_stretch_p95": 1.1118220969847554,
+        "bear_volume_ratio": 0.9981792805427705,
+        "bear_minimum_J": 0.8816210030118041,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.09631379616539948,
+      "delta_p95_edge_tensile_strain": -0.033749372872425645
+    },
+    {
+      "state": "state-cross_105.npz",
+      "new": {
+        "phase": "cross_105",
+        "step": 2167,
+        "cloth_edge_tensile_max": 0.20063382846527267,
+        "cloth_edge_tensile_p95": 0.04933185438546961,
+        "cloth_edge_abs_strain_p95": 0.053041404890055925,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.20063382846527267,
+            "p95_tensile": 0.040553240505495414
+          },
+          "weft": {
+            "maximum": 0.12494769394249139,
+            "p95_tensile": 0.020008071002807347
+          },
+          "bias": {
+            "maximum": 0.1996756851619783,
+            "p95_tensile": 0.06741363934195865
+          }
+        },
+        "cloth_principal_stretch_max": 1.3631234045388967,
+        "cloth_principal_stretch_p95": 1.0880040363757282,
+        "bear_volume_ratio": 0.997869372347763,
+        "bear_minimum_J": 0.8235981664498909,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "cross_105",
+        "step": 2167,
+        "cloth_edge_tensile_max": 0.3513272394893021,
+        "cloth_edge_tensile_p95": 0.08234624142117004,
+        "cloth_edge_abs_strain_p95": 0.08306831539894409,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.3513272394893021,
+            "p95_tensile": 0.10522287675835473
+          },
+          "weft": {
+            "maximum": 0.16829638379148326,
+            "p95_tensile": 0.02401960163011355
+          },
+          "bias": {
+            "maximum": 0.22253001928471394,
+            "p95_tensile": 0.08347990341066369
+          }
+        },
+        "cloth_principal_stretch_max": 1.5049478804172371,
+        "cloth_principal_stretch_p95": 1.131590248229521,
+        "bear_volume_ratio": 0.998183916530592,
+        "bear_minimum_J": 0.8929760471642256,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.15069341102402944,
+      "delta_p95_edge_tensile_strain": -0.033014387035700435
+    },
+    {
+      "state": "state-cross_noncross_approach.npz",
+      "new": {
+        "phase": "cross_noncross_approach",
+        "step": 2385,
+        "cloth_edge_tensile_max": 0.11484656144314975,
+        "cloth_edge_tensile_p95": 0.020000109474801752,
+        "cloth_edge_abs_strain_p95": 0.02000301030737246,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.09523294052325215,
+            "p95_tensile": 0.020436562070179798
+          },
+          "weft": {
+            "maximum": 0.045678832162306504,
+            "p95_tensile": 0.008025313480895756
+          },
+          "bias": {
+            "maximum": 0.11484656144314975,
+            "p95_tensile": 0.019937560932641873
+          }
+        },
+        "cloth_principal_stretch_max": 1.1926374646826654,
+        "cloth_principal_stretch_p95": 1.0311892009445232,
+        "bear_volume_ratio": 0.9978017100664789,
+        "bear_minimum_J": 0.8135080785588394,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "cross_noncross_approach",
+        "step": 2385,
+        "cloth_edge_tensile_max": 0.2393343085196824,
+        "cloth_edge_tensile_p95": 0.055803727722394024,
+        "cloth_edge_abs_strain_p95": 0.05666298356433381,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.2393343085196824,
+            "p95_tensile": 0.0685655626505281
+          },
+          "weft": {
+            "maximum": 0.2068487147199749,
+            "p95_tensile": 0.014497597800320769
+          },
+          "bias": {
+            "maximum": 0.18473350056693016,
+            "p95_tensile": 0.04640156695294828
+          }
+        },
+        "cloth_principal_stretch_max": 1.2430642617914478,
+        "cloth_principal_stretch_p95": 1.0826574457942189,
+        "bear_volume_ratio": 0.998146065348656,
+        "bear_minimum_J": 0.8929128598292062,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.12448774707653265,
+      "delta_p95_edge_tensile_strain": -0.035803618247592275
+    },
+    {
+      "state": "state-wrap.npz",
+      "new": {
+        "phase": "wrap",
+        "step": 2385,
+        "cloth_edge_tensile_max": 0.11484656144314975,
+        "cloth_edge_tensile_p95": 0.020000109474801752,
+        "cloth_edge_abs_strain_p95": 0.02000301030737246,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.09523294052325215,
+            "p95_tensile": 0.020436562070179798
+          },
+          "weft": {
+            "maximum": 0.045678832162306504,
+            "p95_tensile": 0.008025313480895756
+          },
+          "bias": {
+            "maximum": 0.11484656144314975,
+            "p95_tensile": 0.019937560932641873
+          }
+        },
+        "cloth_principal_stretch_max": 1.1926374646826654,
+        "cloth_principal_stretch_p95": 1.0311892009445232,
+        "bear_volume_ratio": 0.9978017100664789,
+        "bear_minimum_J": 0.8135080785588394,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "wrap",
+        "step": 2385,
+        "cloth_edge_tensile_max": 0.2393343085196824,
+        "cloth_edge_tensile_p95": 0.055803727722394024,
+        "cloth_edge_abs_strain_p95": 0.05666298356433381,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.2393343085196824,
+            "p95_tensile": 0.0685655626505281
+          },
+          "weft": {
+            "maximum": 0.2068487147199749,
+            "p95_tensile": 0.014497597800320769
+          },
+          "bias": {
+            "maximum": 0.18473350056693016,
+            "p95_tensile": 0.04640156695294828
+          }
+        },
+        "cloth_principal_stretch_max": 1.2430642617914478,
+        "cloth_principal_stretch_p95": 1.0826574457942189,
+        "bear_volume_ratio": 0.998146065348656,
+        "bear_minimum_J": 0.8929128598292062,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.12448774707653265,
+      "delta_p95_edge_tensile_strain": -0.035803618247592275
+    },
+    {
+      "state": "state-press.npz",
+      "new": {
+        "phase": "press",
+        "step": 3075,
+        "cloth_edge_tensile_max": 0.15371894212858073,
+        "cloth_edge_tensile_p95": 0.027240337233989446,
+        "cloth_edge_abs_strain_p95": 0.028782383541446552,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.1374822318461839,
+            "p95_tensile": 0.03374156573478165
+          },
+          "weft": {
+            "maximum": 0.06009661289781598,
+            "p95_tensile": 0.011658180430187575
+          },
+          "bias": {
+            "maximum": 0.15371894212858073,
+            "p95_tensile": 0.02891575219488096
+          }
+        },
+        "cloth_principal_stretch_max": 1.1872673212835654,
+        "cloth_principal_stretch_p95": 1.0507107288403246,
+        "bear_volume_ratio": 0.997866237818674,
+        "bear_minimum_J": 0.823625671941465,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "press",
+        "step": 2445,
+        "cloth_edge_tensile_max": 0.2314335069773703,
+        "cloth_edge_tensile_p95": 0.055661687761353246,
+        "cloth_edge_abs_strain_p95": 0.0564896489208775,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.2314335069773703,
+            "p95_tensile": 0.06822431132505563
+          },
+          "weft": {
+            "maximum": 0.20565963069652504,
+            "p95_tensile": 0.013386151000212896
+          },
+          "bias": {
+            "maximum": 0.1849260266616659,
+            "p95_tensile": 0.04719878794988597
+          }
+        },
+        "cloth_principal_stretch_max": 1.2415309383770818,
+        "cloth_principal_stretch_p95": 1.0823304873365163,
+        "bear_volume_ratio": 0.9981389503825566,
+        "bear_minimum_J": 0.8941800750699379,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.07771456484878958,
+      "delta_p95_edge_tensile_strain": -0.0284213505273638
+    },
+    {
+      "state": "state-regrasp_right_outside.npz",
+      "new": {
+        "phase": "regrasp_right_outside",
+        "step": 3645,
+        "cloth_edge_tensile_max": 0.1360543835207697,
+        "cloth_edge_tensile_p95": 0.019364078236708535,
+        "cloth_edge_abs_strain_p95": 0.020000497826358144,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.10411538580907753,
+            "p95_tensile": 0.021764374288928412
+          },
+          "weft": {
+            "maximum": 0.09130464272468308,
+            "p95_tensile": 0.008075487312549966
+          },
+          "bias": {
+            "maximum": 0.1360543835207697,
+            "p95_tensile": 0.01706266908570364
+          }
+        },
+        "cloth_principal_stretch_max": 1.1498977384774725,
+        "cloth_principal_stretch_p95": 1.0281660359318892,
+        "bear_volume_ratio": 0.9978125071931765,
+        "bear_minimum_J": 0.82947781035047,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "regrasp_right_outside",
+        "step": 3015,
+        "cloth_edge_tensile_max": 0.19061644564758495,
+        "cloth_edge_tensile_p95": 0.025106656452783108,
+        "cloth_edge_abs_strain_p95": 0.026599808399514695,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.19061644564758495,
+            "p95_tensile": 0.03211895250887992
+          },
+          "weft": {
+            "maximum": 0.05760480686484426,
+            "p95_tensile": 0.008445765954897358
+          },
+          "bias": {
+            "maximum": 0.07091907580138068,
+            "p95_tensile": 0.01908334835804093
+          }
+        },
+        "cloth_principal_stretch_max": 1.2328469856367936,
+        "cloth_principal_stretch_p95": 1.0405145319730988,
+        "bear_volume_ratio": 0.9981275929178113,
+        "bear_minimum_J": 0.8897439431306565,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.05456206212681525,
+      "delta_p95_edge_tensile_strain": -0.005742578216074573
+    },
+    {
+      "state": "state-grasp_arm_right.npz",
+      "new": {
+        "phase": "grasp_arm_right",
+        "step": 4126,
+        "cloth_edge_tensile_max": 0.1035975171047776,
+        "cloth_edge_tensile_p95": 0.021208931361045236,
+        "cloth_edge_abs_strain_p95": 0.02240434168736153,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.1035975171047776,
+            "p95_tensile": 0.0253151563381534
+          },
+          "weft": {
+            "maximum": 0.08913025403844688,
+            "p95_tensile": 0.006882829535130906
+          },
+          "bias": {
+            "maximum": 0.1021422573380415,
+            "p95_tensile": 0.021548096552088447
+          }
+        },
+        "cloth_principal_stretch_max": 1.1458802770901269,
+        "cloth_principal_stretch_p95": 1.0324345066434817,
+        "bear_volume_ratio": 0.9974592232141561,
+        "bear_minimum_J": -0.4169911355495634,
+        "bear_inverted_tets": 2,
+        "finite": true
+      },
+      "original": {
+        "phase": "grasp_arm_right",
+        "step": 3496,
+        "cloth_edge_tensile_max": 0.11786890380266302,
+        "cloth_edge_tensile_p95": 0.025902293191180623,
+        "cloth_edge_abs_strain_p95": 0.026562427325639668,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.11786890380266302,
+            "p95_tensile": 0.03221352243180209
+          },
+          "weft": {
+            "maximum": 0.05528168695563718,
+            "p95_tensile": 0.008131551227176896
+          },
+          "bias": {
+            "maximum": 0.0927602758840711,
+            "p95_tensile": 0.021513283347008083
+          }
+        },
+        "cloth_principal_stretch_max": 1.124459596277357,
+        "cloth_principal_stretch_p95": 1.0411206100689983,
+        "bear_volume_ratio": 0.9981004224248128,
+        "bear_minimum_J": 0.3577381675337878,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.014271386697885413,
+      "delta_p95_edge_tensile_strain": -0.004693361830135388
+    },
+    {
+      "state": "state-through_hole_right.npz",
+      "new": {
+        "phase": "through_hole_right",
+        "step": 4346,
+        "cloth_edge_tensile_max": 0.09461458641641185,
+        "cloth_edge_tensile_p95": 0.014013004208268114,
+        "cloth_edge_abs_strain_p95": 0.014885487231719556,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.09461458641641185,
+            "p95_tensile": 0.01804944532439906
+          },
+          "weft": {
+            "maximum": 0.05475273761176114,
+            "p95_tensile": 0.008291530526807022
+          },
+          "bias": {
+            "maximum": 0.06664255371408778,
+            "p95_tensile": 0.012687357429637669
+          }
+        },
+        "cloth_principal_stretch_max": 1.1136685298987437,
+        "cloth_principal_stretch_p95": 1.0223915553083376,
+        "bear_volume_ratio": 0.9986091802833186,
+        "bear_minimum_J": 0.09785673736664899,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "through_hole_right",
+        "step": 3716,
+        "cloth_edge_tensile_max": 0.21602974965203425,
+        "cloth_edge_tensile_p95": 0.022254788578771202,
+        "cloth_edge_abs_strain_p95": 0.022975845334616402,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.21602974965203425,
+            "p95_tensile": 0.02603725601619794
+          },
+          "weft": {
+            "maximum": 0.08056098202804018,
+            "p95_tensile": 0.008446830273390082
+          },
+          "bias": {
+            "maximum": 0.077703385272476,
+            "p95_tensile": 0.018546260227360056
+          }
+        },
+        "cloth_principal_stretch_max": 1.2173369073082916,
+        "cloth_principal_stretch_p95": 1.0335566414426167,
+        "bear_volume_ratio": 0.9984197199383309,
+        "bear_minimum_J": 0.21087667848173014,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.1214151632356224,
+      "delta_p95_edge_tensile_strain": -0.008241784370503089
+    },
+    {
+      "state": "state-arm_out_right.npz",
+      "new": {
+        "phase": "arm_out_right",
+        "step": 4696,
+        "cloth_edge_tensile_max": 0.08311767674648363,
+        "cloth_edge_tensile_p95": 0.01420265691373839,
+        "cloth_edge_abs_strain_p95": 0.014660268831251764,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.08311767674648363,
+            "p95_tensile": 0.01785322692344704
+          },
+          "weft": {
+            "maximum": 0.07149681759208626,
+            "p95_tensile": 0.007971913686217169
+          },
+          "bias": {
+            "maximum": 0.07150822191968675,
+            "p95_tensile": 0.013972524345079007
+          }
+        },
+        "cloth_principal_stretch_max": 1.107837781895047,
+        "cloth_principal_stretch_p95": 1.0243777981639768,
+        "bear_volume_ratio": 0.9989358442086932,
+        "bear_minimum_J": 0.2218210014154484,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "arm_out_right",
+        "step": 4066,
+        "cloth_edge_tensile_max": 0.17897394712597037,
+        "cloth_edge_tensile_p95": 0.01877149438001145,
+        "cloth_edge_abs_strain_p95": 0.020287232120508328,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.17897394712597037,
+            "p95_tensile": 0.024883953167477435
+          },
+          "weft": {
+            "maximum": 0.057350437708721724,
+            "p95_tensile": 0.009075198671909755
+          },
+          "bias": {
+            "maximum": 0.08018411362921185,
+            "p95_tensile": 0.015658081509921318
+          }
+        },
+        "cloth_principal_stretch_max": 1.1790572990020394,
+        "cloth_principal_stretch_p95": 1.0307610902744924,
+        "bear_volume_ratio": 0.9992193470130004,
+        "bear_minimum_J": -0.3553805055497039,
+        "bear_inverted_tets": 1,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.09585627037948674,
+      "delta_p95_edge_tensile_strain": -0.004568837466273059
+    },
+    {
+      "state": "state-regrasp_left_outside.npz",
+      "new": {
+        "phase": "regrasp_left_outside",
+        "step": 5266,
+        "cloth_edge_tensile_max": 0.15041193556122434,
+        "cloth_edge_tensile_p95": 0.018975359381573253,
+        "cloth_edge_abs_strain_p95": 0.01967540762613512,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.12170891521058746,
+            "p95_tensile": 0.021647769253268834
+          },
+          "weft": {
+            "maximum": 0.048019248955418536,
+            "p95_tensile": 0.004608126167336212
+          },
+          "bias": {
+            "maximum": 0.15041193556122434,
+            "p95_tensile": 0.015335664464645626
+          }
+        },
+        "cloth_principal_stretch_max": 1.1519735851437625,
+        "cloth_principal_stretch_p95": 1.026505244337058,
+        "bear_volume_ratio": 0.998916491055042,
+        "bear_minimum_J": 0.22381127783060256,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "regrasp_left_outside",
+        "step": 4636,
+        "cloth_edge_tensile_max": 0.13307047761365043,
+        "cloth_edge_tensile_p95": 0.013381822807236573,
+        "cloth_edge_abs_strain_p95": 0.014541556690679878,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.13307047761365043,
+            "p95_tensile": 0.016804547264077485
+          },
+          "weft": {
+            "maximum": 0.07551176645007307,
+            "p95_tensile": 0.004428437292030371
+          },
+          "bias": {
+            "maximum": 0.09080185687822251,
+            "p95_tensile": 0.011565835343410491
+          }
+        },
+        "cloth_principal_stretch_max": 1.1385643129566043,
+        "cloth_principal_stretch_p95": 1.0231495116673883,
+        "bear_volume_ratio": 0.9991738809082275,
+        "bear_minimum_J": -0.3526862036498943,
+        "bear_inverted_tets": 1,
+        "finite": true
+      },
+      "delta_max_edge_strain": 0.017341457947573913,
+      "delta_p95_edge_tensile_strain": 0.00559353657433668
+    },
+    {
+      "state": "state-grasp_arm_left.npz",
+      "new": {
+        "phase": "grasp_arm_left",
+        "step": 5747,
+        "cloth_edge_tensile_max": 0.30918251237866023,
+        "cloth_edge_tensile_p95": 0.019294339444777302,
+        "cloth_edge_abs_strain_p95": 0.020314447161946036,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.27709630016651277,
+            "p95_tensile": 0.023654352128102962
+          },
+          "weft": {
+            "maximum": 0.30918251237866023,
+            "p95_tensile": 0.00653589882537191
+          },
+          "bias": {
+            "maximum": 0.20771820932677176,
+            "p95_tensile": 0.01580569647512786
+          }
+        },
+        "cloth_principal_stretch_max": 1.3541922899145964,
+        "cloth_principal_stretch_p95": 1.0281207359227609,
+        "bear_volume_ratio": 0.9987159930448555,
+        "bear_minimum_J": 0.24638528497943088,
+        "bear_inverted_tets": 0,
+        "finite": true
+      },
+      "original": {
+        "phase": "grasp_arm_left",
+        "step": 5117,
+        "cloth_edge_tensile_max": 0.13387043456450787,
+        "cloth_edge_tensile_p95": 0.013727293089655198,
+        "cloth_edge_abs_strain_p95": 0.01639850060501269,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.13387043456450787,
+            "p95_tensile": 0.01768023020133286
+          },
+          "weft": {
+            "maximum": 0.05986451270892901,
+            "p95_tensile": 0.006377746550568819
+          },
+          "bias": {
+            "maximum": 0.09403239201428826,
+            "p95_tensile": 0.012007691497175621
+          }
+        },
+        "cloth_principal_stretch_max": 1.137255168108072,
+        "cloth_principal_stretch_p95": 1.0251141210146746,
+        "bear_volume_ratio": 0.9990253876118552,
+        "bear_minimum_J": -0.25682024864569114,
+        "bear_inverted_tets": 1,
+        "finite": true
+      },
+      "delta_max_edge_strain": 0.17531207781415237,
+      "delta_p95_edge_tensile_strain": 0.0055670463551221044
+    },
+    {
+      "state": "state-through_hole_left.npz",
+      "new": {
+        "phase": "through_hole_left",
+        "step": 5967,
+        "cloth_edge_tensile_max": 0.25039684905281145,
+        "cloth_edge_tensile_p95": 0.01577644348034515,
+        "cloth_edge_abs_strain_p95": 0.016934848552403087,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.25039684905281145,
+            "p95_tensile": 0.01893452786563815
+          },
+          "weft": {
+            "maximum": 0.1943274334675602,
+            "p95_tensile": 0.0050565344172059925
+          },
+          "bias": {
+            "maximum": 0.12353189515408136,
+            "p95_tensile": 0.014184618886766143
+          }
+        },
+        "cloth_principal_stretch_max": 1.3240262960278422,
+        "cloth_principal_stretch_p95": 1.0240837365474391,
+        "bear_volume_ratio": 0.9986007189921003,
+        "bear_minimum_J": -0.8507984734709793,
+        "bear_inverted_tets": 1,
+        "finite": true
+      },
+      "original": {
+        "phase": "through_hole_left",
+        "step": 5337,
+        "cloth_edge_tensile_max": 0.135858272541868,
+        "cloth_edge_tensile_p95": 0.012836005355649901,
+        "cloth_edge_abs_strain_p95": 0.014139269972808352,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.135858272541868,
+            "p95_tensile": 0.016483808177836234
+          },
+          "weft": {
+            "maximum": 0.050497530815055924,
+            "p95_tensile": 0.005954278484669028
+          },
+          "bias": {
+            "maximum": 0.09036120843298345,
+            "p95_tensile": 0.011791025361245877
+          }
+        },
+        "cloth_principal_stretch_max": 1.1466680309605841,
+        "cloth_principal_stretch_p95": 1.0229140620548678,
+        "bear_volume_ratio": 1.0006576266917289,
+        "bear_minimum_J": -1.3284135075100594,
+        "bear_inverted_tets": 3,
+        "finite": true
+      },
+      "delta_max_edge_strain": 0.11453857651094346,
+      "delta_p95_edge_tensile_strain": 0.002940438124695249
+    },
+    {
+      "state": "state-arm_out_left.npz",
+      "new": {
+        "phase": "arm_out_left",
+        "step": 6637,
+        "cloth_edge_tensile_max": 0.10361939244845697,
+        "cloth_edge_tensile_p95": 0.008226016684534869,
+        "cloth_edge_abs_strain_p95": 0.009685169160495808,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.10361939244845697,
+            "p95_tensile": 0.009263428101572824
+          },
+          "weft": {
+            "maximum": 0.0414871501285663,
+            "p95_tensile": 0.00645366679766508
+          },
+          "bias": {
+            "maximum": 0.062012724840515565,
+            "p95_tensile": 0.007650452737407942
+          }
+        },
+        "cloth_principal_stretch_max": 1.1100729780865135,
+        "cloth_principal_stretch_p95": 1.015004507445816,
+        "bear_volume_ratio": 0.9982888584360262,
+        "bear_minimum_J": -0.7568646528672495,
+        "bear_inverted_tets": 2,
+        "finite": true
+      },
+      "original": {
+        "phase": "arm_out_left",
+        "step": 5847,
+        "cloth_edge_tensile_max": 0.15302934149198966,
+        "cloth_edge_tensile_p95": 0.009169535276400884,
+        "cloth_edge_abs_strain_p95": 0.01028274362584154,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.15302934149198966,
+            "p95_tensile": 0.009773643640997087
+          },
+          "weft": {
+            "maximum": 0.04692030253753998,
+            "p95_tensile": 0.0071498349467627766
+          },
+          "bias": {
+            "maximum": 0.06961659474954018,
+            "p95_tensile": 0.008791426642506428
+          }
+        },
+        "cloth_principal_stretch_max": 1.165988367292125,
+        "cloth_principal_stretch_p95": 1.0165126552181842,
+        "bear_volume_ratio": 1.0066478455260195,
+        "bear_minimum_J": -2.625247225009455,
+        "bear_inverted_tets": 7,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.049409949043532686,
+      "delta_p95_edge_tensile_strain": -0.0009435185918660154
+    },
+    {
+      "state": "state-thread_arms.npz",
+      "new": {
+        "phase": "thread_arms",
+        "step": 7197,
+        "cloth_edge_tensile_max": 0.11133612378365898,
+        "cloth_edge_tensile_p95": 0.010285066808570971,
+        "cloth_edge_abs_strain_p95": 0.013675635680408487,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.11133612378365898,
+            "p95_tensile": 0.013060670157575893
+          },
+          "weft": {
+            "maximum": 0.06227956774697274,
+            "p95_tensile": 0.007603598140607643
+          },
+          "bias": {
+            "maximum": 0.08449923713140328,
+            "p95_tensile": 0.009073359119336155
+          }
+        },
+        "cloth_principal_stretch_max": 1.1147510294791787,
+        "cloth_principal_stretch_p95": 1.018864590876349,
+        "bear_volume_ratio": 1.003880316621573,
+        "bear_minimum_J": -0.9346434061829,
+        "bear_inverted_tets": 2,
+        "finite": true
+      },
+      "original": {
+        "phase": "thread_arms",
+        "step": 6567,
+        "cloth_edge_tensile_max": 0.15149125516448203,
+        "cloth_edge_tensile_p95": 0.00973773207111167,
+        "cloth_edge_abs_strain_p95": 0.011836772347434065,
+        "cloth_by_direction": {
+          "warp": {
+            "maximum": 0.14073243571044447,
+            "p95_tensile": 0.012181154759612123
+          },
+          "weft": {
+            "maximum": 0.15149125516448203,
+            "p95_tensile": 0.008499883085830716
+          },
+          "bias": {
+            "maximum": 0.07072804869292892,
+            "p95_tensile": 0.009003758514892768
+          }
+        },
+        "cloth_principal_stretch_max": 1.1757483067227308,
+        "cloth_principal_stretch_p95": 1.0180734979955282,
+        "bear_volume_ratio": 1.0160845104680123,
+        "bear_minimum_J": -2.3009897019742436,
+        "bear_inverted_tets": 10,
+        "finite": true
+      },
+      "delta_max_edge_strain": -0.04015513138082305,
+      "delta_p95_edge_tensile_strain": 0.000547334737459302
+    }
+  ]
+}

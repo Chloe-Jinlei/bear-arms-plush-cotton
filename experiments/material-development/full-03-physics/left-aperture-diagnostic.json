@@ -1,0 +1,678 @@
+{
+  "scope": "read-only replay of unchanged left aperture candidate tests from saved failure state",
+  "counts": {
+    "approach_ik": 2,
+    "approach_path_collision": 1,
+    "entry_path": 5,
+    "jaw_footprint_outside_aperture": 16
+  },
+  "hole_center_m": [
+    -0.14228813350200653,
+    0.10175764560699463,
+    0.951402485370636
+  ],
+  "paw_center_m": [
+    -0.1373232752084732,
+    0.08181576430797577,
+    0.9637569785118103
+  ],
+  "hole_normal": [
+    -0.9618865251541138,
+    0.17870284616947174,
+    -0.20697727799415588
+  ],
+  "candidates": [
+    {
+      "target_z_m": 0.9517569541931152,
+      "roll_degrees": 0.0,
+      "entry_m": [
+        -0.1454153060913086,
+        0.08331913501024246,
+        0.9500157237052917
+      ],
+      "footprint": [
+        {
+          "inside": false,
+          "signed_clearance_m": -0.0006015189707283288
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.015180049991906058
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.03126434611641051
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9517569541931152,
+      "roll_degrees": 180.0,
+      "entry_m": [
+        -0.1454153060913086,
+        0.08331913501024246,
+        0.9500157237052917
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.03126434611641051
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.015180049991906058
+        },
+        {
+          "inside": false,
+          "signed_clearance_m": -0.0006015189707283288
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9517569541931152,
+      "roll_degrees": 90.0,
+      "entry_m": [
+        -0.1454153060913086,
+        0.08331913501024246,
+        0.9500157237052917
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.011722595326267203
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.015180049991906058
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010489166443708396
+        }
+      ],
+      "approach_position_error_m": 0.020788613239915776,
+      "approach_angle_error_rad": 0.18629788491276142,
+      "rejection": "approach_ik"
+    },
+    {
+      "target_z_m": 0.9517569541931152,
+      "roll_degrees": -90.0,
+      "entry_m": [
+        -0.1454153060913086,
+        0.08331913501024246,
+        0.9500157237052917
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010489166443708396
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.015180049991906058
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.011722595326267203
+        }
+      ],
+      "approach_position_error_m": 1.0349849822392726e-06,
+      "approach_angle_error_rad": 2.9639681803292393e-06,
+      "rejection": "entry_path",
+      "interpolation_fraction": 0.9,
+      "position_error_m": 5.580973773135089e-11,
+      "angle_error_rad": 4.515417326366165e-10,
+      "failed_clearances": {
+        "left_bear": {
+          "distance": -0.0024392369099270252,
+          "body": "left_left_finger",
+          "obstacle": "bear_0"
+        }
+      }
+    },
+    {
+      "target_z_m": 0.9517569541931152,
+      "roll_degrees": 45.0,
+      "entry_m": [
+        -0.1454153060913086,
+        0.08331913501024246,
+        0.9500157237052917
+      ],
+      "footprint": [
+        {
+          "inside": false,
+          "signed_clearance_m": -0.0024226022571877124
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.015180049991906058
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.023947564653801084
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9517569541931152,
+      "roll_degrees": -45.0,
+      "entry_m": [
+        -0.1454153060913086,
+        0.08331913501024246,
+        0.9500157237052917
+      ],
+      "footprint": [
+        {
+          "inside": false,
+          "signed_clearance_m": -0.001593134216179162
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.015180049991906058
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.022049427716558864
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9517569541931152,
+      "roll_degrees": 135.0,
+      "entry_m": [
+        -0.1454153060913086,
+        0.08331913501024246,
+        0.9500157237052917
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.022049427716558864
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.015180049991906058
+        },
+        {
+          "inside": false,
+          "signed_clearance_m": -0.001593134216179162
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9517569541931152,
+      "roll_degrees": -135.0,
+      "entry_m": [
+        -0.1454153060913086,
+        0.08331913501024246,
+        0.9500157237052917
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.023947564653801084
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.015180049991906058
+        },
+        {
+          "inside": false,
+          "signed_clearance_m": -0.0024226022571877124
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9637569785118103,
+      "roll_degrees": 0.0,
+      "entry_m": [
+        -0.1478043794631958,
+        0.08376298099756241,
+        0.9615016579627991
+      ],
+      "footprint": [
+        {
+          "inside": false,
+          "signed_clearance_m": -0.003980733169801527
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012049497024821542
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.023573667991515737
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9637569785118103,
+      "roll_degrees": 180.0,
+      "entry_m": [
+        -0.1478043794631958,
+        0.08376298099756241,
+        0.9615016579627991
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.023573667991515737
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012049497024821542
+        },
+        {
+          "inside": false,
+          "signed_clearance_m": -0.003980733169801527
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9637569785118103,
+      "roll_degrees": 90.0,
+      "entry_m": [
+        -0.1478043794631958,
+        0.08376298099756241,
+        0.9615016579627991
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012247634896705216
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012049497024821542
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.0073886572664640625
+        }
+      ],
+      "approach_position_error_m": 0.01990711181495721,
+      "approach_angle_error_rad": 0.17502254552465,
+      "rejection": "approach_ik"
+    },
+    {
+      "target_z_m": 0.9637569785118103,
+      "roll_degrees": -90.0,
+      "entry_m": [
+        -0.1478043794631958,
+        0.08376298099756241,
+        0.9615016579627991
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.0073886572664640625
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012049497024821542
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012247634896705216
+        }
+      ],
+      "approach_position_error_m": 9.094050566067964e-07,
+      "approach_angle_error_rad": 2.5343863964347037e-06,
+      "rejection": "entry_path",
+      "interpolation_fraction": 0.925,
+      "position_error_m": 4.554802338701364e-11,
+      "angle_error_rad": 5.152224773362792e-10,
+      "failed_clearances": {
+        "left_bear": {
+          "distance": -0.001802090338357895,
+          "body": "left_left_finger",
+          "obstacle": "bear_0"
+        }
+      }
+    },
+    {
+      "target_z_m": 0.9637569785118103,
+      "roll_degrees": 45.0,
+      "entry_m": [
+        -0.1478043794631958,
+        0.08376298099756241,
+        0.9615016579627991
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.002895912480272209
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012049497024821542
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012213200270110906
+        }
+      ],
+      "approach_position_error_m": 3.4751468866776314e-08,
+      "approach_angle_error_rad": 3.246102682891423e-07,
+      "rejection": "entry_path",
+      "interpolation_fraction": 0.9500000000000001,
+      "position_error_m": 7.613775586010242e-11,
+      "angle_error_rad": 1.141713761000392e-09,
+      "failed_clearances": {
+        "left_bear": {
+          "distance": -0.0016740143560966944,
+          "body": "left_right_finger",
+          "obstacle": "bear_0"
+        }
+      }
+    },
+    {
+      "target_z_m": 0.9637569785118103,
+      "roll_degrees": -45.0,
+      "entry_m": [
+        -0.1478043794631958,
+        0.08376298099756241,
+        0.9615016579627991
+      ],
+      "footprint": [
+        {
+          "inside": false,
+          "signed_clearance_m": -0.003779384876056754
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012049497024821542
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.02729096322222737
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9637569785118103,
+      "roll_degrees": 135.0,
+      "entry_m": [
+        -0.1478043794631958,
+        0.08376298099756241,
+        0.9615016579627991
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.02729096322222737
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012049497024821542
+        },
+        {
+          "inside": false,
+          "signed_clearance_m": -0.003779384876056754
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9637569785118103,
+      "roll_degrees": -135.0,
+      "entry_m": [
+        -0.1478043794631958,
+        0.08376298099756241,
+        0.9615016579627991
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012213200270110906
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.012049497024821542
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.002895912480272209
+        }
+      ],
+      "approach_position_error_m": 9.67118446983344e-07,
+      "approach_angle_error_rad": 2.6751519079598924e-06,
+      "rejection": "entry_path",
+      "interpolation_fraction": 0.9500000000000001,
+      "position_error_m": 4.546325527263338e-11,
+      "angle_error_rad": 4.950541438462721e-10,
+      "failed_clearances": {
+        "left_bear": {
+          "distance": -0.0016740143333702333,
+          "body": "left_left_finger",
+          "obstacle": "bear_0"
+        }
+      }
+    },
+    {
+      "target_z_m": 0.9757570028305054,
+      "roll_degrees": 0.0,
+      "entry_m": [
+        -0.15019343793392181,
+        0.08420683443546295,
+        0.9729875922203064
+      ],
+      "footprint": [
+        {
+          "inside": false,
+          "signed_clearance_m": -0.008878051495179364
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010993059046444579
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.014197900925238737
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9757570028305054,
+      "roll_degrees": 180.0,
+      "entry_m": [
+        -0.15019343793392181,
+        0.08420683443546295,
+        0.9729875922203064
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.014197900925238737
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010993059046444579
+        },
+        {
+          "inside": false,
+          "signed_clearance_m": -0.008878051495179364
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9757570028305054,
+      "roll_degrees": 90.0,
+      "entry_m": [
+        -0.15019343793392181,
+        0.08420683443546295,
+        0.9729875922203064
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.016725824101362672
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010993059046444579
+        },
+        {
+          "inside": false,
+          "signed_clearance_m": -0.004340638659849575
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9757570028305054,
+      "roll_degrees": -90.0,
+      "entry_m": [
+        -0.15019343793392181,
+        0.08420683443546295,
+        0.9729875922203064
+      ],
+      "footprint": [
+        {
+          "inside": false,
+          "signed_clearance_m": -0.004340638659849575
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010993059046444579
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.016725824101362672
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9757570028305054,
+      "roll_degrees": 45.0,
+      "entry_m": [
+        -0.15019343793392181,
+        0.08420683443546295,
+        0.9729875922203064
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.0023129622392955877
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010993059046444579
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.00047883832004658405
+        }
+      ],
+      "approach_position_error_m": 4.165504532574659e-08,
+      "approach_angle_error_rad": 3.546784112443312e-07,
+      "rejection": "approach_path_collision",
+      "interpolation_fraction": 0.8166666666666667,
+      "failed_clearances": {
+        "left_self": {
+          "distance": 0.002975093307619524,
+          "bodies": [
+            "left_link1",
+            "left_link5"
+          ]
+        }
+      }
+    },
+    {
+      "target_z_m": 0.9757570028305054,
+      "roll_degrees": -45.0,
+      "entry_m": [
+        -0.15019343793392181,
+        0.08420683443546295,
+        0.9729875922203064
+      ],
+      "footprint": [
+        {
+          "inside": false,
+          "signed_clearance_m": -0.004732825441507248
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010993059046444579
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.02679233628399117
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9757570028305054,
+      "roll_degrees": 135.0,
+      "entry_m": [
+        -0.15019343793392181,
+        0.08420683443546295,
+        0.9729875922203064
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.02679233628399117
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010993059046444579
+        },
+        {
+          "inside": false,
+          "signed_clearance_m": -0.004732825441507248
+        }
+      ],
+      "rejection": "jaw_footprint_outside_aperture"
+    },
+    {
+      "target_z_m": 0.9757570028305054,
+      "roll_degrees": -135.0,
+      "entry_m": [
+        -0.15019343793392181,
+        0.08420683443546295,
+        0.9729875922203064
+      ],
+      "footprint": [
+        {
+          "inside": true,
+          "signed_clearance_m": 0.00047883832004658405
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.010993059046444579
+        },
+        {
+          "inside": true,
+          "signed_clearance_m": 0.0023129622392955877
+        }
+      ],
+      "approach_position_error_m": 2.8578783633537344e-07,
+      "approach_angle_error_rad": 7.329355815544458e-07,
+      "rejection": "entry_path",
+      "interpolation_fraction": 1.0,
+      "position_error_m": 5.4086343891147975e-11,
+      "angle_error_rad": 3.9685258316212965e-10,
+      "failed_clearances": {
+        "left_bear": {
+          "distance": -0.002426883444933419,
+          "body": "left_left_finger",
+          "obstacle": "bear_0"
+        }
+      }
+    }
+  ]
+}

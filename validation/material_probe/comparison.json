@@ -1,0 +1,65 @@
+{
+  "scope": "Independent displacement-controlled material bench tests, not dressing-task validation or physical calibration",
+  "profiles": {
+    "original": {
+      "status": "failed",
+      "checks": {
+        "finite_states": true,
+        "base_fixed": true,
+        "opposing_support_fixed": true,
+        "cloth_corners_fixed": true,
+        "no_inverted_tetrahedra": false,
+        "geometry_topology_mass_preserved": true
+      },
+      "metrics": {
+        "final_bear_height_ratio": 0.9940653988929381,
+        "release_peak_bear_rms_speed_m_s": 0.39716657996177673,
+        "release_tail_mean_bear_rms_speed_m_s": 0.028907724718252818,
+        "release_tail_patch_peak_to_peak_mm": 0.5047217309474945,
+        "release_integrated_bear_mean_squared_speed_m2_s": 0.01482068818930478,
+        "release_tail_mean_cloth_rms_speed_m_s": 0.015327186898017923,
+        "max_bear_base_drift_m": 2.977691606381897e-08,
+        "max_bear_support_drift_m": 0.0,
+        "max_inverted_tetrahedra": 1,
+        "min_local_volume_ratio": 0.9712570015129739,
+        "final_patch_indentation_mm": 0.19605481624603271,
+        "max_cloth_extension_fraction": 0.19722152756917,
+        "peak_cloth_p95_abs_edge_strain": 0.03558680020965834,
+        "final_cloth_p95_abs_edge_strain": 0.03331529848520489,
+        "max_cloth_anchor_drift_m": 5.014248373704417e-08,
+        "mean_step_seconds": 0.10537732632797997,
+        "wall_seconds": 44.07017318900034
+      }
+    },
+    "plush_cotton": {
+      "status": "passed",
+      "checks": {
+        "finite_states": true,
+        "base_fixed": true,
+        "opposing_support_fixed": true,
+        "cloth_corners_fixed": true,
+        "no_inverted_tetrahedra": true,
+        "geometry_topology_mass_preserved": true
+      },
+      "metrics": {
+        "final_bear_height_ratio": 0.9878475121400698,
+        "release_peak_bear_rms_speed_m_s": 0.2877645790576935,
+        "release_tail_mean_bear_rms_speed_m_s": 0.0024396069881428653,
+        "release_tail_patch_peak_to_peak_mm": 0.08411094546318054,
+        "release_integrated_bear_mean_squared_speed_m2_s": 0.0045733382425592805,
+        "release_tail_mean_cloth_rms_speed_m_s": 0.09524975245197614,
+        "max_bear_base_drift_m": 2.977691606381897e-08,
+        "max_bear_support_drift_m": 0.0,
+        "max_inverted_tetrahedra": 0,
+        "min_local_volume_ratio": 0.9722523830155939,
+        "final_patch_indentation_mm": 0.11064358800649643,
+        "max_cloth_extension_fraction": 0.10202078975109852,
+        "peak_cloth_p95_abs_edge_strain": 0.035790349582616135,
+        "final_cloth_p95_abs_edge_strain": 0.02134026117890212,
+        "max_cloth_anchor_drift_m": 5.014248373704417e-08,
+        "mean_step_seconds": 0.12037373497608496,
+        "wall_seconds": 37.81001267800093
+      }
+    }
+  }
+}

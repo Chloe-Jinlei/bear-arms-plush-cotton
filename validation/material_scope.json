@@ -1,0 +1,130 @@
+{
+  "baseline_commit": "abe0008c9331e1d3d875c73916008af7d612186b",
+  "status": "passed",
+  "checks": {
+    "assets_and_action_files_unchanged": true,
+    "only_material_configuration_changed": true
+  },
+  "files": [
+    {
+      "path": "arm_geometry.py",
+      "unchanged": true,
+      "sha256": "2d68d06c0676bd05b581cb6d8b3f9cfda07a9847db6f6ba7439a131dc640cded"
+    },
+    {
+      "path": "arms_task.py",
+      "unchanged": true,
+      "sha256": "c68134ab2bde9c70c1af1e0000b9f31bae3d8d05507325c570482e6f78e8d704"
+    },
+    {
+      "path": "asset_primitives.py",
+      "unchanged": true,
+      "sha256": "154b242810b515d8ce152558b1000a0ee87909cd545acf814a15540137ca7395"
+    },
+    {
+      "path": "generate_assets.py",
+      "unchanged": true,
+      "sha256": "1427ea26947677179e4857543bf0e62d0d670076dbd832dba083725f621d0d24"
+    },
+    {
+      "path": "robot_geometry.py",
+      "unchanged": true,
+      "sha256": "7db08dfedbd4230feb81d5947bc9dd29630311938f33979a15a8cc417842bb29"
+    },
+    {
+      "path": "seam_surface_contact.py",
+      "unchanged": true,
+      "sha256": "d5345a20ef7f6323297510c7aedd22381224d4609b4133490016d957ca2503af"
+    },
+    {
+      "path": "velcro_contact.py",
+      "unchanged": true,
+      "sha256": "53b4d7655b6261c0f6653b476904a67e0e61822f4a6bf9cc433e28b96f4fb56e"
+    },
+    {
+      "path": "velcro_plan.json",
+      "unchanged": true,
+      "sha256": "93f598aa916329ecfa774e085e692882dcbcf81d62288aca4ad6beb904be7dea"
+    },
+    {
+      "path": "wrap_plan.json",
+      "unchanged": true,
+      "sha256": "ca03d79ba129cea16241e47ee6d3731590880ec8f082f85406c747170ad05cf2"
+    },
+    {
+      "path": "wrap_contact.py",
+      "unchanged": true,
+      "sha256": "e4f3f537ac09c7a8e3cee5b42422d779a0a2346240629a1091431fdb7184b57c"
+    },
+    {
+      "path": "wrap_task.py",
+      "unchanged": true,
+      "sha256": "0bbf9bd497e8aef10c913913cd2d2ae0bfa37b39929ede5cb4ce8c588c2b1b00"
+    },
+    {
+      "path": "pbd_adapter.py",
+      "unchanged": true,
+      "sha256": "66cae87488ceaee8ed604971597ef8aa01ff597ef9b1adeaeae4271b358efbd5"
+    },
+    {
+      "path": "run.sh",
+      "unchanged": true,
+      "sha256": "e3b4998eef4537e41d349b38f206aa6668c650c9b948137d857a6f1d8a95614f"
+    },
+    {
+      "path": "run-wrap.sh",
+      "unchanged": true,
+      "sha256": "af2e8b067e2ebfdb60c1fde68d69e73093f0b5abf47a2fef8eeff7127d08e5e1"
+    },
+    {
+      "path": "assets/bear.mtl",
+      "unchanged": true,
+      "sha256": "0fb81a2a795e9992758865ac0a84db36a39c5cf88bab33d24ac794084c11a48d"
+    },
+    {
+      "path": "assets/bear.npz",
+      "unchanged": true,
+      "sha256": "ff025e7e5402c0a3666672a1f55734df6dc4ae6453122cace95a68ce635fe912"
+    },
+    {
+      "path": "assets/bear.obj",
+      "unchanged": true,
+      "sha256": "f493b0849780aec1ff4dd4e95d154d63bf3bd64aa4c391e130b67969dec60f01"
+    },
+    {
+      "path": "assets/bear_fur.png",
+      "unchanged": true,
+      "sha256": "5cc9a077d02adddd0427c2248a540106e4a69c6576af8a769c35f60430e58e7a"
+    },
+    {
+      "path": "assets/cotton.mtl",
+      "unchanged": true,
+      "sha256": "d593690597bee8a72b04588f8464269c305f4de01cc5c6392fd65e959ebb1104"
+    },
+    {
+      "path": "assets/cotton.npz",
+      "unchanged": true,
+      "sha256": "9b42ef060b8d8c5ff2cd621f92e7a67d5fba1413b622d221dff4ac7c1fade8c5"
+    },
+    {
+      "path": "assets/cotton.obj",
+      "unchanged": true,
+      "sha256": "c8a45dfecfa6f6be97f6c815678dad0cfb1ecddceedaf63b837c3a940ea45044"
+    },
+    {
+      "path": "assets/cotton_weave.png",
+      "unchanged": true,
+      "sha256": "c587f42ece1b0354663857f847340f90783a2beaff0dc5c3ccb09b35a7b416bb"
+    },
+    {
+      "path": "assets/metadata.json",
+      "unchanged": true,
+      "sha256": "0cb6fdabdffd5d94ec935a7c6ecd7ff462705fe20848552482d7cc2226bc1e01"
+    },
+    {
+      "path": "configs/original.toml",
+      "unchanged": true,
+      "sha256": "f5e8dd500bc482eb33c1e2d39c17c9148929761da31004958cb1c39e66ecb414"
+    }
+  ]
+}

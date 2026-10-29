@@ -1,0 +1,5 @@
+.cache/
+__pycache__/
+*.pyc
+.venv/
+# Recorded results are intentionally versioned in this archival repository.

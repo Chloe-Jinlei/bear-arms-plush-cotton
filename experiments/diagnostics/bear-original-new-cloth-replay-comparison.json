@@ -1,0 +1,146 @@
+{
+  "scope": "Same offline replay-frame edge engineering tensile strain calculation against unchanged cotton rest mesh. Last archived replay frame, not state-thread_arms.npz, defines final below. Finite directional target fallbacks in old audit do not change any measured strain. Archives have different timestamps/durations, so this is a common-metric comparison of recorded runs, not identical state-time or controlled reruns.",
+  "runs": {
+    "original": {
+      "path": "/home/chloe/Desktop/genesis-local/bear_arms_scene/runs/stabilized-dressing-complete-48",
+      "frame_count": 986,
+      "time_range_s": [
+        0.01,
+        65.67
+      ],
+      "sample_spacing_s_min_median_max": [
+        0.05999999999998806,
+        0.07000000000000028,
+        0.07000000000000739
+      ],
+      "rest_asset_sha256": "9b42ef060b8d8c5ff2cd621f92e7a67d5fba1413b622d221dff4ac7c1fade8c5",
+      "global_maximum": {
+        "frame_index": 326,
+        "time_s": 21.740000000000002,
+        "phase": "wrap",
+        "maximum_tensile_strain_fraction": 0.351653660732564,
+        "p95_tensile_strain_fraction": 0.0821233143550259,
+        "max_edge_nodes": [
+          137,
+          138
+        ]
+      },
+      "pull_left_maximum": {
+        "frame_index": 839,
+        "time_s": 55.94,
+        "phase": "pull_left",
+        "maximum_tensile_strain_fraction": 0.3045375404670376,
+        "p95_tensile_strain_fraction": 0.011831569257367709,
+        "max_edge_nodes": [
+          86,
+          87
+        ]
+      },
+      "pull_left_frame_count": 186,
+      "final_replay_frame": {
+        "frame_index": 985,
+        "time_s": 65.67,
+        "phase": "thread_arms",
+        "maximum_tensile_strain_fraction": 0.15149125516448203,
+        "p95_tensile_strain_fraction": 0.00973773207111167,
+        "max_edge_nodes": [
+          89,
+          156
+        ]
+      },
+      "maximum_frame_p95": {
+        "frame_index": 325,
+        "time_s": 21.67,
+        "phase": "wrap",
+        "maximum_tensile_strain_fraction": 0.3513272394893021,
+        "p95_tensile_strain_fraction": 0.08234624142117004,
+        "max_edge_nodes": [
+          137,
+          138
+        ]
+      },
+      "frames_with_edge_strain_over_30pct": 36,
+      "fraction_frames_with_edge_strain_over_30pct": 0.036511156186612576,
+      "pull_left_frames_with_edge_strain_over_30pct": 1,
+      "pull_left_fraction_frames_with_edge_strain_over_30pct": 0.005376344086021506,
+      "final_checkpoint": {
+        "maximum_tensile_strain_fraction": 0.15149125516448203,
+        "p95_tensile_strain_fraction": 0.00973773207111167,
+        "phase": "thread_arms",
+        "step": 6567,
+        "time_s": 65.67
+      }
+    },
+    "plush_cotton": {
+      "path": "/run/user/1000/bear-material-task/full-03",
+      "frame_count": 1080,
+      "time_range_s": [
+        0.01,
+        71.94
+      ],
+      "sample_spacing_s_min_median_max": [
+        0.05999999999998806,
+        0.07000000000000028,
+        0.07000000000000739
+      ],
+      "rest_asset_sha256": "9b42ef060b8d8c5ff2cd621f92e7a67d5fba1413b622d221dff4ac7c1fade8c5",
+      "global_maximum": {
+        "frame_index": 980,
+        "time_s": 65.34,
+        "phase": "pull_left",
+        "maximum_tensile_strain_fraction": 0.51897602155702,
+        "p95_tensile_strain_fraction": 0.01652785691478008,
+        "max_edge_nodes": [
+          16,
+          17
+        ]
+      },
+      "pull_left_maximum": {
+        "frame_index": 980,
+        "time_s": 65.34,
+        "phase": "pull_left",
+        "maximum_tensile_strain_fraction": 0.51897602155702,
+        "p95_tensile_strain_fraction": 0.01652785691478008,
+        "max_edge_nodes": [
+          16,
+          17
+        ]
+      },
+      "pull_left_frame_count": 210,
+      "final_replay_frame": {
+        "frame_index": 1079,
+        "time_s": 71.94,
+        "phase": "thread_arms",
+        "maximum_tensile_strain_fraction": 0.11129459404805275,
+        "p95_tensile_strain_fraction": 0.010296765147008008,
+        "max_edge_nodes": [
+          318,
+          319
+        ]
+      },
+      "maximum_frame_p95": {
+        "frame_index": 294,
+        "time_s": 19.6,
+        "phase": "wrap",
+        "maximum_tensile_strain_fraction": 0.19947797386460375,
+        "p95_tensile_strain_fraction": 0.05388733112632925,
+        "max_edge_nodes": [
+          613,
+          683
+        ]
+      },
+      "frames_with_edge_strain_over_30pct": 90,
+      "fraction_frames_with_edge_strain_over_30pct": 0.08333333333333333,
+      "pull_left_frames_with_edge_strain_over_30pct": 82,
+      "pull_left_fraction_frames_with_edge_strain_over_30pct": 0.3904761904761905,
+      "final_checkpoint": {
+        "maximum_tensile_strain_fraction": 0.11133612378365898,
+        "p95_tensile_strain_fraction": 0.010285066808570971,
+        "phase": "thread_arms",
+        "step": 7197,
+        "time_s": 71.97
+      }
+    }
+  },
+  "same_cotton_asset": true
+}

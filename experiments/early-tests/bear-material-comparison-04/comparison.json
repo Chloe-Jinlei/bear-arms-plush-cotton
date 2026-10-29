@@ -1,0 +1,53 @@
+{
+  "scope": "Independent displacement-controlled material bench tests, not dressing-task validation or physical calibration",
+  "profiles": {
+    "original": {
+      "status": "failed",
+      "checks": {
+        "finite_states": true,
+        "base_fixed": true,
+        "cloth_corners_fixed": true,
+        "no_inverted_tetrahedra": false,
+        "geometry_topology_mass_preserved": true
+      },
+      "metrics": {
+        "final_bear_height_ratio": 0.99398482099132,
+        "release_peak_bear_rms_speed_m_s": 0.1893462985754013,
+        "release_tail_mean_bear_rms_speed_m_s": 0.09223301988095045,
+        "release_tail_mean_cloth_rms_speed_m_s": 0.015327186898017923,
+        "max_bear_base_drift_m": 2.977691606381897e-08,
+        "max_inverted_tetrahedra": 1,
+        "min_local_volume_ratio": 0.9922339993003351,
+        "final_patch_indentation_mm": -1.2674692869186401,
+        "max_cloth_extension_fraction": 0.19722152756917,
+        "max_cloth_anchor_drift_m": 5.014248373704417e-08,
+        "mean_step_seconds": 0.10048226287603756,
+        "wall_seconds": 35.06342456300081
+      }
+    },
+    "plush_cotton": {
+      "status": "passed",
+      "checks": {
+        "finite_states": true,
+        "base_fixed": true,
+        "cloth_corners_fixed": true,
+        "no_inverted_tetrahedra": true,
+        "geometry_topology_mass_preserved": true
+      },
+      "metrics": {
+        "final_bear_height_ratio": 0.991316576753736,
+        "release_peak_bear_rms_speed_m_s": 0.17207710444927216,
+        "release_tail_mean_bear_rms_speed_m_s": 0.07263817520191272,
+        "release_tail_mean_cloth_rms_speed_m_s": 0.09757809887329737,
+        "max_bear_base_drift_m": 2.977691606381897e-08,
+        "max_inverted_tetrahedra": 0,
+        "min_local_volume_ratio": 0.9924779177637825,
+        "final_patch_indentation_mm": 7.1146721839904785,
+        "max_cloth_extension_fraction": 0.3580090972746537,
+        "max_cloth_anchor_drift_m": 5.014248373704417e-08,
+        "mean_step_seconds": 0.11044931882004312,
+        "wall_seconds": 34.75837965400024
+      }
+    }
+  }
+}

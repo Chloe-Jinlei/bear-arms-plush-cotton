@@ -1,0 +1,452 @@
+{
+  "scope": "Independent 250-step displacement-controlled opposed-support material test, not dressing-task validation. Step 50 is after 0.5 s gravity settling without opposing support. Step 250 follows loading and release with opposing support fixed and must not be interpreted as unrestrained long-term rest. Paw positions are unweighted mean of the same 24 original left_paw_indices used by arms_task.py. Positive x shift is inward for the left paw.",
+  "candidate_config": "/tmp/bear-candidate-internal-003.toml",
+  "candidate_config_sha256": "3ade97d05657c889965354ce0f2d7e33ff69244df5cb7192926e7669ee70e602",
+  "profiles": {
+    "original": {
+      "output": "/run/user/1000/bear-material-task/local-original",
+      "status": "failed",
+      "metrics": {
+        "final_bear_height_ratio": 0.9940653988929381,
+        "release_peak_bear_rms_speed_m_s": 0.39716657996177673,
+        "release_tail_mean_bear_rms_speed_m_s": 0.028907724718252818,
+        "release_tail_patch_peak_to_peak_mm": 0.5047217309474945,
+        "release_integrated_bear_mean_squared_speed_m2_s": 0.01482068818930478,
+        "release_tail_mean_cloth_rms_speed_m_s": 0.015327186898017923,
+        "max_bear_base_drift_m": 2.977691606381897e-08,
+        "max_bear_support_drift_m": 0.0,
+        "max_inverted_tetrahedra": 1,
+        "min_local_volume_ratio": 0.9712570015129739,
+        "final_patch_indentation_mm": 0.19605481624603271,
+        "max_cloth_extension_fraction": 0.19722152756917,
+        "peak_cloth_p95_abs_edge_strain": 0.03558680020965834,
+        "final_cloth_p95_abs_edge_strain": 0.03331529848520489,
+        "max_cloth_anchor_drift_m": 5.014248373704417e-08,
+        "mean_step_seconds": 0.10537732632797997,
+        "wall_seconds": 44.07017318900034
+      },
+      "checks": {
+        "finite_states": true,
+        "base_fixed": true,
+        "opposing_support_fixed": true,
+        "cloth_corners_fixed": true,
+        "no_inverted_tetrahedra": false,
+        "geometry_topology_mass_preserved": true
+      },
+      "left_paw_count": 24,
+      "states": {
+        "0": {
+          "left_paw_mean_xyz_m": [
+            -0.15279987330238023,
+            0.07538000354543328,
+            0.9594971165060997
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15295032099370034,
+            0.07749894081104186,
+            0.9580390491793233
+          ],
+          "paw_lateral_separation_mm": 305.75019429608056,
+          "bear_bbox_size_m": [
+            0.33154843747615814,
+            0.23581137135624886,
+            0.48081451654434204
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 0.0
+        },
+        "50": {
+          "left_paw_mean_xyz_m": [
+            -0.15126913289229074,
+            0.07718820481871565,
+            0.9568768963217735
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            1.5307404100894928,
+            1.8082012732823642,
+            -2.620220184326172
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15098624604363595,
+            0.08034152273208864,
+            0.9516467490503865
+          ],
+          "paw_lateral_separation_mm": 302.2553789359267,
+          "bear_bbox_size_m": [
+            0.3294540345668793,
+            0.23691426217556,
+            0.4783119559288025
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 3.5637742120096254
+        },
+        "100": {
+          "left_paw_mean_xyz_m": [
+            -0.15421883389353752,
+            0.08264708844944835,
+            0.9574829215804735
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            -1.4189605911572867,
+            7.267084904015064,
+            -2.014194925626156
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15503393978841842,
+            0.0848761825792251,
+            0.953640878200531
+          ],
+          "paw_lateral_separation_mm": 309.25277368195594,
+          "bear_bbox_size_m": [
+            0.33490632474422455,
+            0.2391090951859951,
+            0.478615939617157
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 7.070606388635255
+        },
+        "250": {
+          "left_paw_mean_xyz_m": [
+            -0.1508933026343584,
+            0.07573654238755505,
+            0.9568641285101572
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            1.9065706680218286,
+            0.3565388421217647,
+            -2.6329879959424707
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15157936946038278,
+            0.07760445256867717,
+            0.9529475512043122
+          ],
+          "paw_lateral_separation_mm": 302.47267209474114,
+          "bear_bbox_size_m": [
+            0.3297213315963745,
+            0.23681806772947311,
+            0.477961003780365
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 3.0749026634588277
+        }
+      },
+      "left_paw_tail_centroid_peak_to_peak_xyz_mm": [
+        0.8692486832539148,
+        1.0169724312921318,
+        0.4609525203704834
+      ]
+    },
+    "plush_001": {
+      "output": "/run/user/1000/bear-material-task/shape-20",
+      "status": "passed",
+      "metrics": {
+        "final_bear_height_ratio": 0.9878475121400698,
+        "release_peak_bear_rms_speed_m_s": 0.2877645790576935,
+        "release_tail_mean_bear_rms_speed_m_s": 0.0024396069881428653,
+        "release_tail_patch_peak_to_peak_mm": 0.08411094546318054,
+        "release_integrated_bear_mean_squared_speed_m2_s": 0.0045733382425592805,
+        "release_tail_mean_cloth_rms_speed_m_s": 0.09524975245197614,
+        "max_bear_base_drift_m": 2.977691606381897e-08,
+        "max_bear_support_drift_m": 0.0,
+        "max_inverted_tetrahedra": 0,
+        "min_local_volume_ratio": 0.9722523830155939,
+        "final_patch_indentation_mm": 0.11064358800649643,
+        "max_cloth_extension_fraction": 0.10202078975109852,
+        "peak_cloth_p95_abs_edge_strain": 0.035790349582616135,
+        "final_cloth_p95_abs_edge_strain": 0.02134026117890212,
+        "max_cloth_anchor_drift_m": 5.014248373704417e-08,
+        "mean_step_seconds": 0.12037373497608496,
+        "wall_seconds": 37.81001267800093
+      },
+      "checks": {
+        "finite_states": true,
+        "base_fixed": true,
+        "opposing_support_fixed": true,
+        "cloth_corners_fixed": true,
+        "no_inverted_tetrahedra": true,
+        "geometry_topology_mass_preserved": true
+      },
+      "left_paw_count": 24,
+      "states": {
+        "0": {
+          "left_paw_mean_xyz_m": [
+            -0.15279987330238023,
+            0.07538000354543328,
+            0.9594971165060997
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15295032099370034,
+            0.07749894081104186,
+            0.9580390491793233
+          ],
+          "paw_lateral_separation_mm": 305.75019429608056,
+          "bear_bbox_size_m": [
+            0.33154843747615814,
+            0.23581137135624886,
+            0.48081451654434204
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 0.0
+        },
+        "50": {
+          "left_paw_mean_xyz_m": [
+            -0.15061388661464056,
+            0.07655877883856495,
+            0.9531034529209137
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            2.1859866877396716,
+            1.1787752931316646,
+            -6.393663585186005
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15017279261542904,
+            0.07865435521929495,
+            0.9508683220032723
+          ],
+          "paw_lateral_separation_mm": 300.78667923006964,
+          "bear_bbox_size_m": [
+            0.3289085626602173,
+            0.23747911304235458,
+            0.4741916060447693
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 4.488301219171157
+        },
+        "100": {
+          "left_paw_mean_xyz_m": [
+            -0.15412602325280508,
+            0.08235894950727622,
+            0.9542044773697853
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            -1.3261499504248486,
+            6.978945961842939,
+            -5.292639136314392
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15350518591942325,
+            0.08479348365818301,
+            0.9518799128070954
+          ],
+          "paw_lateral_separation_mm": 307.6312091722283,
+          "bear_bbox_size_m": [
+            0.3345148116350174,
+            0.23960746452212334,
+            0.4753747582435608
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 7.914432436388039
+        },
+        "250": {
+          "left_paw_mean_xyz_m": [
+            -0.15110429003834724,
+            0.0764045234148701,
+            0.9539759705464045
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            1.6955832640329904,
+            1.0245198694368156,
+            -5.521145959695217
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15050600709453707,
+            0.07934915622876536,
+            0.9508177465008151
+          ],
+          "paw_lateral_separation_mm": 301.61029713288434,
+          "bear_bbox_size_m": [
+            0.3292859047651291,
+            0.23747026547789574,
+            0.47497135400772095
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 4.385230053472018
+        }
+      },
+      "left_paw_tail_centroid_peak_to_peak_xyz_mm": [
+        0.057365124424307856,
+        0.08890187988679077,
+        0.021974245707268025
+      ]
+    },
+    "candidate_0003": {
+      "output": "/run/user/1000/bear-material-task/candidate-003",
+      "status": "passed",
+      "metrics": {
+        "final_bear_height_ratio": 0.9922202889118844,
+        "release_peak_bear_rms_speed_m_s": 0.3377855718135834,
+        "release_tail_mean_bear_rms_speed_m_s": 0.0026493746360453465,
+        "release_tail_patch_peak_to_peak_mm": 0.04299911670386791,
+        "release_integrated_bear_mean_squared_speed_m2_s": 0.005779752031921215,
+        "release_tail_mean_cloth_rms_speed_m_s": 0.09524975245197614,
+        "max_bear_base_drift_m": 2.977691606381897e-08,
+        "max_bear_support_drift_m": 0.0,
+        "max_inverted_tetrahedra": 0,
+        "min_local_volume_ratio": 0.9729244284661228,
+        "final_patch_indentation_mm": 0.029538383707404137,
+        "max_cloth_extension_fraction": 0.10202078975109852,
+        "peak_cloth_p95_abs_edge_strain": 0.035790349582616135,
+        "final_cloth_p95_abs_edge_strain": 0.02134026117890212,
+        "max_cloth_anchor_drift_m": 5.014248373704417e-08,
+        "mean_step_seconds": 0.12262409580791428,
+        "wall_seconds": 37.30891673500082
+      },
+      "checks": {
+        "finite_states": true,
+        "base_fixed": true,
+        "opposing_support_fixed": true,
+        "cloth_corners_fixed": true,
+        "no_inverted_tetrahedra": true,
+        "geometry_topology_mass_preserved": true
+      },
+      "left_paw_count": 24,
+      "states": {
+        "0": {
+          "left_paw_mean_xyz_m": [
+            -0.15279987330238023,
+            0.07538000354543328,
+            0.9594971165060997
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15295032099370034,
+            0.07749894081104186,
+            0.9580390491793233
+          ],
+          "paw_lateral_separation_mm": 305.75019429608056,
+          "bear_bbox_size_m": [
+            0.33154843747615814,
+            0.23581137135624886,
+            0.48081451654434204
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 0.0
+        },
+        "50": {
+          "left_paw_mean_xyz_m": [
+            -0.15109184260169664,
+            0.0759599821952482,
+            0.9562111149231592
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            1.7080307006835938,
+            0.579978649814919,
+            -3.2860015829404565
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15198437196593131,
+            0.07878600769946652,
+            0.9523051515702279
+          ],
+          "paw_lateral_separation_mm": 303.07621456762797,
+          "bear_bbox_size_m": [
+            0.3300021290779114,
+            0.2368101105093956,
+            0.47704893350601196
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 3.341972386790958
+        },
+        "100": {
+          "left_paw_mean_xyz_m": [
+            -0.15356878377497196,
+            0.0818168125115335,
+            0.9567367732524872
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            -0.7689104725917273,
+            6.436808966100216,
+            -2.7603432536125183
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15456411482826357,
+            0.08453037950300402,
+            0.9531321621710255
+          ],
+          "paw_lateral_separation_mm": 308.13289860323556,
+          "bear_bbox_size_m": [
+            0.3345268964767456,
+            0.2390609048306942,
+            0.4780082106590271
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 7.014064329059785
+        },
+        "250": {
+          "left_paw_mean_xyz_m": [
+            -0.15088207398851713,
+            0.076144114912798,
+            0.95610411465168
+          ],
+          "left_paw_shift_from_initial_xyz_mm": [
+            1.9177993138631,
+            0.7641113673647199,
+            -3.3930018544197083
+          ],
+          "right_paw_mean_xyz_m": [
+            0.15168600457329903,
+            0.0786931746669354,
+            0.9522890198615289
+          ],
+          "paw_lateral_separation_mm": 302.56807856181615,
+          "bear_bbox_size_m": [
+            0.3297608494758606,
+            0.2368205152451992,
+            0.4770738482475281
+          ],
+          "whole_bear_rms_displacement_from_initial_mm": 3.289746613878596
+        }
+      },
+      "left_paw_tail_centroid_peak_to_peak_xyz_mm": [
+        0.05267250041168792,
+        0.12592769538362358,
+        0.12523929278063228
+      ]
+    }
+  },
+  "candidate_vs_original": {
+    "metric_percent_change": {
+      "release_peak_bear_rms_speed_m_s": -14.951159323100194,
+      "release_tail_mean_bear_rms_speed_m_s": -90.83506342381735,
+      "release_integrated_bear_mean_squared_speed_m2_s": -61.00213459660988,
+      "release_tail_patch_peak_to_peak_mm": -91.48062901449728
+    },
+    "left_paw_position_delta_mm": {
+      "50": [
+        0.17729029059410095,
+        -1.2282226234674454,
+        -0.6657813986142846
+      ],
+      "250": [
+        0.011228645841271367,
+        0.4075725252429552,
+        -0.7600138584772376
+      ]
+    }
+  },
+  "candidate_vs_plush_001": {
+    "metric_percent_change": {
+      "release_peak_bear_rms_speed_m_s": 17.382609395390958,
+      "release_tail_mean_bear_rms_speed_m_s": 8.59841970128825,
+      "release_integrated_bear_mean_squared_speed_m2_s": 26.37928194628383,
+      "release_tail_patch_peak_to_peak_mm": -48.87809610618309
+    },
+    "left_paw_position_delta_mm": {
+      "50": [
+        -0.4779559870560779,
+        -0.5987966433167458,
+        3.107662002245548
+      ],
+      "250": [
+        0.22221604983010956,
+        -0.26040850207209587,
+        2.128144105275509
+      ]
+    }
+  }
+}

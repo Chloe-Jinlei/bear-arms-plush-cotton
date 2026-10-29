@@ -1,0 +1,80 @@
+{
+  "criterion": "mean displacement of original nodes with local z > 0.32 m, horizontal norm < 0.05 m; threshold unchanged",
+  "new": {
+    "head": {
+      "mean_displacement_xyz_m": [
+        -0.03386109657662302,
+        0.03908161530697029,
+        -0.004057407679194887
+      ],
+      "horizontal_displacement_m": 0.05171021675040055,
+      "rigid_fit_rotation_deg": 7.8487392006739025,
+      "rigid_fit_rms_residual_m": 0.001931757523041594,
+      "affine_fit_principal_stretches": [
+        1.005108961624702,
+        1.0037124457835584,
+        0.9881328909605223
+      ],
+      "rms_velocity_m_per_s": 9.97396469784812e-05
+    },
+    "torso": {
+      "mean_displacement_xyz_m": [
+        -0.016120972989235077,
+        0.019511679452047122,
+        0.006375627438543603
+      ],
+      "horizontal_displacement_m": 0.02530990725307157,
+      "rigid_fit_rotation_deg": 7.94762440013953,
+      "rigid_fit_rms_residual_m": 0.02472570905737914,
+      "affine_fit_principal_stretches": [
+        1.1628725484432372,
+        1.041944198586815,
+        0.9538252951057462
+      ],
+      "rms_velocity_m_per_s": 4.8863860302609475e-05
+    },
+    "all_bear_rms_velocity_m_per_s": 6.474460272364217e-05
+  },
+  "original": {
+    "head": {
+      "mean_displacement_xyz_m": [
+        -0.0056428801116765095,
+        0.013942152576324762,
+        0.00369276542373996
+      ],
+      "horizontal_displacement_m": 0.015040801654708218,
+      "rigid_fit_rotation_deg": 5.906073040819504,
+      "rigid_fit_rms_residual_m": 0.0010857967569867088,
+      "affine_fit_principal_stretches": [
+        1.002352197374037,
+        0.9995779553375015,
+        0.9966839045359551
+      ],
+      "rms_velocity_m_per_s": 0.0003936039123816822
+    },
+    "torso": {
+      "mean_displacement_xyz_m": [
+        -0.002636554627967547,
+        0.0063165075034912295,
+        0.011146490744302563
+      ],
+      "horizontal_displacement_m": 0.006844683144450012,
+      "rigid_fit_rotation_deg": 5.204321233152193,
+      "rigid_fit_rms_residual_m": 0.02426421516735397,
+      "affine_fit_principal_stretches": [
+        1.1312868885978211,
+        1.0647584561886803,
+        0.9752750618461412
+      ],
+      "rms_velocity_m_per_s": 0.00012303538092766543
+    },
+    "all_bear_rms_velocity_m_per_s": 0.00022830170914659183
+  },
+  "new_head_threshold_excess_m": 0.0017102167504005478,
+  "interpretation": "Final shape is consistent with a settled, gripper-loaded bend: late arm extraction drives the displacement, final speeds are small, head height is preserved, and head affine stretch remains close to one. This is not an unloaded equilibrium test and does not prove stability after releasing the grippers. The unchanged head-displacement acceptance fails.",
+  "visual_references": {
+    "new_front": "/run/user/1000/bear-material-task/full-03/thread_arms-front.png",
+    "new_overhead": "/run/user/1000/bear-material-task/full-03/thread_arms-overhead.png",
+    "original_front": "/home/chloe/Desktop/genesis-local/bear_arms_scene/runs/stabilized-dressing-complete-48/thread_arms-front.png"
+  }
+}

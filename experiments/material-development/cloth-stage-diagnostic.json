@@ -1,0 +1,5869 @@
+{
+  "notes": [
+    "All source and state files are read only. Offline projection intentionally omits contacts/adhesion and is a feasibility diagnostic, not a replacement simulation."
+  ],
+  "runs": {
+    "new": {
+      "initial": {
+        "max_extension": 1.4305114759416426e-06,
+        "p95_absolute_strain": 1.5774438495430587e-06,
+        "n_gt_10pct": 0,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 8.136727140950484e-07,
+            "p95_extension": 8.136727140950484e-07
+          },
+          "weft": {
+            "max_extension": 1.4305114759416426e-06,
+            "p95_extension": 1.4305114759416426e-06
+          },
+          "bias": {
+            "max_extension": 1.0538605852428162e-06,
+            "p95_extension": 1.053860582578281e-06
+          }
+        },
+        "step": 50,
+        "phase": "initial",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        }
+      },
+      "lift": {
+        "max_extension": 0.05086240249346319,
+        "p95_absolute_strain": 0.020000486223160318,
+        "n_gt_10pct": 0,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.031164908348470632,
+            "p95_extension": 0.020438153957297922
+          },
+          "weft": {
+            "max_extension": 0.020059585571289285,
+            "p95_extension": 0.0050298720598222985
+          },
+          "bias": {
+            "max_extension": 0.05086240249346319,
+            "p95_extension": 0.017828647342679416
+          }
+        },
+        "step": 835,
+        "phase": "lift",
+        "free_counts": {
+          "False": 8,
+          "True": 1145
+        },
+        "link_counts": {
+          "-1": 1145,
+          "15": 4,
+          "27": 4
+        }
+      },
+      "wrap": {
+        "max_extension": 0.11484652714418608,
+        "p95_absolute_strain": 0.020003002136944836,
+        "n_gt_10pct": 2,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.09523300861203965,
+            "p95_extension": 0.02043662214825276
+          },
+          "weft": {
+            "max_extension": 0.04567885398864768,
+            "p95_extension": 0.0080253183841703
+          },
+          "bias": {
+            "max_extension": 0.11484652714418608,
+            "p95_extension": 0.019937568818462537
+          }
+        },
+        "step": 2385,
+        "phase": "wrap",
+        "free_counts": {
+          "False": 8,
+          "True": 1145
+        },
+        "link_counts": {
+          "-1": 1145,
+          "15": 4,
+          "27": 4
+        }
+      },
+      "press": {
+        "max_extension": 0.15371891149030348,
+        "p95_absolute_strain": 0.02878237919683456,
+        "n_gt_10pct": 5,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.13748224495455874,
+            "p95_extension": 0.03374152325180341
+          },
+          "weft": {
+            "max_extension": 0.06009662151336692,
+            "p95_extension": 0.011658176779747224
+          },
+          "bias": {
+            "max_extension": 0.15371891149030348,
+            "p95_extension": 0.028915732721536358
+          }
+        },
+        "step": 3075,
+        "phase": "press",
+        "free_counts": {
+          "False": 8,
+          "True": 1145
+        },
+        "link_counts": {
+          "-1": 1145,
+          "15": 4,
+          "27": 4
+        }
+      },
+      "grasp_arm_right": {
+        "max_extension": 0.10359750796368927,
+        "p95_absolute_strain": 0.02240436643910361,
+        "n_gt_10pct": 2,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.10359750796368927,
+            "p95_extension": 0.025315153759060238
+          },
+          "weft": {
+            "max_extension": 0.0891302675008776,
+            "p95_extension": 0.006882846355438453
+          },
+          "bias": {
+            "max_extension": 0.1021422431994492,
+            "p95_extension": 0.021548066868301796
+          }
+        },
+        "step": 4126,
+        "phase": "grasp_arm_right",
+        "free_counts": {
+          "False": 4,
+          "True": 1149
+        },
+        "link_counts": {
+          "-1": 1149,
+          "15": 4
+        }
+      },
+      "through_hole_right": {
+        "max_extension": 0.09461460609075711,
+        "p95_absolute_strain": 0.014885503073158704,
+        "n_gt_10pct": 0,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.09461460609075711,
+            "p95_extension": 0.018049391148999006
+          },
+          "weft": {
+            "max_extension": 0.054752692580223306,
+            "p95_extension": 0.008291512727737649
+          },
+          "bias": {
+            "max_extension": 0.06664259262348549,
+            "p95_extension": 0.012687346655938625
+          }
+        },
+        "step": 4346,
+        "phase": "through_hole_right",
+        "free_counts": {
+          "False": 4,
+          "True": 1149
+        },
+        "link_counts": {
+          "-1": 1149,
+          "15": 4
+        }
+      },
+      "arm_out_right": {
+        "max_extension": 0.08311766931831022,
+        "p95_absolute_strain": 0.014660263483958767,
+        "n_gt_10pct": 0,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.08311766931831022,
+            "p95_extension": 0.017853207507191493
+          },
+          "weft": {
+            "max_extension": 0.07149682939052493,
+            "p95_extension": 0.007971927523613642
+          },
+          "bias": {
+            "max_extension": 0.07150822247286714,
+            "p95_extension": 0.013972526737709656
+          }
+        },
+        "step": 4696,
+        "phase": "arm_out_right",
+        "free_counts": {
+          "False": 4,
+          "True": 1149
+        },
+        "link_counts": {
+          "-1": 1149,
+          "15": 4
+        }
+      },
+      "regrasp_right_outside": {
+        "max_extension": 0.1360543463120225,
+        "p95_absolute_strain": 0.020000460070320848,
+        "n_gt_10pct": 2,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.1041154088669054,
+            "p95_extension": 0.02176440170381727
+          },
+          "weft": {
+            "max_extension": 0.09130464494228385,
+            "p95_extension": 0.008075475692749245
+          },
+          "bias": {
+            "max_extension": 0.1360543463120225,
+            "p95_extension": 0.01706267811458595
+          }
+        },
+        "step": 3645,
+        "phase": "regrasp_right_outside",
+        "free_counts": {
+          "False": 4,
+          "True": 1149
+        },
+        "link_counts": {
+          "-1": 1149,
+          "15": 4
+        }
+      },
+      "grasp_arm_left": {
+        "max_extension": 0.30918249487876914,
+        "p95_absolute_strain": 0.020314465980806273,
+        "n_gt_10pct": 9,
+        "n_gt_30pct": 1,
+        "directions": {
+          "warp": {
+            "max_extension": 0.27709625332161525,
+            "p95_extension": 0.023654392541408664
+          },
+          "weft": {
+            "max_extension": 0.30918249487876914,
+            "p95_extension": 0.006535902619362099
+          },
+          "bias": {
+            "max_extension": 0.2077182120318637,
+            "p95_extension": 0.015805671856192527
+          }
+        },
+        "step": 5747,
+        "phase": "grasp_arm_left",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        }
+      },
+      "through_hole_left": {
+        "max_extension": 0.2503968963269587,
+        "p95_absolute_strain": 0.016934825712994102,
+        "n_gt_10pct": 9,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.2503968963269587,
+            "p95_extension": 0.018934533931315778
+          },
+          "weft": {
+            "max_extension": 0.19432747364044212,
+            "p95_extension": 0.005056545138358625
+          },
+          "bias": {
+            "max_extension": 0.12353187322001613,
+            "p95_extension": 0.014184621812580178
+          }
+        },
+        "step": 5967,
+        "phase": "through_hole_left",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        },
+        "worst_edges": [
+          {
+            "nodes": [
+              16,
+              17
+            ],
+            "direction": "warp",
+            "extension": 0.2503968963269587,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.23057971014492754,
+                -0.1
+              ],
+              [
+                -0.21811594202898552,
+                -0.1
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.17817780375480652,
+              0.11876003444194794,
+              0.9830875396728516
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 1,
+              "right": 32
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.014578297734260559,
+              "right": 0.32283252477645874
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20483781397342682,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3729768991470337,
+              "left": 0.016613610088825226
+            }
+          },
+          {
+            "nodes": [
+              16,
+              86
+            ],
+            "direction": "weft",
+            "extension": 0.19432747364044212,
+            "rest_length_m": 0.012499999999999997,
+            "material_xy_m": [
+              [
+                -0.23057971014492754,
+                -0.1
+              ],
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.17503370344638824,
+              0.1264958381652832,
+              0.9753322005271912
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 33
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.007464547175914049,
+              "right": 0.32030755281448364
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1973574459552765,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3709484338760376,
+              "left": 0.005757636856287718
+            }
+          },
+          {
+            "nodes": [
+              86,
+              87
+            ],
+            "direction": "warp",
+            "extension": 0.1765017553210959,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ],
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.1785212755203247,
+              0.12080388516187668,
+              0.9688241481781006
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 32
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.007331814616918564,
+              "right": 0.32451316714286804
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20172877609729767,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.37500235438346863,
+              "left": 0.010579765774309635
+            }
+          },
+          {
+            "nodes": [
+              17,
+              87
+            ],
+            "direction": "weft",
+            "extension": 0.1280498653650286,
+            "rest_length_m": 0.012499999999999997,
+            "material_xy_m": [
+              [
+                -0.21811594202898552,
+                -0.1
+              ],
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.18166537582874298,
+              0.11306807398796082,
+              0.9765794277191162
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 32
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.007050282787531614,
+              "right": 0.3267459571361542
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20907442271709442,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3770209848880768,
+              "left": 0.019074659794569016
+            }
+          },
+          {
+            "nodes": [
+              320,
+              321
+            ],
+            "direction": "warp",
+            "extension": 0.12552232823745735,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2181159420289855,
+                -0.05
+              ],
+              [
+                0.23057971014492756,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.15043070912361145,
+              0.10803094506263733,
+              1.037842035293579
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 32,
+              "right": 0
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.31451377272605896,
+              "right": 0.0070140971802175045
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1862928718328476,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.0467047281563282,
+              "left": 0.3277493715286255
+            }
+          },
+          {
+            "nodes": [
+              318,
+              383
+            ],
+            "direction": "bias",
+            "extension": 0.12353187322001613,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.18072463768115937,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.14095179736614227,
+              0.07154461741447449,
+              1.0298995971679688
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 29,
+              "right": 0
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3098118007183075,
+              "right": 0.00811265129595995
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1964922994375229,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.06378501653671265,
+              "left": 0.31549638509750366
+            }
+          },
+          {
+            "nodes": [
+              222,
+              288
+            ],
+            "direction": "bias",
+            "extension": 0.12281433764334926,
+            "rest_length_m": 0.01765206831076667,
+            "material_xy_m": [
+              [
+                -0.19318840579710145,
+                -0.0625
+              ],
+              [
+                -0.18072463768115943,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.16823121905326843,
+              0.08258262276649475,
+              0.9472466707229614
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 29
+            },
+            "graph_hops_to_seam": 21,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.009909975342452526,
+              "right": 0.31613093614578247
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.2100139707326889,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3691859841346741,
+              "left": 0.005900959484279156
+            }
+          },
+          {
+            "nodes": [
+              319,
+              320
+            ],
+            "direction": "warp",
+            "extension": 0.12140273328783491,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2056521739130434,
+                -0.05
+              ],
+              [
+                0.2181159420289855,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1507950723171234,
+              0.09502819925546646,
+              1.0410655736923218
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 31,
+              "right": 0
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3173697888851166,
+              "right": 0.006988451816141605
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19478735327720642,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04944601655006409,
+              "left": 0.3282400071620941
+            }
+          },
+          {
+            "nodes": [
+              222,
+              223
+            ],
+            "direction": "warp",
+            "extension": 0.10720600174783357,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.19318840579710145,
+                -0.0625
+              ],
+              [
+                -0.18072463768115943,
+                -0.0625
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.16990341246128082,
+              0.08343718945980072,
+              0.9532152414321899
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 29
+            },
+            "graph_hops_to_seam": 21,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006899986881762743,
+              "right": 0.31645527482032776
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.21119347214698792,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3696581721305847,
+              "left": 0.005607203580439091
+            }
+          },
+          {
+            "nodes": [
+              321,
+              322
+            ],
+            "direction": "warp",
+            "extension": 0.09737582266504563,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.23057971014492756,
+                -0.05
+              ],
+              [
+                0.24304347826086953,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.14554530382156372,
+              0.11767213046550751,
+              1.0299642086029053
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 33,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.30700352787971497,
+              "right": 0.006838675122708082
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17410831153392792,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04945257306098938,
+              "left": 0.32182827591896057
+            }
+          },
+          {
+            "nodes": [
+              318,
+              319
+            ],
+            "direction": "warp",
+            "extension": 0.09539014980370797,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.2056521739130434,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.14642809331417084,
+              0.08228671550750732,
+              1.039736032485962
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 30,
+              "right": 0
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3150637149810791,
+              "right": 0.006826344411820173
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1982773244380951,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.0564921535551548,
+              "left": 0.3233943581581116
+            }
+          },
+          {
+            "nodes": [
+              463,
+              464
+            ],
+            "direction": "warp",
+            "extension": 0.07240083432474886,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.43,
+                -0.012499999999999997
+              ],
+              [
+                -0.417536231884058,
+                -0.012499999999999997
+              ]
+            ],
+            "world_midpoint_m": [
+              0.01577603816986084,
+              0.19741646945476532,
+              0.9343900680541992
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 13,
+              "right": 48
+            },
+            "graph_hops_to_seam": 0,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.1666593998670578,
+              "right": 0.1638261079788208
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.005381467752158642,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.21502135694026947,
+              "left": 0.20289847254753113
+            }
+          }
+        ],
+        "offline_membrane_only_projection": {
+          "1": {
+            "max_extension": 0.16471392707561705,
+            "p95_absolute_strain": 0.017290044151321172,
+            "n_gt_10pct": 3,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.16471392707561705,
+                "p95_extension": 0.019999999999998852
+              },
+              "weft": {
+                "max_extension": 0.033104843712597365,
+                "p95_extension": 0.005245577703867577
+              },
+              "bias": {
+                "max_extension": 0.10000000000000875,
+                "p95_extension": 0.013069024947964025
+              }
+            },
+            "max_displacement_m": 0.0021472383895374918
+          },
+          "24": {
+            "max_extension": 0.10000000000000431,
+            "p95_absolute_strain": 0.018936961699046823,
+            "n_gt_10pct": 1,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.026180276444713657,
+                "p95_extension": 0.020000000000000684
+              },
+              "weft": {
+                "max_extension": 0.02175288248368301,
+                "p95_extension": 0.005245577703867577
+              },
+              "bias": {
+                "max_extension": 0.10000000000000431,
+                "p95_extension": 0.014959242947509721
+              }
+            },
+            "max_displacement_m": 0.002944093243897803
+          },
+          "48": {
+            "max_extension": 0.10000000000000342,
+            "p95_absolute_strain": 0.019041807730543946,
+            "n_gt_10pct": 1,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.021053668716210172,
+                "p95_extension": 0.02000000000000024
+              },
+              "weft": {
+                "max_extension": 0.020133474360666703,
+                "p95_extension": 0.005245577703867577
+              },
+              "bias": {
+                "max_extension": 0.10000000000000342,
+                "p95_extension": 0.014830877992221825
+              }
+            },
+            "max_displacement_m": 0.0031115546670744476
+          },
+          "96": {
+            "max_extension": 0.09997125069699297,
+            "p95_absolute_strain": 0.019041807730543946,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.020041440815661504,
+                "p95_extension": 0.02000000000000024
+              },
+              "weft": {
+                "max_extension": 0.020002336761176354,
+                "p95_extension": 0.005245577703867577
+              },
+              "bias": {
+                "max_extension": 0.09997125069699297,
+                "p95_extension": 0.014877512560197315
+              }
+            },
+            "max_displacement_m": 0.0031441625787463753
+          }
+        }
+      },
+      "arm_out_left": {
+        "max_extension": 0.10361940162473027,
+        "p95_absolute_strain": 0.009685176385499615,
+        "n_gt_10pct": 1,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.10361940162473027,
+            "p95_extension": 0.00926342014179754
+          },
+          "weft": {
+            "max_extension": 0.04148715734481723,
+            "p95_extension": 0.006453692913055642
+          },
+          "bias": {
+            "max_extension": 0.062012799834965104,
+            "p95_extension": 0.007650457947595002
+          }
+        },
+        "step": 6637,
+        "phase": "arm_out_left",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        },
+        "worst_edges": [
+          {
+            "nodes": [
+              86,
+              87
+            ],
+            "direction": "warp",
+            "extension": 0.10361940162473027,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ],
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.21193043887615204,
+              0.1328740417957306,
+              1.00166654586792
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 32
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006877628155052662,
+              "right": 0.32262516021728516
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19868594408035278,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.405943900346756,
+              "left": 0.04493569955229759
+            }
+          },
+          {
+            "nodes": [
+              87,
+              88
+            ],
+            "direction": "warp",
+            "extension": 0.08441230949274159,
+            "rest_length_m": 0.012463768115942048,
+            "material_xy_m": [
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ],
+              [
+                -0.20565217391304347,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.21418622136116028,
+              0.12016484886407852,
+              1.0011343955993652
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 31
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006757921073585749,
+              "right": 0.3227863013744354
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20545227825641632,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.4076858162879944,
+              "left": 0.04781285300850868
+            }
+          },
+          {
+            "nodes": [
+              318,
+              383
+            ],
+            "direction": "bias",
+            "extension": 0.062012799834965104,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.18072463768115937,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.10645289719104767,
+              0.07879656553268433,
+              1.0328048467636108
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 29,
+              "right": 0
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3057916760444641,
+              "right": 0.008396553806960583
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1881122887134552,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.092896968126297,
+              "left": 0.35724854469299316
+            }
+          },
+          {
+            "nodes": [
+              85,
+              154
+            ],
+            "direction": "bias",
+            "extension": 0.056903524449330556,
+            "rest_length_m": 0.017652068310766687,
+            "material_xy_m": [
+              [
+                -0.24304347826086956,
+                -0.08750000000000001
+              ],
+              [
+                -0.2555072463768116,
+                -0.07500000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.19266079366207123,
+              0.14852339029312134,
+              0.9895867705345154
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 34
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.008360454812645912,
+              "right": 0.30763664841651917
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1731153428554535,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3887026309967041,
+              "left": 0.05849833786487579
+            }
+          },
+          {
+            "nodes": [
+              318,
+              319
+            ],
+            "direction": "warp",
+            "extension": 0.056863060004494814,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.2056521739130434,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11217809468507767,
+              0.08952365815639496,
+              1.0420200824737549
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 30,
+              "right": 0
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.31085389852523804,
+              "right": 0.006586229894310236
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18939939141273499,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.08645422756671906,
+              "left": 0.3645344078540802
+            }
+          },
+          {
+            "nodes": [
+              319,
+              320
+            ],
+            "direction": "warp",
+            "extension": 0.056544294277592,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2056521739130434,
+                -0.05
+              ],
+              [
+                0.2181159420289855,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11777324974536896,
+              0.10097697377204895,
+              1.044245719909668
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 31,
+              "right": 0
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3146144151687622,
+              "right": 0.006584258750081062
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18786519765853882,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.0799018144607544,
+              "left": 0.3704243004322052
+            }
+          },
+          {
+            "nodes": [
+              320,
+              321
+            ],
+            "direction": "warp",
+            "extension": 0.05624607720866748,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2181159420289855,
+                -0.05
+              ],
+              [
+                0.23057971014492756,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11900970339775085,
+              0.11300204694271088,
+              1.0414786338806152
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 32,
+              "right": 0
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.31356900930404663,
+              "right": 0.006582378875464201
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18128257989883423,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.07749693840742111,
+              "left": 0.37126457691192627
+            }
+          },
+          {
+            "nodes": [
+              321,
+              322
+            ],
+            "direction": "warp",
+            "extension": 0.055842651010951316,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.23057971014492756,
+                -0.05
+              ],
+              [
+                0.24304347826086953,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11550076305866241,
+              0.12302102893590927,
+              1.0341784954071045
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 33,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.30751150846481323,
+              "right": 0.0065798889845609665
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17042133212089539,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.08017471432685852,
+              "left": 0.36675143241882324
+            }
+          },
+          {
+            "nodes": [
+              1051,
+              1052
+            ],
+            "direction": "warp",
+            "extension": 0.047917594050252976,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                0.0436231884057971,
+                0.0875
+              ],
+              [
+                0.05608695652173912,
+                0.0875
+              ]
+            ],
+            "world_midpoint_m": [
+              0.029635321348905563,
+              -0.011985567398369312,
+              0.8838363289833069
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 18,
+              "right": 10
+            },
+            "graph_hops_to_seam": 28,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2473730891942978,
+              "right": 0.1646512895822525
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.22643053531646729,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.21346311271190643,
+              "left": 0.3008940815925598
+            }
+          },
+          {
+            "nodes": [
+              85,
+              86
+            ],
+            "direction": "warp",
+            "extension": 0.0466740639923624,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.24304347826086956,
+                -0.08750000000000001
+              ],
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.2037789225578308,
+              0.14222916960716248,
+              0.9984623193740845
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 33
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006522742565721273,
+              "right": 0.3168039619922638
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1873081922531128,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3986223340034485,
+              "left": 0.04966874420642853
+            }
+          },
+          {
+            "nodes": [
+              156,
+              222
+            ],
+            "direction": "weft",
+            "extension": 0.04148715734481723,
+            "rest_length_m": 0.012500000000000011,
+            "material_xy_m": [
+              [
+                -0.19318840579710145,
+                -0.07500000000000001
+              ],
+              [
+                -0.19318840579710145,
+                -0.0625
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.20641115307807922,
+              0.09864625334739685,
+              0.9782551527023315
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 30
+            },
+            "graph_hops_to_seam": 20,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006509294267743826,
+              "right": 0.31525561213493347
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20477968454360962,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.40157800912857056,
+              "left": 0.04253992438316345
+            }
+          },
+          {
+            "nodes": [
+              1051,
+              1121
+            ],
+            "direction": "weft",
+            "extension": 0.03902809321880252,
+            "rest_length_m": 0.012500000000000011,
+            "material_xy_m": [
+              [
+                0.0436231884057971,
+                0.0875
+              ],
+              [
+                0.0436231884057971,
+                0.1
+              ]
+            ],
+            "world_midpoint_m": [
+              0.025203552097082138,
+              -0.013890748843550682,
+              0.8764152526855469
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 18,
+              "right": 11
+            },
+            "graph_hops_to_seam": 29,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.24557435512542725,
+              "right": 0.17312303185462952
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.22975963354110718,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.22118079662322998,
+              "left": 0.29945898056030273
+            }
+          }
+        ],
+        "offline_membrane_only_projection": {
+          "1": {
+            "max_extension": 0.0897764074539793,
+            "p95_absolute_strain": 0.009887696753017053,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.0897764074539793,
+                "p95_extension": 0.009617554255328176
+              },
+              "weft": {
+                "max_extension": 0.022191026200530484,
+                "p95_extension": 0.007153307649958095
+              },
+              "bias": {
+                "max_extension": 0.06879882128175119,
+                "p95_extension": 0.007893932848219376
+              }
+            },
+            "max_displacement_m": 0.0007204677337936657
+          },
+          "24": {
+            "max_extension": 0.0824199441831106,
+            "p95_absolute_strain": 0.010845505976421407,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.020522946216308124,
+                "p95_extension": 0.010770251055726432
+              },
+              "weft": {
+                "max_extension": 0.020051539492464965,
+                "p95_extension": 0.0070322652232452446
+              },
+              "bias": {
+                "max_extension": 0.0824199441831106,
+                "p95_extension": 0.008461322644007452
+              }
+            },
+            "max_displacement_m": 0.0013143904756859504
+          },
+          "48": {
+            "max_extension": 0.08245570853923234,
+            "p95_absolute_strain": 0.010871910011184005,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.02001393998494705,
+                "p95_extension": 0.010770251055726432
+              },
+              "weft": {
+                "max_extension": 0.020000538876637775,
+                "p95_extension": 0.00705480416732955
+              },
+              "bias": {
+                "max_extension": 0.08245570853923234,
+                "p95_extension": 0.008461322644007452
+              }
+            },
+            "max_displacement_m": 0.0013189995956779256
+          },
+          "96": {
+            "max_extension": 0.08245591414513953,
+            "p95_absolute_strain": 0.010872059508765713,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.020000024738964006,
+                "p95_extension": 0.010770251055726432
+              },
+              "weft": {
+                "max_extension": 0.02000000010801184,
+                "p95_extension": 0.007055127203991104
+              },
+              "bias": {
+                "max_extension": 0.08245591414513953,
+                "p95_extension": 0.008461322644007452
+              }
+            },
+            "max_displacement_m": 0.0013190256476949445
+          }
+        }
+      },
+      "regrasp_left_outside": {
+        "max_extension": 0.15041191664136044,
+        "p95_absolute_strain": 0.01967543266554734,
+        "n_gt_10pct": 5,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.12170894565276913,
+            "p95_extension": 0.02164774136834785
+          },
+          "weft": {
+            "max_extension": 0.048019230365753396,
+            "p95_extension": 0.004608139395713805
+          },
+          "bias": {
+            "max_extension": 0.15041191664136044,
+            "p95_extension": 0.015335686053475905
+          }
+        },
+        "step": 5266,
+        "phase": "regrasp_left_outside",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        },
+        "worst_edges": [
+          {
+            "nodes": [
+              318,
+              383
+            ],
+            "direction": "bias",
+            "extension": 0.15041191664136044,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.18072463768115937,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.15181964635849,
+              0.06581811606884003,
+              1.0263185501098633
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 29,
+              "right": 0
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.30314555764198303,
+              "right": 0.008067198097705841
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19568723440170288,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.057989880442619324
+            }
+          },
+          {
+            "nodes": [
+              320,
+              321
+            ],
+            "direction": "warp",
+            "extension": 0.12170894565276913,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2181159420289855,
+                -0.05
+              ],
+              [
+                0.23057971014492756,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.16102108359336853,
+              0.10223007202148438,
+              1.0369267463684082
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 32,
+              "right": 0
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3083220422267914,
+              "right": 0.006990354973822832
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1868293583393097,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.03752835467457771
+            }
+          },
+          {
+            "nodes": [
+              318,
+              319
+            ],
+            "direction": "warp",
+            "extension": 0.11293668620462216,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.2056521739130434,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.15733614563941956,
+              0.07624581456184387,
+              1.0368523597717285
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 30,
+              "right": 0
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3083454668521881,
+              "right": 0.00693567655980587
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19788990914821625,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04946713522076607
+            }
+          },
+          {
+            "nodes": [
+              321,
+              322
+            ],
+            "direction": "warp",
+            "extension": 0.1053367463741941,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.23057971014492756,
+                -0.05
+              ],
+              [
+                0.24304347826086953,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.15616706013679504,
+              0.11268017441034317,
+              1.0301260948181152
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 33,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3014121353626251,
+              "right": 0.006888295523822308
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17501145601272583,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.03869941458106041
+            }
+          },
+          {
+            "nodes": [
+              319,
+              320
+            ],
+            "direction": "warp",
+            "extension": 0.10520650524385733,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2056521739130434,
+                -0.05
+              ],
+              [
+                0.2181159420289855,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.16145290434360504,
+              0.08901861310005188,
+              1.0389351844787598
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 31,
+              "right": 0
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3107090890407562,
+              "right": 0.006887512281537056
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19470563530921936,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04094405099749565
+            }
+          },
+          {
+            "nodes": [
+              463,
+              464
+            ],
+            "direction": "warp",
+            "extension": 0.08284343813741013,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.43,
+                -0.012499999999999997
+              ],
+              [
+                -0.417536231884058,
+                -0.012499999999999997
+              ]
+            ],
+            "world_midpoint_m": [
+              0.021814700216054916,
+              0.19060620665550232,
+              0.9376266002655029
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 13,
+              "right": 48
+            },
+            "graph_hops_to_seam": 0,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.16392333805561066,
+              "right": 0.16455645859241486
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.005367313977330923,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.2060248851776123
+            }
+          },
+          {
+            "nodes": [
+              322,
+              386
+            ],
+            "direction": "bias",
+            "extension": 0.0665107982212414,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.24304347826086953,
+                -0.05
+              ],
+              [
+                0.2555072463768116,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1532556414604187,
+              0.1189749538898468,
+              1.0165438652038574
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 34,
+              "right": 0
+            },
+            "graph_hops_to_seam": 12,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.29597026109695435,
+              "right": 0.008495599031448364
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.16329100728034973,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04090436175465584
+            }
+          },
+          {
+            "nodes": [
+              317,
+              318
+            ],
+            "direction": "warp",
+            "extension": 0.05854715328923099,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.18072463768115937,
+                -0.05
+              ],
+              [
+                0.19318840579710145,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.14953923225402832,
+              0.06672480702400208,
+              1.032193660736084
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 29,
+              "right": 0
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3018307685852051,
+              "right": 0.006596739869564772
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19640441238880157,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.05993600934743881
+            }
+          },
+          {
+            "nodes": [
+              327,
+              328
+            ],
+            "direction": "warp",
+            "extension": 0.058294666324586686,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.3053623188405797,
+                -0.05
+              ],
+              [
+                0.31782608695652176,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11059558391571045,
+              0.1498122662305832,
+              0.9799264669418335
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 39,
+              "right": 4
+            },
+            "graph_hops_to_seam": 7,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.24812476336956024,
+              "right": 0.05857524275779724
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.10027013719081879,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.09957199543714523
+            }
+          },
+          {
+            "nodes": [
+              742,
+              743
+            ],
+            "direction": "warp",
+            "extension": 0.056499909176388474,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                -0.3178260869565217,
+                0.037500000000000006
+              ],
+              [
+                -0.30536231884057974,
+                0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.07928497344255447,
+              0.169789656996727,
+              0.8708520531654358
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 5,
+              "right": 39
+            },
+            "graph_hops_to_seam": 9,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.08382797986268997,
+              "right": 0.2743956446647644
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.11747244745492935,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.31561553478240967
+            }
+          },
+          {
+            "nodes": [
+              672,
+              673
+            ],
+            "direction": "warp",
+            "extension": 0.05565644280855597,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                -0.3178260869565217,
+                0.024999999999999994
+              ],
+              [
+                -0.30536231884057974,
+                0.024999999999999994
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.08106018602848053,
+              0.16960176825523376,
+              0.8830020427703857
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 4,
+              "right": 39
+            },
+            "graph_hops_to_seam": 9,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.07524283230304718,
+              "right": 0.2700633704662323
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.11189265549182892,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.31163522601127625
+            }
+          },
+          {
+            "nodes": [
+              262,
+              263
+            ],
+            "direction": "warp",
+            "extension": 0.052839931663728246,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.3053623188405797,
+                -0.0625
+              ],
+              [
+                0.31782608695652176,
+                -0.0625
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1021292507648468,
+              0.1515258252620697,
+              0.9886966943740845
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 39,
+              "right": 4
+            },
+            "graph_hops_to_seam": 7,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2416272610425949,
+              "right": 0.06267639249563217
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.09694530814886093,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.1044999212026596
+            }
+          }
+        ],
+        "offline_membrane_only_projection": {
+          "1": {
+            "max_extension": 0.17723335713240274,
+            "p95_absolute_strain": 0.01999999999999913,
+            "n_gt_10pct": 2,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.17723335713240274,
+                "p95_extension": 0.0202478573307176
+              },
+              "weft": {
+                "max_extension": 0.04562591622018419,
+                "p95_extension": 0.004541285981710616
+              },
+              "bias": {
+                "max_extension": 0.0999999999999941,
+                "p95_extension": 0.015969425026408524
+              }
+            },
+            "max_displacement_m": 0.0008263909499493819
+          },
+          "24": {
+            "max_extension": 0.10000000000000409,
+            "p95_absolute_strain": 0.020000000000000462,
+            "n_gt_10pct": 1,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.027237036273730864,
+                "p95_extension": 0.020042533345862368
+              },
+              "weft": {
+                "max_extension": 0.022802066133567056,
+                "p95_extension": 0.004541285981710616
+              },
+              "bias": {
+                "max_extension": 0.10000000000000409,
+                "p95_extension": 0.016164447446743613
+              }
+            },
+            "max_displacement_m": 0.0032933121832747062
+          },
+          "48": {
+            "max_extension": 0.0999999999999972,
+            "p95_absolute_strain": 0.020000000000000805,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.021314472600343137,
+                "p95_extension": 0.020001283141439452
+              },
+              "weft": {
+                "max_extension": 0.02024945225385899,
+                "p95_extension": 0.004541285981710616
+              },
+              "bias": {
+                "max_extension": 0.0999999999999972,
+                "p95_extension": 0.016996417228404614
+              }
+            },
+            "max_displacement_m": 0.003491295074753445
+          },
+          "96": {
+            "max_extension": 0.1000000000000083,
+            "p95_absolute_strain": 0.020000000000000684,
+            "n_gt_10pct": 1,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.020138388665129403,
+                "p95_extension": 0.02000000058835749
+              },
+              "weft": {
+                "max_extension": 0.020004137551941303,
+                "p95_extension": 0.004541285981710616
+              },
+              "bias": {
+                "max_extension": 0.1000000000000083,
+                "p95_extension": 0.01702908877538034
+              }
+            },
+            "max_displacement_m": 0.0035308327671613013
+          }
+        }
+      },
+      "thread_arms": {
+        "max_extension": 0.11133605783242695,
+        "p95_absolute_strain": 0.013675646483898183,
+        "n_gt_10pct": 1,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.11133605783242695,
+            "p95_extension": 0.013060662689685698
+          },
+          "weft": {
+            "max_extension": 0.062279567122460744,
+            "p95_extension": 0.007603541016578448
+          },
+          "bias": {
+            "max_extension": 0.08449920408846334,
+            "p95_extension": 0.009073394308091842
+          }
+        },
+        "step": 7197,
+        "phase": "thread_arms",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        },
+        "worst_edges": [
+          {
+            "nodes": [
+              318,
+              319
+            ],
+            "direction": "warp",
+            "extension": 0.11133605783242695,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.2056521739130434,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11460182815790176,
+              0.09004552662372589,
+              1.0580675601959229
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 30,
+              "right": 0
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2999534010887146,
+              "right": 0.00692569836974144
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19266560673713684,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.08084587007761002,
+              "left": 0.3626170754432678
+            }
+          },
+          {
+            "nodes": [
+              320,
+              321
+            ],
+            "direction": "warp",
+            "extension": 0.09393724760170175,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2181159420289855,
+                -0.05
+              ],
+              [
+                0.23057971014492756,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11750875413417816,
+              0.11511140316724777,
+              1.0563299655914307
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 32,
+              "right": 0
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.29855334758758545,
+              "right": 0.006817290093749762
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18075470626354218,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.07572378218173981,
+              "left": 0.3654956519603729
+            }
+          },
+          {
+            "nodes": [
+              319,
+              320
+            ],
+            "direction": "warp",
+            "extension": 0.09268325640884534,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2056521739130434,
+                -0.05
+              ],
+              [
+                0.2181159420289855,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1171630248427391,
+              0.10298077762126923,
+              1.06058931350708
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 31,
+              "right": 0
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3005451560020447,
+              "right": 0.006809471175074577
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18878406286239624,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.07635054737329483,
+              "left": 0.36557090282440186
+            }
+          },
+          {
+            "nodes": [
+              318,
+              383
+            ],
+            "direction": "bias",
+            "extension": 0.08449920408846334,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.18072463768115937,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11111076176166534,
+              0.0785629153251648,
+              1.0476765632629395
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 29,
+              "right": 0
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.29615169763565063,
+              "right": 0.00825147982686758
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19200019538402557,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.08780789375305176,
+              "left": 0.3578007221221924
+            }
+          },
+          {
+            "nodes": [
+              87,
+              88
+            ],
+            "direction": "warp",
+            "extension": 0.07988555222576288,
+            "rest_length_m": 0.012463768115942048,
+            "material_xy_m": [
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ],
+              [
+                -0.20565217391304347,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.19303743541240692,
+              0.11526889353990555,
+              1.0310090780258179
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 31
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006729721557348967,
+              "right": 0.3053673803806305
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20104315876960754,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3868061304092407,
+              "left": 0.06575223803520203
+            }
+          },
+          {
+            "nodes": [
+              85,
+              154
+            ],
+            "direction": "bias",
+            "extension": 0.06564542921179206,
+            "rest_length_m": 0.017652068310766687,
+            "material_xy_m": [
+              [
+                -0.24304347826086956,
+                -0.08750000000000001
+              ],
+              [
+                -0.2555072463768116,
+                -0.07500000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.18018151819705963,
+              0.14673206210136414,
+              1.0185030698776245
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 34
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.008269530721008778,
+              "right": 0.2962285280227661
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17364758253097534,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.37677615880966187,
+              "left": 0.07033483684062958
+            }
+          },
+          {
+            "nodes": [
+              85,
+              86
+            ],
+            "direction": "warp",
+            "extension": 0.06330577414049743,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.24304347826086956,
+                -0.08750000000000001
+              ],
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.18850859999656677,
+              0.13886922597885132,
+              1.0289404392242432
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 33
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006626394111663103,
+              "right": 0.30350613594055176
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1873050332069397,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.38350409269332886,
+              "left": 0.06321446597576141
+            }
+          },
+          {
+            "nodes": [
+              844,
+              914
+            ],
+            "direction": "weft",
+            "extension": 0.062279567122460744,
+            "rest_length_m": 0.012499999999999983,
+            "material_xy_m": [
+              [
+                0.08101449275362321,
+                0.05000000000000002
+              ],
+              [
+                0.08101449275362321,
+                0.0625
+              ]
+            ],
+            "world_midpoint_m": [
+              0.05628475919365883,
+              0.0038716986309736967,
+              0.9314314126968384
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 21,
+              "right": 8
+            },
+            "graph_hops_to_seam": 26,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2529560327529907,
+              "right": 0.12273085117340088
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20572061836719513,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.18072541058063507,
+              "left": 0.317727267742157
+            }
+          },
+          {
+            "nodes": [
+              457,
+              458
+            ],
+            "direction": "warp",
+            "extension": 0.06136269304294517,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.36768115942028984,
+                -0.024999999999999994
+              ],
+              [
+                0.3801449275362319,
+                -0.024999999999999994
+              ]
+            ],
+            "world_midpoint_m": [
+              0.05436153709888458,
+              0.18529105186462402,
+              0.9358375072479248
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 44,
+              "right": 9
+            },
+            "graph_hops_to_seam": 5,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.23034372925758362,
+              "right": 0.11914758384227753
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.06502959877252579,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.19769072532653809,
+              "left": 0.3131033182144165
+            }
+          },
+          {
+            "nodes": [
+              86,
+              87
+            ],
+            "direction": "warp",
+            "extension": 0.052485075021206695,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ],
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.19346687197685242,
+              0.12778407335281372,
+              1.032531499862671
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 32
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006558951456099749,
+              "right": 0.30772116780281067
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1968802809715271,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3875342607498169,
+              "left": 0.06119544059038162
+            }
+          },
+          {
+            "nodes": [
+              322,
+              386
+            ],
+            "direction": "bias",
+            "extension": 0.04146943971511208,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.24304347826086953,
+                -0.05
+              ],
+              [
+                0.2555072463768116,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11544913053512573,
+              0.13006329536437988,
+              1.0329599380493164
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 34,
+              "right": 0
+            },
+            "graph_hops_to_seam": 12,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.29247331619262695,
+              "right": 0.00845820177346468
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1602771282196045,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.08311555534601212,
+              "left": 0.36099663376808167
+            }
+          },
+          {
+            "nodes": [
+              321,
+              322
+            ],
+            "direction": "warp",
+            "extension": 0.03836979088915493,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.23057971014492756,
+                -0.05
+              ],
+              [
+                0.24304347826086953,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.11574698984622955,
+              0.12418945878744125,
+              1.0470101833343506
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 33,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2946130633354187,
+              "right": 0.006470952648669481
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17029035091400146,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.0790136456489563,
+              "left": 0.3627411127090454
+            }
+          }
+        ],
+        "offline_membrane_only_projection": {
+          "1": {
+            "max_extension": 0.11653427011149686,
+            "p95_absolute_strain": 0.014035217894735082,
+            "n_gt_10pct": 2,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.11653427011149686,
+                "p95_extension": 0.013623264332023877
+              },
+              "weft": {
+                "max_extension": 0.026297956934628886,
+                "p95_extension": 0.007812859159425705
+              },
+              "bias": {
+                "max_extension": 0.09671010758620269,
+                "p95_extension": 0.009004891162283646
+              }
+            },
+            "max_displacement_m": 0.000608171449173789
+          },
+          "24": {
+            "max_extension": 0.10000000000000497,
+            "p95_absolute_strain": 0.015973957212489606,
+            "n_gt_10pct": 1,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.021752537864618615,
+                "p95_extension": 0.01564521464427432
+              },
+              "weft": {
+                "max_extension": 0.021233697375212746,
+                "p95_extension": 0.008072014910356976
+              },
+              "bias": {
+                "max_extension": 0.10000000000000497,
+                "p95_extension": 0.010193290365699714
+              }
+            },
+            "max_displacement_m": 0.0017084075657835148
+          },
+          "48": {
+            "max_extension": 0.0999999999999952,
+            "p95_absolute_strain": 0.016079371969285734,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.02032319893729584,
+                "p95_extension": 0.015692037087890076
+              },
+              "weft": {
+                "max_extension": 0.0200796486739514,
+                "p95_extension": 0.008072014910356976
+              },
+              "bias": {
+                "max_extension": 0.0999999999999952,
+                "p95_extension": 0.010193290365699714
+              }
+            },
+            "max_displacement_m": 0.0017362770056436653
+          },
+          "96": {
+            "max_extension": 0.09999999999999121,
+            "p95_absolute_strain": 0.016079371969286084,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.020017609941229253,
+                "p95_extension": 0.015692037087890076
+              },
+              "weft": {
+                "max_extension": 0.020000206426583622,
+                "p95_extension": 0.008072014910356976
+              },
+              "bias": {
+                "max_extension": 0.09999999999999121,
+                "p95_extension": 0.010193290365699714
+              }
+            },
+            "max_displacement_m": 0.0017374011186349514
+          }
+        }
+      }
+    },
+    "original": {
+      "initial": {
+        "max_extension": 1.4305114759416426e-06,
+        "p95_absolute_strain": 1.5774438495430587e-06,
+        "n_gt_10pct": 0,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 8.136727140950484e-07,
+            "p95_extension": 8.136727140950484e-07
+          },
+          "weft": {
+            "max_extension": 1.4305114759416426e-06,
+            "p95_extension": 1.4305114759416426e-06
+          },
+          "bias": {
+            "max_extension": 1.0538605852428162e-06,
+            "p95_extension": 1.053860582578281e-06
+          }
+        },
+        "step": 50,
+        "phase": "initial",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        }
+      },
+      "lift": {
+        "max_extension": 0.08823159514644896,
+        "p95_absolute_strain": 0.022290974140687245,
+        "n_gt_10pct": 0,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.08823159514644896,
+            "p95_extension": 0.030349967254021615
+          },
+          "weft": {
+            "max_extension": 0.06871515512466453,
+            "p95_extension": 0.004321977496147377
+          },
+          "bias": {
+            "max_extension": 0.07078720473825628,
+            "p95_extension": 0.016513130278805965
+          }
+        },
+        "step": 835,
+        "phase": "lift",
+        "free_counts": {
+          "False": 8,
+          "True": 1145
+        },
+        "link_counts": {
+          "-1": 1145,
+          "15": 4,
+          "27": 4
+        }
+      },
+      "wrap": {
+        "max_extension": 0.2393343208227805,
+        "p95_absolute_strain": 0.056662962832597176,
+        "n_gt_10pct": 36,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.2393343208227805,
+            "p95_extension": 0.06856559544022073
+          },
+          "weft": {
+            "max_extension": 0.2068486958742144,
+            "p95_extension": 0.014497622847557276
+          },
+          "bias": {
+            "max_extension": 0.1847335426323342,
+            "p95_extension": 0.04640159988524439
+          }
+        },
+        "step": 2385,
+        "phase": "wrap",
+        "free_counts": {
+          "False": 8,
+          "True": 1145
+        },
+        "link_counts": {
+          "-1": 1145,
+          "15": 4,
+          "27": 4
+        }
+      },
+      "press": {
+        "max_extension": 0.23143347391729385,
+        "p95_absolute_strain": 0.0564896452125239,
+        "n_gt_10pct": 36,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.23143347391729385,
+            "p95_extension": 0.06822428223135296
+          },
+          "weft": {
+            "max_extension": 0.20565958321094535,
+            "p95_extension": 0.013386130332946554
+          },
+          "bias": {
+            "max_extension": 0.1849260109987818,
+            "p95_extension": 0.04719880301491264
+          }
+        },
+        "step": 2445,
+        "phase": "press",
+        "free_counts": {
+          "False": 8,
+          "True": 1145
+        },
+        "link_counts": {
+          "-1": 1145,
+          "15": 4,
+          "27": 4
+        }
+      },
+      "grasp_arm_right": {
+        "max_extension": 0.11786888717392241,
+        "p95_absolute_strain": 0.02656242367270107,
+        "n_gt_10pct": 2,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.11786888717392241,
+            "p95_extension": 0.032213487684034314
+          },
+          "weft": {
+            "max_extension": 0.05528168380260379,
+            "p95_extension": 0.00813151895999819
+          },
+          "bias": {
+            "max_extension": 0.09276025449462044,
+            "p95_extension": 0.021513298048814633
+          }
+        },
+        "step": 3496,
+        "phase": "grasp_arm_right",
+        "free_counts": {
+          "False": 4,
+          "True": 1149
+        },
+        "link_counts": {
+          "-1": 1149,
+          "15": 4
+        }
+      },
+      "through_hole_right": {
+        "max_extension": 0.21602975156938542,
+        "p95_absolute_strain": 0.0229758698843216,
+        "n_gt_10pct": 6,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.21602975156938542,
+            "p95_extension": 0.026037233600090415
+          },
+          "weft": {
+            "max_extension": 0.08056098222732455,
+            "p95_extension": 0.008446857333183509
+          },
+          "bias": {
+            "max_extension": 0.07770329801790865,
+            "p95_extension": 0.018546288439288294
+          }
+        },
+        "step": 3716,
+        "phase": "through_hole_right",
+        "free_counts": {
+          "False": 4,
+          "True": 1149
+        },
+        "link_counts": {
+          "-1": 1149,
+          "15": 4
+        }
+      },
+      "arm_out_right": {
+        "max_extension": 0.17897394568075198,
+        "p95_absolute_strain": 0.020287260640586283,
+        "n_gt_10pct": 4,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.17897394568075198,
+            "p95_extension": 0.024883912150679255
+          },
+          "weft": {
+            "max_extension": 0.057350486516951626,
+            "p95_extension": 0.00907516479492143
+          },
+          "bias": {
+            "max_extension": 0.08018417727423754,
+            "p95_extension": 0.01565804946328664
+          }
+        },
+        "step": 4066,
+        "phase": "arm_out_right",
+        "free_counts": {
+          "False": 4,
+          "True": 1149
+        },
+        "link_counts": {
+          "-1": 1149,
+          "15": 4
+        }
+      },
+      "regrasp_right_outside": {
+        "max_extension": 0.19061644167401148,
+        "p95_absolute_strain": 0.02659983343856353,
+        "n_gt_10pct": 2,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.19061644167401148,
+            "p95_extension": 0.032118963857377114
+          },
+          "weft": {
+            "max_extension": 0.05760477483272464,
+            "p95_extension": 0.008445784449577103
+          },
+          "bias": {
+            "max_extension": 0.07091899914049749,
+            "p95_extension": 0.019083332162443067
+          }
+        },
+        "step": 3015,
+        "phase": "regrasp_right_outside",
+        "free_counts": {
+          "False": 4,
+          "True": 1149
+        },
+        "link_counts": {
+          "-1": 1149,
+          "15": 4
+        }
+      },
+      "grasp_arm_left": {
+        "max_extension": 0.1338704633851442,
+        "p95_absolute_strain": 0.016398460426552092,
+        "n_gt_10pct": 4,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.1338704633851442,
+            "p95_extension": 0.017680243848888666
+          },
+          "weft": {
+            "max_extension": 0.059864535927772744,
+            "p95_extension": 0.006377741694449489
+          },
+          "bias": {
+            "max_extension": 0.09403240286407821,
+            "p95_extension": 0.012007692736920816
+          }
+        },
+        "step": 5117,
+        "phase": "grasp_arm_left",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        }
+      },
+      "through_hole_left": {
+        "max_extension": 0.13585822847347506,
+        "p95_absolute_strain": 0.014139276805110443,
+        "n_gt_10pct": 5,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.13585822847347506,
+            "p95_extension": 0.01648377021775066
+          },
+          "weft": {
+            "max_extension": 0.05049751698970817,
+            "p95_extension": 0.005954265594481533
+          },
+          "bias": {
+            "max_extension": 0.09036125870997536,
+            "p95_extension": 0.011791007544760035
+          }
+        },
+        "step": 5337,
+        "phase": "through_hole_left",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        },
+        "worst_edges": [
+          {
+            "nodes": [
+              321,
+              322
+            ],
+            "direction": "warp",
+            "extension": 0.13585822847347506,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.23057971014492756,
+                -0.05
+              ],
+              [
+                0.24304347826086953,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1682223677635193,
+              0.0921614021062851,
+              1.021573781967163
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 33,
+              "right": 0
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.31099337339401245,
+              "right": 0.0070785339921712875
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18524253368377686,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04176664352416992,
+              "left": 0.3311305642127991
+            }
+          },
+          {
+            "nodes": [
+              319,
+              320
+            ],
+            "direction": "warp",
+            "extension": 0.12008941251524252,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2056521739130434,
+                -0.05
+              ],
+              [
+                0.2181159420289855,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.17113161087036133,
+              0.06650818139314651,
+              1.0264174938201904
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 31,
+              "right": 0
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3188621401786804,
+              "right": 0.006980258971452713
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20346540212631226,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04168499633669853,
+              "left": 0.33421948552131653
+            }
+          },
+          {
+            "nodes": [
+              320,
+              321
+            ],
+            "direction": "warp",
+            "extension": 0.11979478212116335,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2181159420289855,
+                -0.05
+              ],
+              [
+                0.23057971014492756,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.17229491472244263,
+              0.07994620501995087,
+              1.0260672569274902
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 32,
+              "right": 0
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3174808621406555,
+              "right": 0.006978423334658146
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19650474190711975,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04268103837966919,
+              "left": 0.3353790044784546
+            }
+          },
+          {
+            "nodes": [
+              318,
+              319
+            ],
+            "direction": "warp",
+            "extension": 0.11038110565481363,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.2056521739130434,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.16480308771133423,
+              0.05505100265145302,
+              1.0231196880340576
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 30,
+              "right": 0
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.31476542353630066,
+              "right": 0.006919741630554199
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20499370992183685,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04092384874820709,
+              "left": 0.32776954770088196
+            }
+          },
+          {
+            "nodes": [
+              957,
+              958
+            ],
+            "direction": "warp",
+            "extension": 0.1016300673661521,
+            "rest_length_m": 0.012463768115942048,
+            "material_xy_m": [
+              [
+                -0.2555072463768116,
+                0.07500000000000001
+              ],
+              [
+                -0.24304347826086956,
+                0.07500000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.11626262217760086,
+              0.13101008534431458,
+              0.846816897392273
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 7,
+              "right": 34
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.08699697256088257,
+              "right": 0.317796528339386
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17471827566623688,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.350362628698349,
+              "left": 0.12762585282325745
+            }
+          },
+          {
+            "nodes": [
+              318,
+              383
+            ],
+            "direction": "bias",
+            "extension": 0.09036125870997536,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.18072463768115937,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1566612720489502,
+              0.04645802080631256,
+              1.0127842426300049
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 29,
+              "right": 0
+            },
+            "graph_hops_to_seam": 18,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3074924051761627,
+              "right": 0.008242647163569927
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20205341279506683,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04342834651470184,
+              "left": 0.31862199306488037
+            }
+          },
+          {
+            "nodes": [
+              86,
+              87
+            ],
+            "direction": "warp",
+            "extension": 0.08899211965847931,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ],
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.16354495286941528,
+              0.10596011579036713,
+              1.0066275596618652
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 32
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006786472629755735,
+              "right": 0.3227192163467407
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.211110457777977,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.36395758390426636,
+              "left": 0.017918847501277924
+            }
+          },
+          {
+            "nodes": [
+              322,
+              386
+            ],
+            "direction": "bias",
+            "extension": 0.08773718889812088,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.24304347826086953,
+                -0.05
+              ],
+              [
+                0.2555072463768116,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.16371852159500122,
+              0.10080543160438538,
+              1.009454607963562
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 34,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3032987713813782,
+              "right": 0.0082871587947011
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17308777570724487,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04100583493709564,
+              "left": 0.3255126476287842
+            }
+          },
+          {
+            "nodes": [
+              322,
+              323
+            ],
+            "direction": "warp",
+            "extension": 0.07257934612070005,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.24304347826086953,
+                -0.05
+              ],
+              [
+                0.2555072463768116,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.16048693656921387,
+              0.10102400928735733,
+              1.0148032903671265
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 34,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3011721074581146,
+              "right": 0.0066841947846114635
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17223481833934784,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04603465646505356,
+              "left": 0.322620153427124
+            }
+          },
+          {
+            "nodes": [
+              222,
+              288
+            ],
+            "direction": "bias",
+            "extension": 0.05586541930179156,
+            "rest_length_m": 0.01765206831076667,
+            "material_xy_m": [
+              [
+                -0.19318840579710145,
+                -0.0625
+              ],
+              [
+                -0.18072463768115943,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.15761232376098633,
+              0.06598984450101852,
+              0.9707176089286804
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 29
+            },
+            "graph_hops_to_seam": 20,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.009319104254245758,
+              "right": 0.3132469058036804
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.21953503787517548,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3540809154510498,
+              "left": 0.007399085909128189
+            }
+          },
+          {
+            "nodes": [
+              88,
+              89
+            ],
+            "direction": "warp",
+            "extension": 0.0554171069850069,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.20565217391304347,
+                -0.08750000000000001
+              ],
+              [
+                -0.19318840579710145,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.1623813807964325,
+              0.08140135556459427,
+              1.0022231340408325
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 30
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.0065772351808846,
+              "right": 0.3176649808883667
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.22071710228919983,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.36047327518463135,
+              "left": 0.031587012112140656
+            }
+          },
+          {
+            "nodes": [
+              331,
+              332
+            ],
+            "direction": "warp",
+            "extension": 0.05186435610575346,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.35521739130434776,
+                -0.05
+              ],
+              [
+                0.36768115942028984,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.08156155794858932,
+              0.16332638263702393,
+              0.9607905149459839
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 43,
+              "right": 8
+            },
+            "graph_hops_to_seam": 4,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.21546876430511475,
+              "right": 0.10790670663118362
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.062084559351205826,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.14403149485588074,
+              "left": 0.24891802668571472
+            }
+          }
+        ],
+        "offline_membrane_only_projection": {
+          "1": {
+            "max_extension": 0.2051032736218512,
+            "p95_absolute_strain": 0.014615983382899817,
+            "n_gt_10pct": 3,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.2051032736218512,
+                "p95_extension": 0.01806452735272801
+              },
+              "weft": {
+                "max_extension": 0.03312335112796627,
+                "p95_extension": 0.006402149987791849
+              },
+              "bias": {
+                "max_extension": 0.1000000000000072,
+                "p95_extension": 0.011413210048959122
+              }
+            },
+            "max_displacement_m": 0.0011437896883714387
+          },
+          "24": {
+            "max_extension": 0.09927575472424732,
+            "p95_absolute_strain": 0.017270797002719725,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.029424366701475746,
+                "p95_extension": 0.019999999999998352
+              },
+              "weft": {
+                "max_extension": 0.020655667381284104,
+                "p95_extension": 0.006451936407778012
+              },
+              "bias": {
+                "max_extension": 0.09927575472424732,
+                "p95_extension": 0.012127491790283274
+              }
+            },
+            "max_displacement_m": 0.0036180521476853636
+          },
+          "48": {
+            "max_extension": 0.09814819257216745,
+            "p95_absolute_strain": 0.017614692706841063,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.021465096512797155,
+                "p95_extension": 0.019999999999998463
+              },
+              "weft": {
+                "max_extension": 0.020100719283884905,
+                "p95_extension": 0.006451936407778012
+              },
+              "bias": {
+                "max_extension": 0.09814819257216745,
+                "p95_extension": 0.012276372213581799
+              }
+            },
+            "max_displacement_m": 0.0038539954141450397
+          },
+          "96": {
+            "max_extension": 0.09789086651536105,
+            "p95_absolute_strain": 0.017612431757579615,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.020044197201411595,
+                "p95_extension": 0.01999999999999802
+              },
+              "weft": {
+                "max_extension": 0.02000296096986509,
+                "p95_extension": 0.006468703356973735
+              },
+              "bias": {
+                "max_extension": 0.09789086651536105,
+                "p95_extension": 0.012331744587690374
+              }
+            },
+            "max_displacement_m": 0.0038994373239884406
+          }
+        }
+      },
+      "arm_out_left": {
+        "max_extension": 0.15302935957388386,
+        "p95_absolute_strain": 0.010282753407955142,
+        "n_gt_10pct": 4,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.15302935957388386,
+            "p95_extension": 0.009773699360964117
+          },
+          "weft": {
+            "max_extension": 0.0469203442335131,
+            "p95_extension": 0.007149815559386982
+          },
+          "bias": {
+            "max_extension": 0.06961656654890391,
+            "p95_extension": 0.008791445034436518
+          }
+        },
+        "step": 5847,
+        "phase": "arm_out_left",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        },
+        "worst_edges": [
+          {
+            "nodes": [
+              319,
+              320
+            ],
+            "direction": "warp",
+            "extension": 0.15302935957388386,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2056521739130434,
+                -0.05
+              ],
+              [
+                0.2181159420289855,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.16314911842346191,
+              0.07061655819416046,
+              1.0271931886672974
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 31,
+              "right": 0
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.32421424984931946,
+              "right": 0.007185539696365595
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20398810505867004,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04943159222602844,
+              "left": 0.37635567784309387
+            }
+          },
+          {
+            "nodes": [
+              88,
+              89
+            ],
+            "direction": "warp",
+            "extension": 0.12047923923751713,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.20565217391304347,
+                -0.08750000000000001
+              ],
+              [
+                -0.19318840579710145,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.17421305179595947,
+              0.09285379946231842,
+              1.0274319648742676
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 30
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006982696708291769,
+              "right": 0.3236040472984314
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.22006286680698395,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3754686117172241,
+              "left": 0.05434950068593025
+            }
+          },
+          {
+            "nodes": [
+              320,
+              321
+            ],
+            "direction": "warp",
+            "extension": 0.12034623337865846,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2181159420289855,
+                -0.05
+              ],
+              [
+                0.23057971014492756,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.16347455978393555,
+              0.08429639041423798,
+              1.0259389877319336
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 32,
+              "right": 0
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.321689635515213,
+              "right": 0.006981854327023029
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19594185054302216,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.0481950044631958,
+              "left": 0.37616655230522156
+            }
+          },
+          {
+            "nodes": [
+              321,
+              322
+            ],
+            "direction": "warp",
+            "extension": 0.10785212627677598,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.23057971014492756,
+                -0.05
+              ],
+              [
+                0.24304347826086953,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.15848198533058167,
+              0.09571900218725204,
+              1.020991563796997
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 33,
+              "right": 0
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3142809569835663,
+              "right": 0.0069039734080433846
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18432551622390747,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04963115602731705,
+              "left": 0.3707832098007202
+            }
+          },
+          {
+            "nodes": [
+              85,
+              86
+            ],
+            "direction": "warp",
+            "extension": 0.09422956160161466,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.24304347826086956,
+                -0.08750000000000001
+              ],
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.16936993598937988,
+              0.12829875946044922,
+              1.0313971042633057
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 33
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006819095928221941,
+              "right": 0.32304418087005615
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20196625590324402,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3731433153152466,
+              "left": 0.04801265895366669
+            }
+          },
+          {
+            "nodes": [
+              318,
+              319
+            ],
+            "direction": "warp",
+            "extension": 0.07863865966021177,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.2056521739130434,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.15746597945690155,
+              0.058649495244026184,
+              1.024927020072937
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 30,
+              "right": 0
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3212414085865021,
+              "right": 0.0067219496704638
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20669852197170258,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.04865454509854317,
+              "left": 0.3712279498577118
+            }
+          },
+          {
+            "nodes": [
+              87,
+              88
+            ],
+            "direction": "warp",
+            "extension": 0.07849818156208932,
+            "rest_length_m": 0.012463768115942048,
+            "material_xy_m": [
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ],
+              [
+                -0.20565217391304347,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.1776282787322998,
+              0.10479874908924103,
+              1.0328688621520996
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 31
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006721050478518009,
+              "right": 0.3292831480503082
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.21899408102035522,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3797141909599304,
+              "left": 0.05037490278482437
+            }
+          },
+          {
+            "nodes": [
+              86,
+              87
+            ],
+            "direction": "warp",
+            "extension": 0.07142204570389143,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ],
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.17601242661476135,
+              0.11720231175422668,
+              1.0343585014343262
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 32
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006676966790109873,
+              "right": 0.32940810918807983
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.212919220328331,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3790069818496704,
+              "left": 0.04607080668210983
+            }
+          },
+          {
+            "nodes": [
+              318,
+              383
+            ],
+            "direction": "bias",
+            "extension": 0.06961656654890391,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.18072463768115937,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1493411362171173,
+              0.049622274935245514,
+              1.015500545501709
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 29,
+              "right": 0
+            },
+            "graph_hops_to_seam": 18,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3136727213859558,
+              "right": 0.008275303989648819
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20468313992023468,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.05120376870036125,
+              "left": 0.363162100315094
+            }
+          },
+          {
+            "nodes": [
+              322,
+              386
+            ],
+            "direction": "bias",
+            "extension": 0.061442253531575286,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.24304347826086953,
+                -0.05
+              ],
+              [
+                0.2555072463768116,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1531144678592682,
+              0.10379714518785477,
+              1.009050965309143
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 34,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.30606579780578613,
+              "right": 0.008329109288752079
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17242634296417236,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.05129098519682884,
+              "left": 0.36479824781417847
+            }
+          },
+          {
+            "nodes": [
+              85,
+              154
+            ],
+            "direction": "bias",
+            "extension": 0.06053108886914438,
+            "rest_length_m": 0.017652068310766687,
+            "material_xy_m": [
+              [
+                -0.24304347826086956,
+                -0.08750000000000001
+              ],
+              [
+                -0.2555072463768116,
+                -0.07500000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.1600857973098755,
+              0.13695861399173737,
+              1.022355079650879
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 34
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.008353237994015217,
+              "right": 0.3137667775154114
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1877206712961197,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.36421191692352295,
+              "left": 0.05461853742599487
+            }
+          },
+          {
+            "nodes": [
+              464,
+              529
+            ],
+            "direction": "weft",
+            "extension": 0.0469203442335131,
+            "rest_length_m": 0.012499999999999997,
+            "material_xy_m": [
+              [
+                -0.417536231884058,
+                -0.012499999999999997
+              ],
+              [
+                -0.417536231884058,
+                0.0
+              ]
+            ],
+            "world_midpoint_m": [
+              0.0012453095987439156,
+              0.20166224241256714,
+              0.964206874370575
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 13,
+              "right": 48
+            },
+            "graph_hops_to_seam": 1,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.16062377393245697,
+              "right": 0.18117208778858185
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.005265908781439066,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.230632483959198,
+              "left": 0.2314024269580841
+            }
+          }
+        ],
+        "offline_membrane_only_projection": {
+          "1": {
+            "max_extension": 0.18040034675809236,
+            "p95_absolute_strain": 0.010390715708361946,
+            "n_gt_10pct": 4,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.18040034675809236,
+                "p95_extension": 0.009944467633620058
+              },
+              "weft": {
+                "max_extension": 0.05780315914167922,
+                "p95_extension": 0.00731871138600133
+              },
+              "bias": {
+                "max_extension": 0.08103161211827703,
+                "p95_extension": 0.009117502174042724
+              }
+            },
+            "max_displacement_m": 0.0012207899162521066
+          },
+          "24": {
+            "max_extension": 0.10000000000000031,
+            "p95_absolute_strain": 0.012835729112467307,
+            "n_gt_10pct": 1,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.026359527369746782,
+                "p95_extension": 0.01109466105585688
+              },
+              "weft": {
+                "max_extension": 0.02575708324911785,
+                "p95_extension": 0.007710276953893607
+              },
+              "bias": {
+                "max_extension": 0.10000000000000031,
+                "p95_extension": 0.00959214860092894
+              }
+            },
+            "max_displacement_m": 0.0030654878464656875
+          },
+          "48": {
+            "max_extension": 0.0999999999999972,
+            "p95_absolute_strain": 0.013304851019846164,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.020691730135925512,
+                "p95_extension": 0.011182449111146908
+              },
+              "weft": {
+                "max_extension": 0.02142019978533871,
+                "p95_extension": 0.00823626545553229
+              },
+              "bias": {
+                "max_extension": 0.0999999999999972,
+                "p95_extension": 0.009570828548987498
+              }
+            },
+            "max_displacement_m": 0.003213738064095447
+          },
+          "96": {
+            "max_extension": 0.10000000000000053,
+            "p95_absolute_strain": 0.013380713649197679,
+            "n_gt_10pct": 1,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.02001377988528419,
+                "p95_extension": 0.011182449111146908
+              },
+              "weft": {
+                "max_extension": 0.020087739633089408,
+                "p95_extension": 0.00823626545553229
+              },
+              "bias": {
+                "max_extension": 0.10000000000000053,
+                "p95_extension": 0.009584273272432053
+              }
+            },
+            "max_displacement_m": 0.003231995159853502
+          }
+        }
+      },
+      "regrasp_left_outside": {
+        "max_extension": 0.13307048544981348,
+        "p95_absolute_strain": 0.014541591120344076,
+        "n_gt_10pct": 4,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.13307048544981348,
+            "p95_extension": 0.016804553449241255
+          },
+          "weft": {
+            "max_extension": 0.07551179826259746,
+            "p95_extension": 0.004428446292876972
+          },
+          "bias": {
+            "max_extension": 0.09080190997000037,
+            "p95_extension": 0.011565827997608302
+          }
+        },
+        "step": 4636,
+        "phase": "regrasp_left_outside",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        },
+        "worst_edges": [
+          {
+            "nodes": [
+              318,
+              319
+            ],
+            "direction": "warp",
+            "extension": 0.13307048544981348,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.2056521739130434,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1683391034603119,
+              0.05283353850245476,
+              1.0213067531585693
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 30,
+              "right": 0
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.30817800760269165,
+              "right": 0.007061147131025791
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20315153896808624,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.03669586405158043
+            }
+          },
+          {
+            "nodes": [
+              321,
+              322
+            ],
+            "direction": "warp",
+            "extension": 0.1308116275210771,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.23057971014492756,
+                -0.05
+              ],
+              [
+                0.24304347826086953,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.17274066805839539,
+              0.08997831493616104,
+              1.0213394165039062
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 33,
+              "right": 0
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3067381680011749,
+              "right": 0.0070470599457621574
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18503545224666595,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.03814215585589409
+            }
+          },
+          {
+            "nodes": [
+              319,
+              320
+            ],
+            "direction": "warp",
+            "extension": 0.12759071878741923,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2056521739130434,
+                -0.05
+              ],
+              [
+                0.2181159420289855,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.17506875097751617,
+              0.06415559351444244,
+              1.0251612663269043
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 31,
+              "right": 0
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3128412663936615,
+              "right": 0.007027006708085537
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20227955281734467,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.03735297545790672
+            }
+          },
+          {
+            "nodes": [
+              320,
+              321
+            ],
+            "direction": "warp",
+            "extension": 0.11555563134335789,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2181159420289855,
+                -0.05
+              ],
+              [
+                0.23057971014492756,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.17658928036689758,
+              0.07752326130867004,
+              1.0253028869628906
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 32,
+              "right": 0
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.312282532453537,
+              "right": 0.0069519998505711555
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19592617452144623,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.0400320366024971
+            }
+          },
+          {
+            "nodes": [
+              318,
+              383
+            ],
+            "direction": "bias",
+            "extension": 0.09080190997000037,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.18072463768115937,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.16009947657585144,
+              0.04442329704761505,
+              1.010643720626831
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 29,
+              "right": 0
+            },
+            "graph_hops_to_seam": 18,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.3014706075191498,
+              "right": 0.008327730931341648
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.19996166229248047,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.03968970105051994
+            }
+          },
+          {
+            "nodes": [
+              322,
+              386
+            ],
+            "direction": "bias",
+            "extension": 0.08859675431099556,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.24304347826086953,
+                -0.05
+              ],
+              [
+                0.2555072463768116,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.16826362907886505,
+              0.0990273505449295,
+              1.009647250175476
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 34,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.30022212862968445,
+              "right": 0.008240776136517525
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17305807769298553,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.0365884006023407
+            }
+          },
+          {
+            "nodes": [
+              322,
+              323
+            ],
+            "direction": "warp",
+            "extension": 0.07638450924220064,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.24304347826086953,
+                -0.05
+              ],
+              [
+                0.2555072463768116,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1649855375289917,
+              0.09897385537624359,
+              1.0149738788604736
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 34,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2977169454097748,
+              "right": 0.006707875058054924
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17218174040317535,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.0417703315615654
+            }
+          },
+          {
+            "nodes": [
+              811,
+              881
+            ],
+            "direction": "weft",
+            "extension": 0.07551179826259746,
+            "rest_length_m": 0.012499999999999983,
+            "material_xy_m": [
+              [
+                -0.3302898550724638,
+                0.05000000000000002
+              ],
+              [
+                -0.3302898550724638,
+                0.0625
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.056253936141729355,
+              0.17694926261901855,
+              0.8829450607299805
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 6,
+              "right": 41
+            },
+            "graph_hops_to_seam": 7,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.1098782941699028,
+              "right": 0.263162761926651
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.09852156788110733,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.29301929473876953
+            }
+          },
+          {
+            "nodes": [
+              957,
+              958
+            ],
+            "direction": "warp",
+            "extension": 0.0623589667036768,
+            "rest_length_m": 0.012463768115942048,
+            "material_xy_m": [
+              [
+                -0.2555072463768116,
+                0.07500000000000001
+              ],
+              [
+                -0.24304347826086956,
+                0.07500000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.11510050296783447,
+              0.1269533932209015,
+              0.850684404373169
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 7,
+              "right": 34
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.08715584129095078,
+              "right": 0.3165558874607086
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17465083301067352,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.34688276052474976
+            }
+          },
+          {
+            "nodes": [
+              961,
+              1031
+            ],
+            "direction": "weft",
+            "extension": 0.058584079146386525,
+            "rest_length_m": 0.012499999999999983,
+            "material_xy_m": [
+              [
+                -0.20565217391304347,
+                0.07500000000000001
+              ],
+              [
+                -0.20565217391304347,
+                0.0875
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.12694640457630157,
+              0.08616731315851212,
+              0.8391240835189819
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 7,
+              "right": 31
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.09304184466600418,
+              "right": 0.32322853803634644
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20599783957004547,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.35500282049179077
+            }
+          },
+          {
+            "nodes": [
+              964,
+              965
+            ],
+            "direction": "warp",
+            "extension": 0.0525347654122954,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.1682608695652174,
+                0.07500000000000001
+              ],
+              [
+                -0.1557971014492754,
+                0.07500000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.11969190835952759,
+              0.04313497245311737,
+              0.8422164916992188
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 7,
+              "right": 27
+            },
+            "graph_hops_to_seam": 20,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.09257940202951431,
+              "right": 0.3119603395462036
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.22348235547542572,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3448144495487213
+            }
+          },
+          {
+            "nodes": [
+              811,
+              880
+            ],
+            "direction": "bias",
+            "extension": 0.05170719511505628,
+            "rest_length_m": 0.01765206831076666,
+            "material_xy_m": [
+              [
+                -0.3302898550724638,
+                0.05000000000000002
+              ],
+              [
+                -0.3427536231884058,
+                0.0625
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.05045381933450699,
+              0.17903608083724976,
+              0.8839885592460632
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 6,
+              "right": 41
+            },
+            "graph_hops_to_seam": 6,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.1139943078160286,
+              "right": 0.25839799642562866
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.09310285747051239,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.2882128655910492
+            }
+          }
+        ],
+        "offline_membrane_only_projection": {
+          "1": {
+            "max_extension": 0.20724816991466133,
+            "p95_absolute_strain": 0.01506953865309971,
+            "n_gt_10pct": 2,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.20724816991466133,
+                "p95_extension": 0.018966796474685965
+              },
+              "weft": {
+                "max_extension": 0.034153168417516255,
+                "p95_extension": 0.00537452519610224
+              },
+              "bias": {
+                "max_extension": 0.09999999999999609,
+                "p95_extension": 0.011240982438713076
+              }
+            },
+            "max_displacement_m": 0.0011027016136632769
+          },
+          "24": {
+            "max_extension": 0.09930295870041905,
+            "p95_absolute_strain": 0.016939668699593933,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.02978057282895863,
+                "p95_extension": 0.019996373188679584
+              },
+              "weft": {
+                "max_extension": 0.0210309344179902,
+                "p95_extension": 0.005685409407697726
+              },
+              "bias": {
+                "max_extension": 0.09930295870041905,
+                "p95_extension": 0.011888360235750017
+              }
+            },
+            "max_displacement_m": 0.003616821271755024
+          },
+          "48": {
+            "max_extension": 0.09770901947083344,
+            "p95_absolute_strain": 0.0169687744803664,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.02152897486984484,
+                "p95_extension": 0.01999948838177701
+              },
+              "weft": {
+                "max_extension": 0.020117735924777058,
+                "p95_extension": 0.005685409407697726
+              },
+              "bias": {
+                "max_extension": 0.09770901947083344,
+                "p95_extension": 0.011934727307707615
+              }
+            },
+            "max_displacement_m": 0.003864293845912321
+          },
+          "96": {
+            "max_extension": 0.09738900040322562,
+            "p95_absolute_strain": 0.017132983388050138,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.02004454364993702,
+                "p95_extension": 0.019999985255171104
+              },
+              "weft": {
+                "max_extension": 0.0200031712757458,
+                "p95_extension": 0.005685409407697726
+              },
+              "bias": {
+                "max_extension": 0.09738900040322562,
+                "p95_extension": 0.011934727307707615
+              }
+            },
+            "max_displacement_m": 0.003911870527145966
+          }
+        }
+      },
+      "thread_arms": {
+        "max_extension": 0.1514912545681002,
+        "p95_absolute_strain": 0.01183672155846861,
+        "n_gt_10pct": 6,
+        "n_gt_30pct": 0,
+        "directions": {
+          "warp": {
+            "max_extension": 0.14073244486610137,
+            "p95_extension": 0.012181124086818429
+          },
+          "weft": {
+            "max_extension": 0.1514912545681002,
+            "p95_extension": 0.008499860763548915
+          },
+          "bias": {
+            "max_extension": 0.07072811357311481,
+            "p95_extension": 0.009003751149182171
+          }
+        },
+        "step": 6567,
+        "phase": "thread_arms",
+        "free_counts": {
+          "True": 1153
+        },
+        "link_counts": {
+          "-1": 1153
+        },
+        "worst_edges": [
+          {
+            "nodes": [
+              89,
+              156
+            ],
+            "direction": "weft",
+            "extension": 0.1514912545681002,
+            "rest_length_m": 0.012499999999999997,
+            "material_xy_m": [
+              [
+                -0.19318840579710145,
+                -0.08750000000000001
+              ],
+              [
+                -0.19318840579710145,
+                -0.07500000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.16005808115005493,
+              0.08452855050563812,
+              1.0400267839431763
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 30
+            },
+            "graph_hops_to_seam": 18,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.007196820341050625,
+              "right": 0.29876989126205444
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.22215884923934937,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.36071616411209106,
+              "left": 0.053376998752355576
+            }
+          },
+          {
+            "nodes": [
+              319,
+              320
+            ],
+            "direction": "warp",
+            "extension": 0.14073244486610137,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2056521739130434,
+                -0.05
+              ],
+              [
+                0.2181159420289855,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.1509166955947876,
+              0.07266126573085785,
+              1.0557126998901367
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 31,
+              "right": 0
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2944163680076599,
+              "right": 0.0071089123375713825
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20414966344833374,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.05568670108914375,
+              "left": 0.36336326599121094
+            }
+          },
+          {
+            "nodes": [
+              87,
+              88
+            ],
+            "direction": "warp",
+            "extension": 0.12464045455982342,
+            "rest_length_m": 0.012463768115942048,
+            "material_xy_m": [
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ],
+              [
+                -0.20565217391304347,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.15690341591835022,
+              0.10265161097049713,
+              1.057754635810852
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 31
+            },
+            "graph_hops_to_seam": 16,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.007008626591414213,
+              "right": 0.29933589696884155
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.21808916330337524,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3599853813648224,
+              "left": 0.06549669057130814
+            }
+          },
+          {
+            "nodes": [
+              88,
+              89
+            ],
+            "direction": "warp",
+            "extension": 0.12274026411563943,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.20565217391304347,
+                -0.08750000000000001
+              ],
+              [
+                -0.19318840579710145,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.1581714153289795,
+              0.09059268236160278,
+              1.0509588718414307
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 30
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.0069967531599104404,
+              "right": 0.2981187105178833
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.22173231840133667,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3600805103778839,
+              "left": 0.05934970825910568
+            }
+          },
+          {
+            "nodes": [
+              321,
+              322
+            ],
+            "direction": "warp",
+            "extension": 0.10631015498278318,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.23057971014492756,
+                -0.05
+              ],
+              [
+                0.24304347826086953,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.14752930402755737,
+              0.0967181921005249,
+              1.0464215278625488
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 33,
+              "right": 0
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.28619158267974854,
+              "right": 0.006894354708492756
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18387804925441742,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.05580776184797287,
+              "left": 0.35907113552093506
+            }
+          },
+          {
+            "nodes": [
+              320,
+              321
+            ],
+            "direction": "warp",
+            "extension": 0.10241256026160861,
+            "rest_length_m": 0.012463768115942075,
+            "material_xy_m": [
+              [
+                0.2181159420289855,
+                -0.05
+              ],
+              [
+                0.23057971014492756,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.15146002173423767,
+              0.08587378263473511,
+              1.0532827377319336
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 32,
+              "right": 0
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.29214468598365784,
+              "right": 0.0068700844421982765
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1957133561372757,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.052424825727939606,
+              "left": 0.36338672041893005
+            }
+          },
+          {
+            "nodes": [
+              318,
+              319
+            ],
+            "direction": "warp",
+            "extension": 0.09578341375603805,
+            "rest_length_m": 0.012463768115941964,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.2056521739130434,
+                -0.05
+              ]
+            ],
+            "world_midpoint_m": [
+              0.14590300619602203,
+              0.06034158915281296,
+              1.0531632900238037
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 30,
+              "right": 0
+            },
+            "graph_hops_to_seam": 17,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2924143373966217,
+              "right": 0.006828793324530125
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.20755158364772797,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.0567270964384079,
+              "left": 0.3588855266571045
+            }
+          },
+          {
+            "nodes": [
+              86,
+              87
+            ],
+            "direction": "warp",
+            "extension": 0.08077818592793795,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ],
+              [
+                -0.21811594202898552,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.15283380448818207,
+              0.11495005339384079,
+              1.0594748258590698
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 32
+            },
+            "graph_hops_to_seam": 15,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006735284347087145,
+              "right": 0.2980733811855316
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.21060572564601898,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3567248284816742,
+              "left": 0.06493502110242844
+            }
+          },
+          {
+            "nodes": [
+              85,
+              86
+            ],
+            "direction": "warp",
+            "extension": 0.08037901890659138,
+            "rest_length_m": 0.01246376811594202,
+            "material_xy_m": [
+              [
+                -0.24304347826086956,
+                -0.08750000000000001
+              ],
+              [
+                -0.23057971014492754,
+                -0.08750000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.14607875049114227,
+              0.12530025839805603,
+              1.0550241470336914
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 33
+            },
+            "graph_hops_to_seam": 14,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.006732796784490347,
+              "right": 0.29194265604019165
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.1992860734462738,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3507409989833832,
+              "left": 0.0688590332865715
+            }
+          },
+          {
+            "nodes": [
+              318,
+              383
+            ],
+            "direction": "bias",
+            "extension": 0.07072811357311481,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.19318840579710145,
+                -0.05
+              ],
+              [
+                0.18072463768115937,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.13932818174362183,
+              0.05069216340780258,
+              1.0429589748382568
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 29,
+              "right": 0
+            },
+            "graph_hops_to_seam": 18,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2884472608566284,
+              "right": 0.008231980726122856
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.2059290111064911,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.061076801270246506,
+              "left": 0.35252517461776733
+            }
+          },
+          {
+            "nodes": [
+              85,
+              154
+            ],
+            "direction": "bias",
+            "extension": 0.068418493175743,
+            "rest_length_m": 0.017652068310766687,
+            "material_xy_m": [
+              [
+                -0.24304347826086956,
+                -0.08750000000000001
+              ],
+              [
+                -0.2555072463768116,
+                -0.07500000000000001
+              ]
+            ],
+            "world_midpoint_m": [
+              -0.13882821798324585,
+              0.1338866800069809,
+              1.043944239616394
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 0,
+              "right": 34
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.008357121609151363,
+              "right": 0.28510037064552307
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.18540489673614502,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.3443049192428589,
+              "left": 0.07578402757644653
+            }
+          },
+          {
+            "nodes": [
+              322,
+              386
+            ],
+            "direction": "bias",
+            "extension": 0.059774194355694865,
+            "rest_length_m": 0.017652068310766707,
+            "material_xy_m": [
+              [
+                0.24304347826086953,
+                -0.05
+              ],
+              [
+                0.2555072463768116,
+                -0.037500000000000006
+              ]
+            ],
+            "world_midpoint_m": [
+              0.14443054795265198,
+              0.10390744358301163,
+              1.0331995487213135
+            ],
+            "free": [
+              true,
+              true
+            ],
+            "links": [
+              -1,
+              -1
+            ],
+            "graph_hops_to_hole": {
+              "left": 34,
+              "right": 0
+            },
+            "graph_hops_to_seam": 13,
+            "distance_midpoint_to_hole_nodes_m": {
+              "left": 0.2819977402687073,
+              "right": 0.008443335071206093
+            },
+            "distance_midpoint_to_seam_nodes_m": 0.17212249338626862,
+            "distance_midpoint_to_held_bear_nodes_m": {
+              "right": 0.06061486899852753,
+              "left": 0.35562530159950256
+            }
+          }
+        ],
+        "offline_membrane_only_projection": {
+          "1": {
+            "max_extension": 0.17031714310381751,
+            "p95_absolute_strain": 0.012066082135860043,
+            "n_gt_10pct": 4,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.17031714310381751,
+                "p95_extension": 0.012249872730612121
+              },
+              "weft": {
+                "max_extension": 0.09079641655412996,
+                "p95_extension": 0.008935408549653088
+              },
+              "bias": {
+                "max_extension": 0.08822713024518847,
+                "p95_extension": 0.00918511370658548
+              }
+            },
+            "max_displacement_m": 0.0013851169974125415
+          },
+          "24": {
+            "max_extension": 0.09999999999999987,
+            "p95_absolute_strain": 0.01497178846977897,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.026045923166360785,
+                "p95_extension": 0.013732737694885921
+              },
+              "weft": {
+                "max_extension": 0.03241730498304918,
+                "p95_extension": 0.009630484936173463
+              },
+              "bias": {
+                "max_extension": 0.09999999999999987,
+                "p95_extension": 0.009938931014716545
+              }
+            },
+            "max_displacement_m": 0.0027258327138825504
+          },
+          "48": {
+            "max_extension": 0.10000000000000941,
+            "p95_absolute_strain": 0.01507905080929057,
+            "n_gt_10pct": 1,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.020810345975116107,
+                "p95_extension": 0.013732737694885921
+              },
+              "weft": {
+                "max_extension": 0.024085788207573566,
+                "p95_extension": 0.00999083932682926
+              },
+              "bias": {
+                "max_extension": 0.10000000000000941,
+                "p95_extension": 0.009881007057547353
+              }
+            },
+            "max_displacement_m": 0.0028422609051981518
+          },
+          "96": {
+            "max_extension": 0.09999999999999298,
+            "p95_absolute_strain": 0.015162205206157409,
+            "n_gt_10pct": 0,
+            "n_gt_30pct": 0,
+            "directions": {
+              "warp": {
+                "max_extension": 0.02008028628543146,
+                "p95_extension": 0.013732737694885921
+              },
+              "weft": {
+                "max_extension": 0.020456770543198832,
+                "p95_extension": 0.010018501613059427
+              },
+              "bias": {
+                "max_extension": 0.09999999999999298,
+                "p95_extension": 0.009947512353566834
+              }
+            },
+            "max_displacement_m": 0.002855222984698824
+          }
+        }
+      }
+    }
+  }
+}

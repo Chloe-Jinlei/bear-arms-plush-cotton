@@ -1,0 +1,11 @@
+{
+  "purpose": "Preserve a failed repeat; do not present press-stage checks as a completed task.",
+  "profile": "plush_cotton",
+  "configuration_identical_to_recorded_full_run": true,
+  "backend": "cpu",
+  "quadrants_threads": 2,
+  "rendering_enabled": false,
+  "failed_at_simulation_seconds": 52.66,
+  "reason": "Original static torso planning proxy rejects otherwise hole-feasible left-arm grasp candidates. No collision thresholds, actions, or assets were relaxed.",
+  "complete_run_success_claim": false
+}

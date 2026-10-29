@@ -1,0 +1,23 @@
+{
+  "command": [
+    "bash",
+    "/run/user/1000/bear-material-task/full-02-source/run-wrap.sh",
+    "--headless",
+    "--backend",
+    "cpu",
+    "--width",
+    "640",
+    "--height",
+    "480",
+    "--record-fps",
+    "15",
+    "--output",
+    "/run/user/1000/bear-material-task/full-03"
+  ],
+  "returncode": 0,
+  "wall_seconds": 3862.3400053977966,
+  "source_snapshot": "/run/user/1000/bear-material-task/full-02-source",
+  "fresh_simulation": true,
+  "backend": "cpu",
+  "genesis_version": "1.4.3"
+}

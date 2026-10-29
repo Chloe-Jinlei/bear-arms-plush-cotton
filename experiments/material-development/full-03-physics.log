@@ -1,0 +1,101 @@
+Genesis backend: cpu
+[38;5;226m[Genesis] [16:38:43] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [16:38:43] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [16:38:43] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [16:38:43] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+Building scene and compiling physics kernels...
+[38;5;226m[Genesis] [16:38:44] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+[38;5;226m[Genesis] [16:38:45] [WARNING] Filtered out geometry pairs causing self-collision for the neutral configuration (qpos0): (12, 17), (13, 17), (20, 27), (21, 26), (22, 29), (23, 28), (36, 41), (37, 41), (44, 51), (45, 50), (46, 53), (47, 52). Consider tuning Morph option 'decompose_robot_error_threshold' or specify dedicated collision meshes. This behavior can be disabled by setting Morph option 'enable_neutral_collision=True'.[0m
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+Phase settle: t=0.00s
+Phase pregrasp: t=0.50s
+Step 100, pregrasp, max cloth stretch 1.000
+Step 200, pregrasp, max cloth stretch 1.000
+Phase grasp: t=2.28s
+Step 300, grasp, max cloth stretch 1.000
+Step 400, grasp, max cloth stretch 1.000
+Step 500, grasp, max cloth stretch 1.000
+left grasp gated by both pads: [0, 1, 70, 71]
+right grasp gated by both pads: [68, 69, 138, 139]
+Phase lift: t=5.77s
+Step 600, lift, max cloth stretch 1.005
+Step 700, lift, max cloth stretch 1.053
+Step 800, lift, max cloth stretch 1.050
+Phase approach_body: t=8.35s
+Step 900, approach_body, max cloth stretch 1.048
+Step 1000, approach_body, max cloth stretch 1.049
+Step 1100, approach_body, max cloth stretch 1.047
+Phase wrap: t=11.63s
+Step 1200, wrap, max cloth stretch 1.046
+Step 1300, wrap, max cloth stretch 1.066
+Step 1400, wrap, max cloth stretch 1.100
+Step 1500, wrap, max cloth stretch 1.100
+Step 1600, wrap, max cloth stretch 1.095
+Step 1700, wrap, max cloth stretch 1.122
+Step 1800, wrap, max cloth stretch 1.140
+Step 1900, wrap, max cloth stretch 1.224
+Step 2000, wrap, max cloth stretch 1.161
+Step 2100, wrap, max cloth stretch 1.180
+Step 2200, wrap, max cloth stretch 1.203
+Step 2300, wrap, max cloth stretch 1.133
+Phase press: t=23.85s
+Seam refine 0: gap=0.0098 m, normal dot=-0.826, bonds=0
+Step 2400, press, max cloth stretch 1.113
+Seam refine 1: gap=0.0078 m, normal dot=-0.813, bonds=0
+Step 2500, press, max cloth stretch 1.114
+Seam refine 2: gap=0.0087 m, normal dot=-0.815, bonds=0
+Step 2600, press, max cloth stretch 1.118
+Seam refine 3: gap=0.0099 m, normal dot=-0.834, bonds=0
+Step 2700, press, max cloth stretch 1.119
+Seam refine 4: gap=0.0090 m, normal dot=-0.969, bonds=0
+Step 2800, press, max cloth stretch 1.120
+Seam refine 5: gap=0.0117 m, normal dot=-0.891, bonds=0
+Step 2900, press, max cloth stretch 1.124
+Seam refine 6: gap=0.0078 m, normal dot=-0.908, bonds=0
+Step 3000, press, max cloth stretch 1.120
+Velcro: 1 active / 1 formed, t=30.08s
+Phase regrasp_right: t=30.75s
+Phase regrasp_right: t=30.75s
+Step 3100, regrasp_right, max cloth stretch 1.111
+Step 3200, regrasp_right, max cloth stretch 1.117
+Step 3300, regrasp_right, max cloth stretch 1.118
+Step 3400, regrasp_right, max cloth stretch 1.116
+Step 3500, regrasp_right, max cloth stretch 1.114
+Step 3600, regrasp_right, max cloth stretch 1.112
+Step 3700, regrasp_right, max cloth stretch 1.111
+Step 3800, regrasp_right, max cloth stretch 1.110
+Step 3900, regrasp_right, max cloth stretch 1.110
+Step 4000, regrasp_right, max cloth stretch 1.110
+Step 4100, regrasp_right, max cloth stretch 1.110
+Phase pull_right: t=41.26s
+Step 4200, pull_right, max cloth stretch 1.112
+Step 4300, pull_right, max cloth stretch 1.099
+Step 4400, pull_right, max cloth stretch 1.110
+Step 4500, pull_right, max cloth stretch 1.080
+Step 4600, pull_right, max cloth stretch 1.093
+Phase regrasp_left: t=46.96s
+Phase regrasp_left: t=46.96s
+Step 4700, regrasp_left, max cloth stretch 1.055
+Step 4800, regrasp_left, max cloth stretch 1.166
+Step 4900, regrasp_left, max cloth stretch 1.165
+Step 5000, regrasp_left, max cloth stretch 1.166
+Step 5100, regrasp_left, max cloth stretch 1.166
+Step 5200, regrasp_left, max cloth stretch 1.166
+Traceback (most recent call last):
+  File "/run/user/1000/bear-material-task/full-02-source/scene.py", line 374, in <module>
+    main()
+  File "/run/user/1000/bear-material-task/full-02-source/scene.py", line 280, in main
+    return run_wrap(args)
+           ^^^^^^^^^^^^^^
+  File "/run/user/1000/bear-material-task/full-02-source/wrap_task.py", line 640, in run_wrap
+    okay=experiment.execute()
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/run/user/1000/bear-material-task/full-02-source/arms_task.py", line 408, in execute
+    if continuation!='thread_arms':self.extract('left',skip_to='pull' if continuation=='grasp_arm_left' else None)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/user/1000/bear-material-task/full-02-source/arms_task.py", line 313, in extract
+    if chosen is None:raise RuntimeError(side+' has no reachable grasp that passes through the actual aperture')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: left has no reachable grasp that passes through the actual aperture
+

@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "colors_disjoint": true,
+  "direction_counts": [
+    2,
+    2,
+    1
+  ],
+  "initial": {
+    "maximum_extension_fraction": 0.30000002682209015,
+    "p95_absolute_edge_strain": 0.30000002682209015,
+    "maximum_bound_excess_fraction": 0.2800000268220901,
+    "directions": {
+      "warp": {
+        "maximum_extension_fraction": 0.30000002682209015,
+        "p95_extension_fraction": 0.30000002682209015,
+        "maximum_bound_excess_fraction": 0.2800000268220901
+      },
+      "weft": {
+        "maximum_extension_fraction": 0.20000001043081284,
+        "p95_extension_fraction": 0.20000001043081284,
+        "maximum_bound_excess_fraction": 0.18000001043081276
+      },
+      "bias": {
+        "maximum_extension_fraction": 0.2509995964867182,
+        "p95_extension_fraction": 0.2509995964867182,
+        "maximum_bound_excess_fraction": 0.15099959648671818
+      }
+    }
+  },
+  "after": {
+    "maximum_extension_fraction": 0.02000003680586815,
+    "p95_absolute_edge_strain": 0.020000018179416656,
+    "maximum_bound_excess_fraction": 3.680586807552899e-08,
+    "directions": {
+      "warp": {
+        "maximum_extension_fraction": 0.013778895139694214,
+        "p95_extension_fraction": 0.013778895139694214,
+        "maximum_bound_excess_fraction": 0.0
+      },
+      "weft": {
+        "maximum_extension_fraction": 0.02000003680586815,
+        "p95_extension_fraction": 0.020000032149255276,
+        "maximum_bound_excess_fraction": 3.680586807552899e-08
+      },
+      "bias": {
+        "maximum_extension_fraction": 0.01052462784388819,
+        "p95_extension_fraction": 0.01052462784388819,
+        "maximum_bound_excess_fraction": 0.0
+      }
+    }
+  },
+  "mass_center_error_m": 1.5384205792627631e-09,
+  "compressed_positions_unchanged": true,
+  "fixed_node_unchanged": true,
+  "description": {
+    "model": "tension-only finite extension of existing woven-cloth mesh edges",
+    "warp_extension_limit_fraction": 0.02,
+    "weft_extension_limit_fraction": 0.02,
+    "bias_extension_limit_fraction": 0.1,
+    "material_axes": "original horizontal cloth X=warp, Y=weft; other edges=bias",
+    "edge_counts": {
+      "warp": 2,
+      "weft": 2,
+      "bias": 1
+    },
+    "solver": "inverse-mass-weighted in-place projections on disjoint edge colors",
+    "colors": 3,
+    "sweeps_per_native_stretch_call": 4,
+    "coupled_constraint_residual": "finite sweeps and later bending/contact may exceed bounds; inspect measure()",
+    "native_stretch_retained": true,
+    "compression_constrained": false,
+    "fixed_and_link_attached_particles_unchanged": true,
+    "each_edge_correction_equal_opposite_and_central": true,
+    "measured_fabric_calibration": false,
+    "mesh_and_particle_targets_unchanged": true
+  }
+}

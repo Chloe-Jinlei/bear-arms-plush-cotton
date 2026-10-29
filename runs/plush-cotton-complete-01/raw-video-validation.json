@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "videos_synchronized": true,
+  "shared_simulation_frame_count": 1080,
+  "simulation_time_range_s": [
+    0.01,
+    71.94
+  ],
+  "fps": 15,
+  "videos": [
+    {
+      "file": "wrapping-process.mp4",
+      "sha256": "f2d671b41bcd27f03a82c978e88850866233dac94c506620abcf0be02924bee0",
+      "bytes": 24412340,
+      "stream": {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 556,
+        "r_frame_rate": "15/1",
+        "duration": "72.000000",
+        "nb_read_frames": "1080"
+      },
+      "format": {
+        "duration": "72.000000",
+        "size": "24412340"
+      },
+      "ffmpeg_full_decode_exit_code": 0,
+      "decode_stderr": "",
+      "checks": {
+        "full_decode": true,
+        "frame_count_matches_recorded_steps": true,
+        "dimensions_match": true,
+        "fps_matches": true,
+        "duration_matches": true
+      }
+    },
+    {
+      "file": "wrapping-left-side.mp4",
+      "sha256": "e3fd3a76475c376fe45a90960fb34907519c2bc62bdfcb2dd7d02d3ce9aab27b",
+      "bytes": 7999964,
+      "stream": {
+        "codec_name": "h264",
+        "width": 640,
+        "height": 480,
+        "r_frame_rate": "15/1",
+        "duration": "72.000000",
+        "nb_read_frames": "1080"
+      },
+      "format": {
+        "duration": "72.000000",
+        "size": "7999964"
+      },
+      "ffmpeg_full_decode_exit_code": 0,
+      "decode_stderr": "",
+      "checks": {
+        "full_decode": true,
+        "frame_count_matches_recorded_steps": true,
+        "dimensions_match": true,
+        "fps_matches": true,
+        "duration_matches": true
+      }
+    },
+    {
+      "file": "wrapping-rear.mp4",
+      "sha256": "014001d5460cb9fd781343ad1ff11f8d0a374bda3ed0a6385e559c1e1616e53c",
+      "bytes": 13309072,
+      "stream": {
+        "codec_name": "h264",
+        "width": 640,
+        "height": 480,
+        "r_frame_rate": "15/1",
+        "duration": "72.000000",
+        "nb_read_frames": "1080"
+      },
+      "format": {
+        "duration": "72.000000",
+        "size": "13309072"
+      },
+      "ffmpeg_full_decode_exit_code": 0,
+      "decode_stderr": "",
+      "checks": {
+        "full_decode": true,
+        "frame_count_matches_recorded_steps": true,
+        "dimensions_match": true,
+        "fps_matches": true,
+        "duration_matches": true
+      }
+    }
+  ]
+}

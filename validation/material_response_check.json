@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "backend": "cpu",
+  "substep_dt_s": 0.001,
+  "artificial_fixture": {
+    "body": "one 5 cm tetrahedron, 20 g",
+    "cloth": "5 cm square, 0.45 g",
+    "gravity_m_per_s2": [
+      0,
+      0,
+      0
+    ],
+    "temporary_axial_compression_fraction": 0.2,
+    "production_assets_or_controller_changed": false
+  },
+  "rigid_motion_velocity_error_m_per_s": {
+    "translation": 0.0,
+    "rotation": 9.313225746154785e-10,
+    "translation_and_rotation": 0.0
+  },
+  "free_damping": {
+    "kinetic_energy_before_J": 0.01313027594572741,
+    "kinetic_energy_after_J": 0.012801731199969702,
+    "kinetic_energy_ratio": 0.9749780776035697,
+    "linear_momentum_error_kg_m_per_s": 5.648971136844433e-10,
+    "angular_momentum_error_kg_m2_per_s": 8.442312844877717e-12
+  },
+  "fixed_velocity_error_m_per_s": 0.0,
+  "bear_shape_damping": {
+    "rate_per_s": 20.0,
+    "pure_expansion_expected_velocity_factor": 0.9801986733067553,
+    "pure_expansion_velocity_error_m_per_s": 1.8964754627814884e-09,
+    "free_subset_linear_momentum_error_kg_m_per_s": 5.015325440807911e-10,
+    "free_subset_angular_momentum_error_kg_m2_per_s": 1.112844787994819e-11,
+    "degenerate_free_subset_velocity_error_m_per_s": 0.0
+  },
+  "finite_volume_compliance": {
+    "initial_J": 0.8000000715255737,
+    "after_first_solve_J": 0.8044641613960266,
+    "after_same_substep_repeat_J": 0.8044641613960266,
+    "first_multiplier": 1.2220993106382139e-08,
+    "repeat_multiplier": 1.2220993106382139e-08,
+    "after_deliberate_extra_multiplier_reset_J": 0.8088518381118774,
+    "new_substep_resets_multiplier": true
+  },
+  "cotton_air_coefficient_sum_kg_per_m": 0.0015312499017454684,
+  "complete_simulation_step_finite": true,
+  "limitations": [
+    "Synthetic kernel verification; not real-material calibration.",
+    "Robot grasp and full wrapping behavior require the separate task regression."
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "baseline_commit": "abe0008c9331e1d3d875c73916008af7d612186b",
+  "local_branch": "plush-cotton-materials",
+  "github_pushed": false,
+  "contents": "Source, unchanged assets, original material configuration, material tests and validation reports. Large run videos/states remain in the adjacent local runs directory.",
+  "files": [
+    {
+      "file": ".gitignore",
+      "sha256": "297106a948183937f540017fe7010c863f515ffdd1795947c773794223801dec",
+      "bytes": 48
+    },
+    {
+      "file": "README_CN.md",
+      "sha256": "3a4a203e27831179135944b5b5cfd3f097d8967854c293995f6e7fa806688f69",
+      "bytes": 12213
+    },
+    {
+      "file": "arm_geometry.py",
+      "sha256": "2d68d06c0676bd05b581cb6d8b3f9cfda07a9847db6f6ba7439a131dc640cded",
+      "bytes": 4122
+    },
+    {
+      "file": "arms_task.py",
+      "sha256": "c68134ab2bde9c70c1af1e0000b9f31bae3d8d05507325c570482e6f78e8d704",
+      "bytes": 28060
+    },
+    {
+      "file": "asset_primitives.py",
+      "sha256": "154b242810b515d8ce152558b1000a0ee87909cd545acf814a15540137ca7395",
+      "bytes": 14331
+    },
+    {
+      "file": "config.toml",
+      "sha256": "2a84970f5b3b543bc9f6934fc6df75d857666a0c21aacc3c8825545bc9b3052c",
+      "bytes": 2473
+    },
+    {
+      "file": "cotton_bending.py",
+      "sha256": "6b03618681091db806bda0e524f791aed24865a3e9d9cbace804d8fa27b582af",
+      "bytes": 11612
+    },
+    {
+      "file": "cotton_membrane.py",
+      "sha256": "8c760d7e58364933c30dca02cfd1cfcdad745ced6fbba03bd59996f1f3b0313a",
+      "bytes": 9191
+    },
+    {
+      "file": "development-runs.json",
+      "sha256": "333e309126271c5b53a7b11bd98698249ff7981dd1ce735c586a22803bde418b",
+      "bytes": 30658
+    },
+    {
+      "file": "generate_assets.py",
+      "sha256": "1427ea26947677179e4857543bf0e62d0d670076dbd832dba083725f621d0d24",
+      "bytes": 6359
+    },
+    {
+      "file": "installation.json",
+      "sha256": "8b9da8ecb00b4434f77a9efe7b1773dda229eaefd7d05190ca42103893290266",
+      "bytes": 641872
+    },
+    {
+      "file": "material_response.py",
+      "sha256": "dc19379c00dda289550b97f619619778674bda68e273511e0ebcddd1d7319ffb",
+      "bytes": 22286
+    },
+    {
+      "file": "pbd_adapter.py",
+      "sha256": "66cae87488ceaee8ed604971597ef8aa01ff597ef9b1adeaeae4271b358efbd5",
+      "bytes": 10796
+    },
+    {
+      "file": "results-manifest.json",
+      "sha256": "34a4382eb945e5d984e238b79cbb31d65a4ff7c2d381703eb965e266bb0c7681",
+      "bytes": 641465
+    },
+    {
+      "file": "results-summary.json",
+      "sha256": "2a22cb14b831c3ccb1bab6848d930c07eab21b805d49f1fe93d290d5d5f1d824",
+      "bytes": 3195
+    },
+    {
+      "file": "robot_geometry.py",
+      "sha256": "7db08dfedbd4230feb81d5947bc9dd29630311938f33979a15a8cc417842bb29",
+      "bytes": 5535
+    },
+    {
+      "file": "run-wrap.sh",
+      "sha256": "af2e8b067e2ebfdb60c1fde68d69e73093f0b5abf47a2fef8eeff7127d08e5e1",
+      "bytes": 185
+    },
+    {
+      "file": "run.sh",
+      "sha256": "e3b4998eef4537e41d349b38f206aa6668c650c9b948137d857a6f1d8a95614f",
+      "bytes": 505
+    },
+    {
+      "file": "scene.py",
+      "sha256": "2f59daedf058e32403c814ee46bdb6b59ebeea02f274e8a0f57b61f66630cf32",
+      "bytes": 21759
+    },
+    {
+      "file": "seam_surface_contact.py",
+      "sha256": "d5345a20ef7f6323297510c7aedd22381224d4609b4133490016d957ca2503af",
+      "bytes": 31524
+    },
+    {
+      "file": "velcro_contact.py",
+      "sha256": "53b4d7655b6261c0f6653b476904a67e0e61822f4a6bf9cc433e28b96f4fb56e",
+      "bytes": 25065
+    },
+    {
+      "file": "velcro_plan.json",
+      "sha256": "93f598aa916329ecfa774e085e692882dcbcf81d62288aca4ad6beb904be7dea",
+      "bytes": 468571
+    },
+    {
+      "file": "wrap_contact.py",
+      "sha256": "e4f3f537ac09c7a8e3cee5b42422d779a0a2346240629a1091431fdb7184b57c",
+      "bytes": 23971
+    },
+    {
+      "file": "wrap_plan.json",
+      "sha256": "ca03d79ba129cea16241e47ee6d3731590880ec8f082f85406c747170ad05cf2",
+      "bytes": 360489
+    },
+    {
+      "file": "wrap_task.py",
+      "sha256": "0bbf9bd497e8aef10c913913cd2d2ae0bfa37b39929ede5cb4ce8c588c2b1b00",
+      "bytes": 42526
+    },
+    {
+      "file": "assets/bear.mtl",
+      "sha256": "0fb81a2a795e9992758865ac0a84db36a39c5cf88bab33d24ac794084c11a48d",
+      "bytes": 87
+    },
+    {
+      "file": "assets/bear.npz",
+      "sha256": "ff025e7e5402c0a3666672a1f55734df6dc4ae6453122cace95a68ce635fe912",
+      "bytes": 412701
+    },
+    {
+      "file": "assets/bear.obj",
+      "sha256": "f493b0849780aec1ff4dd4e95d154d63bf3bd64aa4c391e130b67969dec60f01",
+      "bytes": 803092
+    },
+    {
+      "file": "assets/bear_fur.png",
+      "sha256": "5cc9a077d02adddd0427c2248a540106e4a69c6576af8a769c35f60430e58e7a",
+      "bytes": 2862826
+    },
+    {
+      "file": "assets/cotton.mtl",
+      "sha256": "d593690597bee8a72b04588f8464269c305f4de01cc5c6392fd65e959ebb1104",
+      "bytes": 91
+    },
+    {
+      "file": "assets/cotton.npz",
+      "sha256": "9b42ef060b8d8c5ff2cd621f92e7a67d5fba1413b622d221dff4ac7c1fade8c5",
+      "bytes": 16530
+    },
+    {
+      "file": "assets/cotton.obj",
+      "sha256": "c8a45dfecfa6f6be97f6c815678dad0cfb1ecddceedaf63b837c3a940ea45044",
+      "bytes": 107352
+    },
+    {
+      "file": "assets/cotton_weave.png",
+      "sha256": "c587f42ece1b0354663857f847340f90783a2beaff0dc5c3ccb09b35a7b416bb",
+      "bytes": 716493
+    },
+    {
+      "file": "assets/metadata.json",
+      "sha256": "0cb6fdabdffd5d94ec935a7c6ecd7ff462705fe20848552482d7cc2226bc1e01",
+      "bytes": 20590
+    },
+    {
+      "file": "configs/original.toml",
+      "sha256": "f5e8dd500bc482eb33c1e2d39c17c9148929761da31004958cb1c39e66ecb414",
+      "bytes": 1682
+    },
+    {
+      "file": "validation/arm_grasp_inversion_review.json",
+      "sha256": "c87c7a53209999948638404763252495488c9bc96a2ea2cf5bc270fc1dee15b8",
+      "bytes": 19927
+    },
+    {
+      "file": "validation/bending_check.json",
+      "sha256": "c3e66be50b2577428042befe1035180ca369ee00bb30079e3b846a6940cde6e8",
+      "bytes": 1103
+    },
+    {
+      "file": "validation/check_bending.py",
+      "sha256": "1890e57fa7b0a1493a4518a24e52e91e65056199ccde84aa901580c850c7d2e7",
+      "bytes": 9639
+    },
+    {
+      "file": "validation/check_material_response.py",
+      "sha256": "b33f97e74c29ae5c4e670df98aae90a4d1abd19f96e8cd4283e3e689064d2d61",
+      "bytes": 12540
+    },
+    {
+      "file": "validation/check_material_scope.py",
+      "sha256": "7dceb7e4ece2e09e0497529b8d50b9f81afb5930f374147e37ffbe2db47eb7e4",
+      "bytes": 3240
+    },
+    {
+      "file": "validation/check_membrane.py",
+      "sha256": "e4aaecb1a3ab4b2086d45bcd5af56f48e0ea7329a00186742ac53ec84357fdd1",
+      "bytes": 6216
+    },
+    {
+      "file": "validation/check_recordings.py",
+      "sha256": "e6e89e2c068a5125c8a6135c516a60dc535d945f0f8d0e3a5db5423bf137f474",
+      "bytes": 2223
+    },
+    {
+      "file": "validation/check_replay_material_health.py",
+      "sha256": "82b394edfac3fd46612177dad35de102a1df4463ccdbcbca528639d5a810cff1",
+      "bytes": 11804
+    },
+    {
+      "file": "validation/check_saved_material_health.py",
+      "sha256": "ae6ee287d11fc233b0763369bbc6a875c592a8992390a2dcc091a6602f4bffe7",
+      "bytes": 11369
+    },
+    {
+      "file": "validation/compare_wrapping_stages.py",
+      "sha256": "3f3718e582f13aff9c4a0655b2aa49faca404d084d699abb70fc5a211d9c41ce",
+      "bytes": 4433
+    },
+    {
+      "file": "validation/cotton-solver-diagnosis.json",
+      "sha256": "0088181fd5de7c832c9d31dbbf4d85b00a681251539682d61ea1c4def235c51c",
+      "bytes": 204207
+    },
+    {
+      "file": "validation/material_response_check.json",
+      "sha256": "4f87d0a852cc4f4a2158ba0bcb12ec19a184fe5c2fbd50e2708aaf01a03a1d2a",
+      "bytes": 1893
+    },
+    {
+      "file": "validation/material_scope.json",
+      "sha256": "bcf772a552c3c27a98e94b519e77026a11b282cef931da4435d15b93be12724b",
+      "bytes": 3945
+    },
+    {
+      "file": "validation/membrane_check.json",
+      "sha256": "68d22867ebbc10a71140a45a69bde8fddb2c2d3aea5075004886354c7d3e8e26",
+      "bytes": 2984
+    },
+    {
+      "file": "validation/probe_materials.py",
+      "sha256": "89a72993fbd8a3799bd24dfe1b4dd47a4c5b753c31d910967b41c67c354b3e78",
+      "bytes": 23531
+    },
+    {
+      "file": "validation/render_saved_state.py",
+      "sha256": "8913ca9bd3dfc45f177822142db81938bf91acf469c82385bb3b3056fa91f895",
+      "bytes": 10093
+    },
+    {
+      "file": "validation/review_dressing.py",
+      "sha256": "edbdc40d9f48d2004b466cb8db8c6d03b4c9435c3f14317ba9fb5d17fb0b19b6",
+      "bytes": 8068
+    },
+    {
+      "file": "validation/full_run/cloth-replay-comparison.json",
+      "sha256": "85053da4933d16ba424e1bf994db13581b99839417c1a98f76cb00fc43ca92a5",
+      "bytes": 4889
+    },
+    {
+      "file": "validation/full_run/execution.json",
+      "sha256": "490e813dcfaa0e41b3cbe343e21d86d7ab074841acaf1678f4a12aed61beda8b",
+      "bytes": 504
+    },
+    {
+      "file": "validation/full_run/head-pose-review.json",
+      "sha256": "794e0d289f2c09f1edea7e884018ba36caa3103dddd57a46f28585d19406f723",
+      "bytes": 3069
+    },
+    {
+      "file": "validation/full_run/independent-dressing-review.json",
+      "sha256": "d929d71850f21abb97ab17bd3ad4379e6364780187b0a50ea89201e8ad1f79ab",
+      "bytes": 68489
+    },
+    {
+      "file": "validation/full_run/material-health.json",
+      "sha256": "5f25928e7f2b8e9e7991bfdf6462f2a2b8933b403730422f09fce72e03b8d5b5",
+      "bytes": 41047
+    },
+    {
+      "file": "validation/full_run/material-stage-comparison.json",
+      "sha256": "0790a97689238a1c36b7bb2f7591ad8366ba38fabb18c84df0dd79564dfead8b",
+      "bytes": 49411
+    },
+    {
+      "file": "validation/full_run/original-replay-health.json",
+      "sha256": "58243d596987c9587dca74417a50fd2bb0a7b396d527713064d8c319a0f542d1",
+      "bytes": 18520
+    },
+    {
+      "file": "validation/full_run/replay-health.json",
+      "sha256": "60dd3314d551c85f5dacde69cfd1a6cbf357336e727a37397c51f40cb9307f8c",
+      "bytes": 13950
+    },
+    {
+      "file": "validation/material_probe/comparison.json",
+      "sha256": "a762f7ee86c6e3907e447d4215fd1fc3416d81e6fb3f9be7af2d2ca1eeec0305",
+      "bytes": 2798
+    },
+    {
+      "file": "validation/material_probe/comparison.png",
+      "sha256": "8439947832849fb8793069b05bab03dd71856666d89d0e4cd2535cadf9cc99cf",
+      "bytes": 204869
+    },
+    {
+      "file": "validation/material_probe/original-report.json",
+      "sha256": "4715bcc4e9f9b4e821a458a4d2118f555086ae7535dc1e9ef00578c710e7c084",
+      "bytes": 222421
+    },
+    {
+      "file": "validation/material_probe/plush-0000-initial-bear.png",
+      "sha256": "67a5c7845d3620ec10210c1418ad3954cd1e4b9e250558d85dabd53a21655372",
+      "bytes": 30635
+    },
+    {
+      "file": "validation/material_probe/plush-0000-initial-cloth.png",
+      "sha256": "f531c7eeaedc66376e19c9c25fb0387346b3aaa72acd8e2a584a24f03b9c06c9",
+      "bytes": 11884
+    },
+    {
+      "file": "validation/material_probe/plush-0080-compressed-bear.png",
+      "sha256": "2107a802fe0092275b7649c9cc74332ba9a914a3f09b7edd500d2d5f3d2c6f70",
+      "bytes": 18570
+    },
+    {
+      "file": "validation/material_probe/plush-0080-compressed-cloth.png",
+      "sha256": "e983592ff62f95dbb7acd062baa1aa8dcd17516497b9418f293d08c90d1ab742",
+      "bytes": 14804
+    },
+    {
+      "file": "validation/material_probe/plush-0100-release-bear.png",
+      "sha256": "8432107207bac69e596c361ba14ef71ef5befb785b2b10a62219a22d1b871b57",
+      "bytes": 18320
+    },
+    {
+      "file": "validation/material_probe/plush-0100-release-cloth.png",
+      "sha256": "e99e4093e7d2e83146a56ab0e3614db7d84619c199ec7ccdf1f893e1204f5aaf",
+      "bytes": 14122
+    },
+    {
+      "file": "validation/material_probe/plush-0250-recovered-bear.png",
+      "sha256": "c918354a3ebea105cd808f581217ec77205caff7a599bf101d4eee1b0d56f699",
+      "bytes": 18849
+    },
+    {
+      "file": "validation/material_probe/plush-0250-recovered-cloth.png",
+      "sha256": "3d194280ff5e4f2321de454e25234b73c01c3ce0704e9d631cbbeeda3dd78361",
+      "bytes": 14575
+    },
+    {
+      "file": "validation/material_probe/plush-cotton-report.json",
+      "sha256": "ed922c9cfb938ae8f530c739e73a96d5fdc264cdba783efb64bc18f1fd273378",
+      "bytes": 227697
+    },
+    {
+      "file": "validation/material_probe/source-at-test/manifest.json",
+      "sha256": "449ca720d28885c902e0e72bb4d8a17d7752ce08477c01d2827ad2ecd6af7331",
+      "bytes": 5313
+    },
+    {
+      "file": "validation/material_probe/source-at-test/original-to-current.diff",
+      "sha256": "aefb4d1db5089c1690e5b532918f73a9eb3e3c6c146cb0c07d607bc0ca926492",
+      "bytes": 3589
+    },
+    {
+      "file": "validation/material_probe/source-at-test/plush_cotton-to-current.diff",
+      "sha256": "bad1d263aaff42f76984dba12f09827af1bddf72f08ebc51f482794bb4ee3494",
+      "bytes": 2702
+    },
+    {
+      "file": "validation/material_probe/source-at-test/original/configs/original.toml",
+      "sha256": "f5e8dd500bc482eb33c1e2d39c17c9148929761da31004958cb1c39e66ecb414",
+      "bytes": 1682
+    },
+    {
+      "file": "validation/material_probe/source-at-test/original/validation/probe_materials.py",
+      "sha256": "aa290589e9d657dc63658cc0f6d3614f3804f0faa3a5acc522fa4defc7b9ab70",
+      "bytes": 23223
+    },
+    {
+      "file": "validation/material_probe/source-at-test/plush_cotton/shape-20.toml",
+      "sha256": "2a84970f5b3b543bc9f6934fc6df75d857666a0c21aacc3c8825545bc9b3052c",
+      "bytes": 2473
+    },
+    {
+      "file": "validation/material_probe/source-at-test/plush_cotton/validation/probe_materials.py",
+      "sha256": "5dcb57803c1fc7551905947bba8b107b39e72b1b7f8829d49b08730698376a80",
+      "bytes": 23220
+    },
+    {
+      "file": "validation/repeatability_failure/context.json",
+      "sha256": "87f04af44fe466d1bd4f69e27b624e2f7a5909c1d39a6e57124e123b20dc00d1",
+      "bytes": 510
+    },
+    {
+      "file": "validation/repeatability_failure/execution.json",
+      "sha256": "b683246df490988c1c21b03bf50e45f212a35b7075bc0c5ae9c120ae4654ea2c",
+      "bytes": 2752
+    },
+    {
+      "file": "validation/repeatability_failure/left-aperture-diagnostic.json",
+      "sha256": "787f7c12b2ef21449f884670ff73c7fe58aaff97013a7ed90117b144f7b2f474",
+      "bytes": 17073
+    },
+    {
+      "file": "validation/repeatability_failure/report.json",
+      "sha256": "dd1304bc5d3b2bf1456db01a028bd21b9ff621762f56799d2523659e40ef7cb3",
+      "bytes": 362015
+    },
+    {
+      "file": "validation/repeatability_failure/state-failure.npz",
+      "sha256": "7b1c767834b8946d6e5fda0f58445d054bd03b0781bc14036dca5a3748c22fcf",
+      "bytes": 62050
+    },
+    {
+      "file": "validation/repeatability_failure/state-regrasp_left_outside.npz",
+      "sha256": "1a41465aa321e5baece4e17752a4cc4792def63bd2abeeacd12f6be3ff325ec1",
+      "bytes": 51278
+    }
+  ]
+}

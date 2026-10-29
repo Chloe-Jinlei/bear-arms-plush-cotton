@@ -1,0 +1,117 @@
+Genesis backend: cpu
+[38;5;226m[Genesis] [16:11:27] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [16:11:27] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [16:11:27] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [16:11:27] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+Building scene and compiling physics kernels...
+[38;5;226m[Genesis] [16:11:28] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+[38;5;226m[Genesis] [16:11:31] [WARNING] Filtered out geometry pairs causing self-collision for the neutral configuration (qpos0): (12, 17), (13, 17), (20, 27), (21, 26), (22, 29), (23, 28), (36, 41), (37, 41), (44, 51), (45, 50), (46, 53), (47, 52). Consider tuning Morph option 'decompose_robot_error_threshold' or specify dedicated collision meshes. This behavior can be disabled by setting Morph option 'enable_neutral_collision=True'.[0m
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/_test_tools/warnings_helper.py:11: UserWarning: cannot create weak reference to 'tuple' object. Template mapper caching disabled.
+  warnings.warn(message)
+/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:1174: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+Phase settle: t=0.00s
+Phase pregrasp: t=0.50s
+Step 100, pregrasp, max cloth stretch 1.000
+Step 200, pregrasp, max cloth stretch 1.000
+Phase grasp: t=2.28s
+Traceback (most recent call last):
+  File "/tmp/bear-material-full-01-source/wrap_task.py", line 640, in run_wrap
+    okay=experiment.execute()
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/bear-material-full-01-source/arms_task.py", line 396, in execute
+    okay=super().execute()
+         ^^^^^^^^^^^^^^^^^
+  File "/tmp/bear-material-full-01-source/wrap_task.py", line 426, in execute
+    self.grasp();stage="grasp"
+    ^^^^^^^^^^^^
+  File "/tmp/bear-material-full-01-source/wrap_task.py", line 315, in grasp
+    self.move(targets,1.4,down)
+  File "/tmp/bear-material-full-01-source/arms_task.py", line 204, in move
+    return super().move(targets,seconds,quats,joint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/bear-material-full-01-source/wrap_task.py", line 257, in move
+    q=self.solve(s,start[s]+v*(np.asarray(target)-start[s]),qrot)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/bear-material-full-01-source/wrap_task.py", line 132, in solve
+    q,e=robot.inverse_kinematics(link=self.hands[side],pos=pos,quat=quat,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/utils/misc.py", line 150, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/entities/rigid_entity/rigid_entity.py", line 1556, in inverse_kinematics
+    ret = self.inverse_kinematics_multilink(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/utils/misc.py", line 150, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/entities/rigid_entity/rigid_entity.py", line 1732, in inverse_kinematics_multilink
+    qpos, err_pose = self._solver.inverse_kinematics(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chloe/Desktop/genesis-local/genesis-world/genesis/engine/solvers/kinematic_solver.py", line 1612, in inverse_kinematics
+    kernel_inverse_kinematics_entity(
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/_quadrants_callable.py", line 101, in __call__
+    return self.wrapper.__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/kernel_impl.py", line 180, in wrapped_func
+    return primal(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/kernel.py", line 1046, in __call__
+    key = self.ensure_compiled(*py_args)  # type: ignore[arg-type]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/kernel.py", line 957, in ensure_compiled
+    self.materialize(key=key, py_args=py_args, arg_features=arg_features)
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/kernel.py", line 626, in materialize
+    self._maybe_persist_l1_and_set_l2_key(key, py_args)
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/kernel.py", line 630, in _maybe_persist_l1_and_set_l2_key
+    new_fast_checksum, generated = src_hasher.persist_l1_and_set_l2_key(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/_fast_caching/src_hasher.py", line 263, in persist_l1_and_set_l2_key
+    store_pruning_info(
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/_fast_caching/src_hasher.py", line 222, in store_pruning_info
+    cache.store(source_config_key, cache_value.model_dump_json())
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/quadrants/lang/_fast_caching/python_side_cache.py", line 53, in store
+    f.write(value)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/bear-material-full-01-source/wrap_task.py", line 652, in run_wrap
+    (run/"report.json").write_text(json.dumps(report,indent=2))
+  File "/home/chloe/Desktop/genesis-local/.tools/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1048, in write_text
+    return f.write(data)
+           ^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 786, in _savez
+    format.write_array(fid, val,
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/numpy/lib/_format_impl.py", line 777, in write_array
+    fp.write(chunk.tobytes('C'))
+  File "/home/chloe/Desktop/genesis-local/.tools/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/zipfile/__init__.py", line 1262, in write
+    self._fileobj.write(data)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/bear-material-full-01-source/scene.py", line 368, in <module>
+    main()
+  File "/tmp/bear-material-full-01-source/scene.py", line 274, in main
+    return run_wrap(args)
+           ^^^^^^^^^^^^^^
+  File "/tmp/bear-material-full-01-source/wrap_task.py", line 655, in run_wrap
+    if experiment:experiment.close()
+                  ^^^^^^^^^^^^^^^^^^
+  File "/tmp/bear-material-full-01-source/wrap_task.py", line 617, in close
+    self.close_videos()
+  File "/tmp/bear-material-full-01-source/wrap_task.py", line 608, in close_videos
+    np.savez_compressed(self.run/'replay-frames.npz',**{k:np.asarray([f[k] for f in self.replay_frames]) for k in self.replay_frames[0]})
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 753, in savez_compressed
+    _savez(file, args, kwds, True, allow_pickle=allow_pickle)
+  File "/home/chloe/Desktop/genesis-local/.venv/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 785, in _savez
+    with zipf.open(fname, 'w', force_zip64=True) as fid:
+  File "/home/chloe/Desktop/genesis-local/.tools/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/zipfil

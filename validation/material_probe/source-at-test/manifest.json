@@ -1,0 +1,156 @@
+{
+  "purpose": "保存实际生成已交付材料测试报告的 probe 脚本和配置；所有副本逐字节匹配报告中的 SHA-256，未为归档改造源文件。",
+  "evidence_only": "此目录是证据快照，不是独立可运行的源代码包。当前复现入口仍是仓库 validation/probe_materials.py；共享的资产和求解器文件使用仓库对应文件，并已按各报告哈希核对。",
+  "current_script": "../../probe_materials.py",
+  "current_script_sha256": "89a72993fbd8a3799bd24dfe1b4dd47a4c5b753c31d910967b41c67c354b3e78",
+  "differences_from_measured_scripts": [
+    "当前比较入口在新材料检查失败时仍保留比较结果，但返回非零退出码；原版检查失败仍允许作为对照。",
+    "当前对比图下排展示布料 P95 应变和最大局部伸长，替代旧图的体积比和布料速度；坐标改用百分比，并调整标题和边界避免裁切。这只重绘已有轨迹，不改变已记录模拟结果。",
+    "原材质实测脚本中的新材料分支仍使用旧膜配置键名；当前脚本已统一为 warp_max_extension/weft_max_extension/bias_max_extension/strain_limit_iterations。原材质测试未执行该分支，最终 plush_cotton 实测脚本已使用统一键名。",
+    "最终 plush_cotton 实测脚本与当前脚本的物理运行部分相同；差异仅为比较结果绘图和失败退出处理。"
+  ],
+  "measurements": [
+    {
+      "profile": "original",
+      "report": "../original-report.json",
+      "files": [
+        {
+          "archive_path": "original/validation/probe_materials.py",
+          "report_hash_key": "validation/probe_materials.py",
+          "sha256": "aa290589e9d657dc63658cc0f6d3614f3804f0faa3a5acc522fa4defc7b9ab70",
+          "matches_recorded_measurement_hash": true
+        },
+        {
+          "archive_path": "original/configs/original.toml",
+          "report_hash_key": "configs/original.toml",
+          "sha256": "f5e8dd500bc482eb33c1e2d39c17c9148929761da31004958cb1c39e66ecb414",
+          "matches_recorded_measurement_hash": true
+        }
+      ],
+      "shared_repository_files_checked": [
+        {
+          "path": "assets/bear.mtl",
+          "matches_report": true
+        },
+        {
+          "path": "assets/bear.npz",
+          "matches_report": true
+        },
+        {
+          "path": "assets/bear.obj",
+          "matches_report": true
+        },
+        {
+          "path": "assets/bear_fur.png",
+          "matches_report": true
+        },
+        {
+          "path": "assets/cotton.mtl",
+          "matches_report": true
+        },
+        {
+          "path": "assets/cotton.npz",
+          "matches_report": true
+        },
+        {
+          "path": "assets/cotton.obj",
+          "matches_report": true
+        },
+        {
+          "path": "assets/cotton_weave.png",
+          "matches_report": true
+        },
+        {
+          "path": "assets/metadata.json",
+          "matches_report": true
+        },
+        {
+          "path": "pbd_adapter.py",
+          "matches_report": true
+        },
+        {
+          "path": "scene.py",
+          "matches_report": true
+        }
+      ],
+      "difference_file": "original-to-current.diff"
+    },
+    {
+      "profile": "plush_cotton",
+      "report": "../plush-cotton-report.json",
+      "files": [
+        {
+          "archive_path": "plush_cotton/validation/probe_materials.py",
+          "report_hash_key": "validation/probe_materials.py",
+          "sha256": "5dcb57803c1fc7551905947bba8b107b39e72b1b7f8829d49b08730698376a80",
+          "matches_recorded_measurement_hash": true
+        },
+        {
+          "archive_path": "plush_cotton/shape-20.toml",
+          "report_hash_key": "shape-20.toml",
+          "sha256": "2a84970f5b3b543bc9f6934fc6df75d857666a0c21aacc3c8825545bc9b3052c",
+          "matches_recorded_measurement_hash": true
+        }
+      ],
+      "shared_repository_files_checked": [
+        {
+          "path": "assets/bear.mtl",
+          "matches_report": true
+        },
+        {
+          "path": "assets/bear.npz",
+          "matches_report": true
+        },
+        {
+          "path": "assets/bear.obj",
+          "matches_report": true
+        },
+        {
+          "path": "assets/bear_fur.png",
+          "matches_report": true
+        },
+        {
+          "path": "assets/cotton.mtl",
+          "matches_report": true
+        },
+        {
+          "path": "assets/cotton.npz",
+          "matches_report": true
+        },
+        {
+          "path": "assets/cotton.obj",
+          "matches_report": true
+        },
+        {
+          "path": "assets/cotton_weave.png",
+          "matches_report": true
+        },
+        {
+          "path": "assets/metadata.json",
+          "matches_report": true
+        },
+        {
+          "path": "pbd_adapter.py",
+          "matches_report": true
+        },
+        {
+          "path": "scene.py",
+          "matches_report": true
+        },
+        {
+          "path": "material_response.py",
+          "matches_report": true
+        },
+        {
+          "path": "cotton_bending.py",
+          "matches_report": true
+        },
+        {
+          "path": "cotton_membrane.py",
+          "matches_report": true
+        }
+      ],
+      "difference_file": "plush_cotton-to-current.diff"
+    }
+  ]
+}

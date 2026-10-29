@@ -1,0 +1,15 @@
+# Tested with CPython 3.12.15 on Linux; these are direct tested dependencies,
+# not a complete transitive lockfile. See docs/environment.json for provenance.
+# Genesis source used for the recorded run was the clean commit
+# ffd119c30118ebb9745fc009349efb2112a8cb76, reporting version 1.4.3.
+genesis-world==1.4.3
+quadrants==1.3.3
+torch==2.14.0
+numpy==2.5.3
+scipy==1.18.1
+trimesh==5.1.1
+mujoco==3.15.0
+Pillow==11.3.0
+matplotlib==3.11.2
+imageio==2.38.0
+imageio-ffmpeg==0.6.0
